@@ -60,8 +60,8 @@
 -   **27.9:** challenge friday
 -   **25.9:**
     -   quickSort **[gfe]**
+    -   deepEqual **[gfe]**
 -   **9.9:**
-    -   deepEqual **[+][gfe]**
     -   Promise.all **[gfe]**
     -   Promise.allSettled **[gfe]**
     -   Promise.any **[gfe]**
