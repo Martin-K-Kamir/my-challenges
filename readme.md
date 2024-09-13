@@ -53,25 +53,25 @@
     -   promisify 2 **[++][gfe]**
     -   breadthFirstSearch **[++][gfe]**
     -   depthFirstSearch **[++][gfe]**
+    -   Function.prototype.apply **[++][gfe]**
+    -   Intersection **[++][gfe]**
 -   **17.10:** challenge friday
 -   **14.10 [+]:**
     -   intersectionWith **[+][gfe]**
     -   compact II **[+][gfe]**
+    -   Promise.all **[+][gfe]**
+    -   Promise.allSettled **[+][gfe]**
+    -   Promise.any **[+][gfe]**
+    -   squashObject **[+][gfe]**
+    -   96 - cacheGetResult **[+][jsf]**
+    -   curry **[+][gfe]**
+    -   binarySearch **[+][gfe]**
+    -   minBy **[+][gfe]**
 -   **27.9:** challenge friday
 -   **25.9:**
     -   quickSort **[gfe]**
     -   deepEqual **[gfe]**
 -   **9.9:**
-    -   Promise.all **[gfe]**
-    -   Promise.allSettled **[gfe]**
-    -   Promise.any **[gfe]**
-    -   squashObject **[gfe]**
-    -   96 **[jsf]**
-    -   curry **[gfe]**
-    -   minBy **[gfe]**
-    -   binarySearch **[gfe]**
-    -   Function.prototype.apply **[+][gfe]**
-    -   Intersection **[+][gfe]**
     -   compose **[++][gfe]**
     -   Promise.race **[+][gfe]**
     -   Debounce II **[gfe]**
