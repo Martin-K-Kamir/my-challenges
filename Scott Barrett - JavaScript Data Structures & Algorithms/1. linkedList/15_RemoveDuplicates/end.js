@@ -53,19 +53,19 @@ class LinkedList {
 
     removeDuplicates() {
         const unique = new Set();
-        let currentNode = this.head;
-        let previousNode = null;
+        let current = this.head;
+        let previous = null;
 
-        while (currentNode) {
-            if (unique.has(currentNode.value)) {
-                previousNode.next = currentNode.next
-                this.length--
+        while (current) {
+            if (unique.has(current.value)) {
+                previous.next = current.next;
+                this.length--;
             } else {
-                unique.add(currentNode.value)
+                unique.add(current.value);
+                previous = current;
             }
-
-            previousNode = currentNode;
-            currentNode = currentNode.next;
+            
+            current = current.next;
         }
     }
 

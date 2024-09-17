@@ -55,6 +55,10 @@
     -   depthFirstSearch **[++][gfe]**
     -   Function.prototype.apply **[++][gfe]**
     -   Intersection **[++][gfe]**
+    -   Promise.race **[++][gfe]**
+    -   insertionSort **[++][gfe]**
+    -   textSearch **[++][gfe]**
+    -   deepMerge **[++][gfe]**
 -   **17.10:** challenge friday
 -   **14.10 [+]:**
     -   intersectionWith **[+][gfe]**
@@ -67,32 +71,29 @@
     -   curry **[+][gfe]**
     -   binarySearch **[+][gfe]**
     -   minBy **[+][gfe]**
+    -   EventEmitter & EventEmitter 2 **[+][gfe]**
+    -   jsonStringify **[+][gfe]**
+    -   deepOmit **[+][gfe]**
+    -   fill **[+][gfe]**
+    -   memoize II **[+][gfe]**
+    -   77 - flow **[+][jsf]**
 -   **27.9:** challenge friday
 -   **25.9:**
     -   quickSort **[gfe]**
     -   deepEqual **[gfe]**
--   **9.9:**
-    -   compose **[++][gfe]**
-    -   Promise.race **[+][gfe]**
     -   Debounce II **[gfe]**
-    -   EventEmitter & EventEmitter 2 **[gfe]**
-    -   jsonStringify **[gfe]**
-    -   deepOmit **[gfe]**
-    -   9 **[jsf]**
-    -   insertionSort **[+][gfe]**
-    -   fill **[gfe]**
-    -   range **[gfe]**
-    -   selectionSort **[+][gfe]**
+    -   selectionSort **[gfe]**
+    -   mergeSort **[gfe]**
     -   intersectionBy **[gfe]**
-    -   mergeSort **[+][gfe]**
-    -   textSearch **[+][gfe]**
-    -   mapAsyncLimit **[gfe]**
-    -   deepMerge **[+][gfe]**
-    -   memoize II **[gfe]**
-    -   77 - flow **[jsf]**
+-   **9.9:**
     -   tableOfContents **[gfe]**
     -   deepClone II **[gfe]**
     -   11 - findMiddleNode **[ch]**
     -   13 - findKthNodeFromEnd **[ch]**
     -   14 - partitionList **[ch]**
 -   **sooner:**
+    -   range **[gfe]**
+    -   mapAsyncLimit **[gfe]**
+    -   15 - removeDuplicates **[ch]**
+    -   16 - binaryToDecimal **[ch]**
+    -   17 - reverseBetween **[ch]**
