@@ -1,6 +1,6 @@
 ### Select Challenger
 
--   [Wheel](https://wheelofnames.com/k58-k4v)
+-   [Wheel](https://wheelofnames.com/ufx-eyc)
 
 ---
 
@@ -28,11 +28,11 @@
 
 -   Author
 -   [Scott Barret](https://wheelofnames.com/gqm-58f)
-    -   [Linked List](https://wheelofnames.com/hu9-drd)
-    -   Doubly Linked List
-    -   Stacks & Queues
-    -   Binary Search Tree
-    -   Hast Table
+    -   [Linked List](https://wheelofnames.com/awm-3up)
+    -   [Doubly Linked List](https://wheelofnames.com/bak-68v)
+    -   [Stacks & Queues](https://wheelofnames.com/nrf-xwc)
+    -   [Binary Search Tree](https://wheelofnames.com/ytv-t46)
+    -   [Hast Table](https://wheelofnames.com/9mx-adf)
     -   Graph
     -   Traverse
     -   Basic Sorts
@@ -96,3 +96,5 @@
     -   tableOfContents **[gfe]**
     -   deepClone II **[gfe]**
     -   13 - findKthNodeFromEnd **[ch]**
+    -   27 - swapFirstAndLast **[ch]**
+    -   28 - reverse **[ch]**

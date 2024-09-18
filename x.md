@@ -1,1 +1,1 @@
-ended at linkedList - 17 reverseBetween
+ended at doublyLinkedList - 28 - reverse

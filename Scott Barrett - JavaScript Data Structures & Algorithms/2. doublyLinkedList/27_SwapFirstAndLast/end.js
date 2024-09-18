@@ -69,22 +69,22 @@ class DoublyLinkedList {
 
         let first = this.head;
         let last = this.tail;
+        let next = first.next;
+        let prev = last.prev;
 
-        last.next = this.head.next;
-        this.head.next.prev = last;
-        last.prev.next = first
-        first.prev = this.tail.prev
-        last.prev = null;
-        first.next = null;
+        last.next = next;
+        next.prev = last;
 
+        prev.next = first;
+        first.prev = prev;
 
         this.head = last;
-        this.tail = first
+        this.tail = first;
+
+        first.next = null;
+        last.prev = null;
     }
-
 }
-
-
 
 let myDoublyLinkedList = new DoublyLinkedList(1);
 myDoublyLinkedList.push(2);
@@ -113,7 +113,6 @@ myDoublyLinkedList2.printList();
 myDoublyLinkedList2.swapFirstLast();
 console.log("\nList 2 after swapping first and last elements:");
 myDoublyLinkedList2.printList();
-
 
 /*
     EXPECTED OUTPUT:
