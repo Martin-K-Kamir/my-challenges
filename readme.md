@@ -85,15 +85,14 @@
     -   selectionSort **[gfe]**
     -   mergeSort **[gfe]**
     -   intersectionBy **[gfe]**
--   **9.9:**
-    -   tableOfContents **[gfe]**
-    -   deepClone II **[gfe]**
     -   11 - findMiddleNode **[ch]**
-    -   13 - findKthNodeFromEnd **[ch]**
     -   14 - partitionList **[ch]**
--   **sooner:**
     -   range **[gfe]**
+-   **sooner:**
     -   mapAsyncLimit **[gfe]**
     -   15 - removeDuplicates **[ch]**
     -   16 - binaryToDecimal **[ch]**
     -   17 - reverseBetween **[ch]**
+    -   tableOfContents **[gfe]**
+    -   deepClone II **[gfe]**
+    -   13 - findKthNodeFromEnd **[ch]**
