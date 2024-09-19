@@ -88,13 +88,19 @@
     -   11 - findMiddleNode **[ch]**
     -   14 - partitionList **[ch]**
     -   range **[gfe]**
--   **sooner:**
     -   mapAsyncLimit **[gfe]**
     -   15 - removeDuplicates **[ch]**
     -   16 - binaryToDecimal **[ch]**
-    -   17 - reverseBetween **[ch]**
     -   tableOfContents **[gfe]**
-    -   deepClone II **[gfe]**
     -   13 - findKthNodeFromEnd **[ch]**
+-   **sooner:**
+    -   17 - reverseBetween **[ch]**
     -   27 - swapFirstAndLast **[ch]**
+    -   deepClone II **[gfe]**
     -   28 - reverse **[ch]**
+    -   41 - sortStack **[ch]**
+    -   42 - queueUsingStack **[ch]**
+
+### Hardest
+
+-   30 - swapNodesInPair
