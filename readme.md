@@ -33,12 +33,12 @@
     -   [Stacks & Queues](https://wheelofnames.com/nrf-xwc)
     -   [Binary Search Tree](https://wheelofnames.com/ytv-t46)
     -   [Hast Table](https://wheelofnames.com/9mx-adf)
-    -   Graph
-    -   Traverse
-    -   Basic Sorts
-    -   Merge Sort
-    -   Quick Sort
-    -   Array
+    -   [Graph](https://wheelofnames.com/zvn-cqe)
+    -   [Traverse](https://wheelofnames.com/q5v-emv)
+    -   [Basic Sorts](https://wheelofnames.com/njs-g29)
+    -   [Merge Sort](https://wheelofnames.com/bty-cdz)
+    -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
+    -   [Array](https://wheelofnames.com/efx-kn2)
 
 ---
 
