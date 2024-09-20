@@ -93,13 +93,16 @@
     -   16 - binaryToDecimal **[ch]**
     -   tableOfContents **[gfe]**
     -   13 - findKthNodeFromEnd **[ch]**
--   **sooner:**
-    -   17 - reverseBetween **[ch]**
     -   27 - swapFirstAndLast **[ch]**
     -   deepClone II **[gfe]**
-    -   28 - reverse **[ch]**
+-   **sooner:**
     -   41 - sortStack **[ch]**
     -   42 - queueUsingStack **[ch]**
+    -   17 - reverseBetween **[ch]**
+    -   28 - reverse **[ch]**
+    -   45 - insert **[ch]**
+    -   46 - contains **[ch]**
+    -   55 - twoSum **[ch]**
 
 ### Hardest
 
