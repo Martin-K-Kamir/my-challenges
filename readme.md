@@ -95,14 +95,14 @@
     -   13 - findKthNodeFromEnd **[ch]**
     -   27 - swapFirstAndLast **[ch]**
     -   deepClone II **[gfe]**
--   **sooner:**
     -   41 - sortStack **[ch]**
     -   42 - queueUsingStack **[ch]**
-    -   17 - reverseBetween **[ch]**
-    -   28 - reverse **[ch]**
     -   45 - insert **[ch]**
     -   46 - contains **[ch]**
     -   55 - twoSum **[ch]**
+-   **sooner:**
+    -   17 - reverseBetween **[ch]**
+    -   28 - reverse **[ch]**
 
 ### Hardest
 
