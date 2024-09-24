@@ -26,7 +26,6 @@
 
 ### Challenges
 
--   Author
 -   [Scott Barret](https://wheelofnames.com/gqm-58f)
     -   [Linked List](https://wheelofnames.com/awm-3up)
     -   [Doubly Linked List](https://wheelofnames.com/bak-68v)
@@ -39,6 +38,7 @@
     -   [Merge Sort](https://wheelofnames.com/bty-cdz)
     -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
     -   [Array](https://wheelofnames.com/efx-kn2)
+-   Colt Steele - pick random number 87 - 160
 
 ---
 
@@ -100,9 +100,12 @@
     -   45 - insert **[ch]**
     -   46 - contains **[ch]**
     -   55 - twoSum **[ch]**
--   **sooner:**
     -   17 - reverseBetween **[ch]**
     -   28 - reverse **[ch]**
+-   **sooner:**
+    -   56 - subarraySum **[ch]**
+    -   60 - longestConsecutiveSequence **[ch]**
+    -   72 - LinkedList bubbleSort **[ch]**
 
 ### Hardest
 

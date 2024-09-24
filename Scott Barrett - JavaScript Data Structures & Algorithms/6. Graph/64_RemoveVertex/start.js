@@ -36,10 +36,12 @@ class Graph {
 
     removeEdge(vertex1, vertex2) {
         if (this.adjacencyList[vertex1] && this.adjacencyList[vertex2]) {
-            this.adjacencyList[vertex1] = this.adjacencyList[vertex1]
-                .filter(v => v !== vertex2);
-            this.adjacencyList[vertex2] = this.adjacencyList[vertex2]
-                .filter(v => v !== vertex1);
+            this.adjacencyList[vertex1] = this.adjacencyList[vertex1].filter(
+                v => v !== vertex2
+            );
+            this.adjacencyList[vertex2] = this.adjacencyList[vertex2].filter(
+                v => v !== vertex1
+            );
             return true;
         }
         return false;
@@ -51,23 +53,8 @@ class Graph {
     //                                  //
     //                                  //
     //////////////////////////////////////
-    removeVertex(vertex) {
-        if (!this.adjacencyList[vertex]) {
-            return;
-        }
-
-        while (this.adjacencyList[vertex].length) {
-            const temp = this.adjacencyList[vertex].pop();
-            this.removeEdge(vertex, temp);
-        }
-
-        delete this.adjacencyList[vertex];
-
-        return this;
-    }
+    removeVertex(vertex) {}
 }
-
-
 
 let myGraph = new Graph();
 
@@ -83,7 +70,6 @@ myGraph.addEdge("B", "D");
 myGraph.addEdge("C", "D");
 
 myGraph.printGraph();
-
 
 /*
     EXPECTED OUTPUT:
