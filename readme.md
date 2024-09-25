@@ -77,17 +77,17 @@
     -   fill **[+][gfe]**
     -   memoize II **[+][gfe]**
     -   77 - flow **[+][jsf]**
+    -   quickSort **[+][gfe]**
+    -   deepEqual **[+][gfe]**
+    -   Debounce II **[+][gfe]**
+    -   selectionSort **[+][gfe]**
+    -   mergeSort **[+][gfe]**
+    -   intersectionBy **[+][gfe]**
+    -   11 - findMiddleNode **[+][ch]**
+    -   14 - partitionList **[+][ch]**
+    -   range **[+][gfe]**
 -   **27.9:** challenge friday
 -   **25.9:**
-    -   quickSort **[gfe]**
-    -   deepEqual **[gfe]**
-    -   Debounce II **[gfe]**
-    -   selectionSort **[gfe]**
-    -   mergeSort **[gfe]**
-    -   intersectionBy **[gfe]**
-    -   11 - findMiddleNode **[ch]**
-    -   14 - partitionList **[ch]**
-    -   range **[gfe]**
     -   mapAsyncLimit **[gfe]**
     -   15 - removeDuplicates **[ch]**
     -   16 - binaryToDecimal **[ch]**
@@ -109,4 +109,4 @@
 
 ### Hardest
 
--   30 - swapNodesInPair
+    - 30 - swapNodesInPair
