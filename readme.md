@@ -44,8 +44,11 @@
 
 ### Todo
 
+-   **29.11:** challenge friday
+-   **27.11 [++]:**
+-   **13.11 [+]:**
 -   **8.11:** challenge friday
--   **28.10 [++]:**
+-   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
     -   97 - currySum **[++][jsf]**
     -   promiseResolve **[++][gfe]**
@@ -59,8 +62,8 @@
     -   insertionSort **[++][gfe]**
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
--   **17.10:** challenge friday
--   **14.10 [+]:**
+-   **18.10:** challenge friday
+-   **16.10 [+][LOCKED]:**
     -   intersectionWith **[+][gfe]**
     -   compact II **[+][gfe]**
     -   Promise.all **[+][gfe]**
@@ -86,26 +89,26 @@
     -   11 - findMiddleNode **[+][ch]**
     -   14 - partitionList **[+][ch]**
     -   range **[+][gfe]**
+    -   mapAsyncLimit **[+][gfe]**
+    -   15 - removeDuplicates **[+][ch]**
+    -   13 - findKthNodeFromEnd **[+][ch]**
+    -   27 - swapFirstAndLast **[+][ch]**
+    -   deepClone II **[+][gfe]**
+    -   41 - sortStack **[+][ch]**
+    -   42 - queueUsingStack **[+][ch]**
+    -   45 - insert **[+][ch]**
+    -   46 - contains **[+][ch]**
+    -   55 - twoSum **[+][ch]**
+    -   17 - reverseBetween **[+][ch]**
+    -   28 - reverse **[+][ch]**
+-   **9.10:**
 -   **27.9:** challenge friday
--   **25.9:**
-    -   mapAsyncLimit **[gfe]**
-    -   15 - removeDuplicates **[ch]**
-    -   16 - binaryToDecimal **[ch]**
-    -   tableOfContents **[gfe]**
-    -   13 - findKthNodeFromEnd **[ch]**
-    -   27 - swapFirstAndLast **[ch]**
-    -   deepClone II **[gfe]**
-    -   41 - sortStack **[ch]**
-    -   42 - queueUsingStack **[ch]**
-    -   45 - insert **[ch]**
-    -   46 - contains **[ch]**
-    -   55 - twoSum **[ch]**
-    -   17 - reverseBetween **[ch]**
-    -   28 - reverse **[ch]**
 -   **sooner:**
     -   56 - subarraySum **[ch]**
     -   60 - longestConsecutiveSequence **[ch]**
     -   72 - LinkedList bubbleSort **[ch]**
+    -   83 - removeDupliucates **[ch]**
+    -   84 - maxProfit **[ch]**
 
 ### Hardest
 

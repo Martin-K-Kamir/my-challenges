@@ -16,30 +16,18 @@
 //   |   make so far.                                    |
 //   +===================================================+
 
+function maxProfit(prices) {
+    let minPrice = Number.MAX_VALUE;
+    let maxProfit = 0;
 
-function maxProfit(array) {
-    if (array.length === 0) {
-        return 0
+    for (let price of prices) {
+        minPrice = Math.min(minPrice, price);
+        let profit = price - minPrice;
+        maxProfit = Math.max(maxProfit, profit);
     }
 
-    let min, indexOfMin, max;
-
-    for (let i = 0; i < array.length; i++) {
-        if (min == undefined || array[i] < min) {
-            min = array[i]
-            indexOfMin = i;
-        }
-    }
-
-    for (let j = indexOfMin; j < array.length; j++) {
-        if (max == undefined || array[j] > max) {
-            max = array[j]
-        }
-    }
-
-    return max - min
+    return maxProfit;
 }
-
 
 // ------------------------------------
 //  Test array with increasing prices
@@ -110,5 +98,3 @@ console.log("Array:", mixedPrices);
 console.log("Expected Max Profit: 7");
 console.log("Actual Max Profit:", maxProfit(mixedPrices));
 console.log("---------------");
-
-
