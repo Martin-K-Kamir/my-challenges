@@ -102,13 +102,15 @@
     -   17 - reverseBetween **[+][ch]**
     -   28 - reverse **[+][ch]**
 -   **9.10:**
--   **27.9:** challenge friday
+    -   83 - removeDuplicates **[ch]**
+    -   84 - maxProfit **[ch]**
 -   **sooner:**
+    -   72 - LinkedList bubbleSort **[ch]**
     -   56 - subarraySum **[ch]**
     -   60 - longestConsecutiveSequence **[ch]**
-    -   72 - LinkedList bubbleSort **[ch]**
-    -   83 - removeDupliucates **[ch]**
-    -   84 - maxProfit **[ch]**
+    -   85 - rotate **[ch]**
+    -   86 - maxSubArray **[ch]**
+    -   91 - averagePair **[ch]**
 
 ### Hardest
 

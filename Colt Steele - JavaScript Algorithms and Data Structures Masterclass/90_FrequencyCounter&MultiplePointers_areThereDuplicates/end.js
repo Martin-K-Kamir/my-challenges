@@ -1,12 +1,24 @@
-function areThereDuplicates(...args) {
-    const count = {};
+function areThereDuplicates2(...args) {
+    const map = new Map();
 
     for (const value of args) {
-        if (count[value]) {
+        if (map.has(value)) {
             return true;
         }
 
-        count[value] = 1;
+        map.set(value, true);
+    }
+
+    return false;
+}
+
+function areThereDuplicates(...args) {
+    args.sort();
+
+    for (let i = 1; i < args.length; i++) {
+        if (args[i] === args[i - 1]) {
+            return true;
+        }
     }
 
     return false;

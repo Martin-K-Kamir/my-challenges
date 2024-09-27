@@ -1,1 +1,1 @@
-ended at 85 - maxProfit
+ended at 91 - averagePair
