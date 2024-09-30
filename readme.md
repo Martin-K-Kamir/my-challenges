@@ -104,13 +104,20 @@
 -   **9.10:**
     -   83 - removeDuplicates **[ch]**
     -   84 - maxProfit **[ch]**
--   **sooner:**
-    -   72 - LinkedList bubbleSort **[ch]**
-    -   56 - subarraySum **[ch]**
     -   60 - longestConsecutiveSequence **[ch]**
+    -   91 - averagePair **[ch]**
+-   **sooner:**
+    -   56 - subarraySum **[ch]**
     -   85 - rotate **[ch]**
     -   86 - maxSubArray **[ch]**
-    -   91 - averagePair **[ch]**
+    -   92 - isSubsequence **[ch]**
+    -   93 - maxSubarraySum **[ch]**
+    -   94 - minSubarrayLen **[ch]**
+    -   95 - findLongestSubstring **[ch]**
+    -   100 - recursion fib **[ch]**
+    -   101 - recursion reverse **[ch]**
+    -   102 - recursion isPalindrome **[ch]**
+    -   72 - LinkedList bubbleSort **[ch]**
 
 ### Hardest
 
