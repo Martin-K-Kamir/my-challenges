@@ -114,8 +114,12 @@
     -   102 - recursion isPalindrome **[ch]**
     -   92 - isSubsequence **[ch]**
     -   100 - recursion fib **[ch]**
--   **sooner:**
     -   95 - findLongestSubstring **[ch]**
+-   **sooner:**
+    -   117 - countZeros **[ch]**
+    -   118 - sortedFrequency **[ch]**
+    -   119 - findRotatedIndex **[ch]**
+    -   125 - pivot **[ch]**
     -   94 - minSubarrayLen **[ch]**
     -   116 - SSL rotate **[ch]**
 
