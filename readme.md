@@ -115,13 +115,13 @@
     -   92 - isSubsequence **[ch]**
     -   100 - recursion fib **[ch]**
     -   95 - findLongestSubstring **[ch]**
--   **sooner:**
     -   117 - countZeros **[ch]**
+-   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**
     -   125 - pivot **[ch]**
-    -   94 - minSubarrayLen **[ch]**
     -   116 - SSL rotate **[ch]**
+    -   94 - minSubarrayLen **[ch]**
 
 ### Hardest
 

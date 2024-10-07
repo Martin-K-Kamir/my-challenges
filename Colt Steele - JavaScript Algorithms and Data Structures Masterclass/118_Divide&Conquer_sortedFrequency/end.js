@@ -1,38 +1,49 @@
-function sortedFrequency(arr, target) {
-    function findFirstIndex(arr, target, start, end) {
-        if (start > end) return -1;
+function sortedFrequency(array, target) {
+    function binarySearchFirst(array, target, start = 0, end = array.length) {
+        if (start > end) {
+            return -1;
+        }
 
         const mid = Math.floor((start + end) / 2);
 
-        if (arr[mid] === target && (mid === 0 || arr[mid - 1] !== target)) {
+        if ((mid === 0 || array[mid - 1] !== target) && array[mid] === target) {
             return mid;
-        } else if (arr[mid] >= target) {
-            return findFirstIndex(arr, target, start, mid - 1);
+        } else if (array[mid] >= target) {
+            // go left
+            return binarySearchFirst(array, target, start, mid - 1);
         } else {
-            return findFirstIndex(arr, target, mid + 1, end);
+            // go right
+            return binarySearchFirst(array, target, mid + 1, end);
         }
     }
 
-    function findLastIndex(arr, target, start, end) {
-        if (start > end) return -1;
+    function binarySearchLast(array, target, start = 0, end = array.length) {
+        if (start > end) {
+            return -1;
+        }
 
         const mid = Math.floor((start + end) / 2);
 
         if (
-            arr[mid] === target &&
-            (mid === arr.length - 1 || arr[mid + 1] !== target)
+            (mid === array.length || array[mid + 1] !== target) &&
+            array[mid] === target
         ) {
             return mid;
-        } else if (arr[mid] <= target) {
-            return findLastIndex(arr, target, mid + 1, end);
+        } else if (array[mid] <= target) {
+            // go right
+            return binarySearchLast(array, target, mid + 1, end);
         } else {
-            return findLastIndex(arr, target, start, mid - 1);
+            // go left
+            return binarySearchLast(array, target, start, mid - 1);
         }
     }
 
-    const firstIndex = findFirstIndex(arr, target, 0, arr.length - 1);
-    if (firstIndex === -1) return -1;
+    const firstIndex = binarySearchFirst(array, target);
 
-    const lastIndex = findLastIndex(arr, target, 0, arr.length - 1);
+    if (firstIndex === -1) {
+        return firstIndex;
+    }
+
+    const lastIndex = binarySearchLast(array, target);
     return lastIndex - firstIndex + 1;
 }
