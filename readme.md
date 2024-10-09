@@ -47,6 +47,10 @@
 -   **29.11:** challenge friday
 -   **27.11 [++]:**
 -   **13.11 [+]:**
+    -   83 - removeDuplicates **[+][ch]**
+    -   84 - maxProfit **[+][ch]**
+    -   60 - longestConsecutiveSequence **[+][ch]**
+    -   91 - averagePair **[+][ch]**
 -   **8.11:** challenge friday
 -   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
@@ -102,10 +106,6 @@
     -   17 - reverseBetween **[+][ch]**
     -   28 - reverse **[+][ch]**
 -   **9.10:**
-    -   83 - removeDuplicates **[ch]**
-    -   84 - maxProfit **[ch]**
-    -   60 - longestConsecutiveSequence **[ch]**
-    -   91 - averagePair **[ch]**
     -   56 - subarraySum **[ch]**
     -   85 - rotate **[ch]**
     -   86 - maxSubArray **[ch]**

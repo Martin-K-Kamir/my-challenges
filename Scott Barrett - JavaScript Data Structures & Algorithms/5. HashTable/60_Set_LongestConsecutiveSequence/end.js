@@ -16,7 +16,26 @@
 //   |   and finds streaks of consecutive numbers.         |
 //   +=====================================================+
 
+function longestConsecutiveSequence2(nums) {
+    const set = new Set(nums);
+    let streak = 0;
 
+    set.forEach(num => {
+        if (!set.has(num + 1)) {
+            let currentNum = num;
+            let currentStreak = 1;
+
+            while (set.has(currentNum - 1)) {
+                currentNum--;
+                currentStreak++;
+            }
+
+            streak = Math.max(currentStreak, streak);
+        }
+    });
+
+    return streak;
+}
 
 function longestConsecutiveSequence(nums) {
     const numSet = new Set(nums);
@@ -34,11 +53,10 @@ function longestConsecutiveSequence(nums) {
 
             longestStreak = Math.max(longestStreak, currentStreak);
         }
-    })
+    });
 
     return longestStreak;
 }
-
 
 // -------------------
 // No Consecutive Sequence
@@ -87,5 +105,3 @@ console.log("Multiple Sequences:");
 console.log("Input: [1, 2, 3, 10, 11, 12]");
 console.log("Output: ", longestConsecutiveSequence([1, 2, 3, 10, 11, 12]));
 console.log("---------------");
-
-

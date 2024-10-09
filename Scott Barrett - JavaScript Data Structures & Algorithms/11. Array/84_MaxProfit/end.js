@@ -16,19 +16,17 @@
 //   |   make so far.                                    |
 //   +===================================================+
 
-function maxProfit(prices) {
+function maxProfit(array) {
     let minPrice = Number.MAX_VALUE;
     let maxProfit = 0;
 
-    for (let price of prices) {
-        minPrice = Math.min(minPrice, price);
-        let profit = price - minPrice;
-        maxProfit = Math.max(maxProfit, profit);
-    }
+    array.forEach(price => {
+        minPrice = Math.min(price, minPrice);
+        maxProfit = Math.max(price - minPrice, maxProfit);
+    });
 
     return maxProfit;
 }
-
 // ------------------------------------
 //  Test array with increasing prices
 // ------------------------------------
