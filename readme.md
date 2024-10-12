@@ -52,8 +52,10 @@
     -   60 - longestConsecutiveSequence **[+][ch]**
     -   91 - averagePair **[+][ch]**
     -   56 - subarraySum **[+][ch]**
-    -   85 - rotate **[ch]**
-    -   93 - maxSubarraySum **[ch]**
+    -   85 - rotate **[+][ch]**
+    -   93 - maxSubarraySum **[+][ch]**
+    -   101 - recursion reverse **[+][ch]**
+    -   102 - recursion isPalindrome **[+][ch]**
 -   **8.11:** challenge friday
 -   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
@@ -109,8 +111,6 @@
     -   17 - reverseBetween **[+][ch]**
     -   28 - reverse **[+][ch]**
 -   **9.10:**
-    -   101 - recursion reverse **[ch]**
-    -   102 - recursion isPalindrome **[ch]**
     -   92 - isSubsequence **[ch]**
     -   100 - recursion fib **[ch]**
     -   95 - findLongestSubstring **[ch]**

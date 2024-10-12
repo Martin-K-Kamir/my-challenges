@@ -7,3 +7,5 @@
 // isPalindrome('amanaplanacanalpandemonium') // false
 
 function isPalindrome(str) {}
+
+function isPalindrome2(str) {}
