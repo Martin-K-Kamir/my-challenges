@@ -56,6 +56,7 @@
     -   93 - maxSubarraySum **[+][ch]**
     -   101 - recursion reverse **[+][ch]**
     -   102 - recursion isPalindrome **[+][ch]**
+    -   92 - isSubsequence **[+][ch]**
 -   **8.11:** challenge friday
 -   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
@@ -111,7 +112,6 @@
     -   17 - reverseBetween **[+][ch]**
     -   28 - reverse **[+][ch]**
 -   **9.10:**
-    -   92 - isSubsequence **[ch]**
     -   100 - recursion fib **[ch]**
     -   95 - findLongestSubstring **[ch]**
     -   117 - countZeros **[ch]**
