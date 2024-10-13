@@ -1,18 +1,15 @@
+"use strict";
 function isSubsequence(substring, string) {
-    let i = 0,
-        j = 0;
-
-    while (j <= string.length) {
-        if (i === substring.length) {
+    let a = 0;
+    let b = 0;
+    while (b <= string.length) {
+        if (a >= substring.length) {
             return true;
         }
-
-        if (substring[i] === string[j]) {
-            i++;
+        if (substring[a] === string[b]) {
+            a++;
         }
-
-        j++;
+        b++;
     }
-
     return false;
 }
