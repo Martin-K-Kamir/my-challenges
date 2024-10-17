@@ -1,26 +1,41 @@
 "use strict";
-// https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410620#overview
-function countZeroes(nums) {
-    function binarySearchZero(nums, start = 0, end = nums.length - 1) {
-        if (start > end) {
-            return -1;
+function promiseAllSettled(iterable) {
+    return new Promise((resolve, reject) => {
+        const results = new Array(iterable.length);
+        let unresolved = iterable.length;
+        if (unresolved === 0) {
+            return resolve(results);
         }
-        let mid = Math.floor((start + end) / 2);
-        if ((mid === 0 || nums[mid - 1] === 1) && nums[mid] === 0) {
-            return mid;
-        } else if (nums[mid] > 0) {
-            return binarySearchZero(nums, mid + 1, end);
-        } else {
-            return binarySearchZero(nums, start, mid - 1);
-        }
-    }
-    const zeroIndex = binarySearchZero(nums);
-    if (zeroIndex === -1) {
-        return 0;
-    }
-    return nums.length - zeroIndex;
+        iterable.forEach(async (value, index) => {
+            let result;
+            try {
+                result = {
+                    status: "fulfilled",
+                    value: await value,
+                };
+            } catch (err) {
+                result = {
+                    status: "rejected",
+                    reason: err,
+                };
+            } finally {
+                results[index] = result;
+                unresolved--;
+                if (unresolved === 0) {
+                    resolve(results);
+                }
+            }
+        });
+    });
 }
-console.log(countZeroes([1, 1, 1, 1, 0, 0])); // 2
-console.log(countZeroes([1, 0, 0, 0, 0])); // 4
-console.log(countZeroes([0, 0, 0])); // 3
-console.log(countZeroes([1, 1, 1, 1])); // 0
+//   export default  promiseAllSettled
+(async () => {
+    const p0 = Promise.resolve(3);
+    const p1 = 42;
+    const p2 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            reject("foo");
+        }, 100);
+    });
+    console.log(await promiseAllSettled([p0, p1, p2]));
+})();

@@ -46,6 +46,10 @@
 
 -   **29.11:** challenge friday
 -   **27.11 [++]:**
+    -   intersectionWith **[++][gfe]**
+    -   compact II **[++][gfe]**
+    -   Promise.all **[++][gfe]**
+    -   Promise.allSettled **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -77,10 +81,6 @@
     -   deepMerge **[++][gfe]**
 -   **18.10:** challenge friday
 -   **16.10 [+][LOCKED]:**
-    -   intersectionWith **[+][gfe]**
-    -   compact II **[+][gfe]**
-    -   Promise.all **[+][gfe]**
-    -   Promise.allSettled **[+][gfe]**
     -   Promise.any **[+][gfe]**
     -   squashObject **[+][gfe]**
     -   96 - cacheGetResult **[+][jsf]**
@@ -114,7 +114,6 @@
     -   55 - twoSum **[+][ch]**
     -   17 - reverseBetween **[+][ch]**
     -   28 - reverse **[+][ch]**
--   **9.10:**
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**

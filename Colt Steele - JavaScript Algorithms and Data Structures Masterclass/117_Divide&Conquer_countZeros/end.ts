@@ -8,7 +8,7 @@ function countZeroes(nums: number[]): number {
             return -1;
         }
 
-        let mid = Math.floor((start + end) / 2);
+        const mid = Math.floor((start + end) / 2);
 
         if ((mid === 0 || nums[mid - 1] === 1) && nums[mid] === 0) {
             return mid;
