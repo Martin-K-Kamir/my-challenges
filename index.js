@@ -1,41 +1,32 @@
 "use strict";
-function promiseAllSettled(iterable) {
+function promiseAny(iterable) {
     return new Promise((resolve, reject) => {
-        const results = new Array(iterable.length);
-        let unresolved = iterable.length;
-        if (unresolved === 0) {
-            return resolve(results);
+        const errors = [];
+        let pending = iterable.length;
+        if (pending === 0) {
+            reject(new AggregateError(errors));
         }
         iterable.forEach(async (value, index) => {
-            let result;
             try {
-                result = {
-                    status: "fulfilled",
-                    value: await value,
-                };
+                const x = await value;
+                resolve(x);
             } catch (err) {
-                result = {
-                    status: "rejected",
-                    reason: err,
-                };
-            } finally {
-                results[index] = result;
-                unresolved--;
-                if (unresolved === 0) {
-                    resolve(results);
+                errors[index] = err;
+                pending--;
+                if (pending === 0) {
+                    reject(new AggregateError(errors));
                 }
             }
         });
     });
 }
-//   export default  promiseAllSettled
 (async () => {
-    const p0 = Promise.resolve(3);
-    const p1 = 42;
-    const p2 = new Promise((resolve, reject) => {
-        setTimeout(() => {
-            reject("foo");
-        }, 100);
-    });
-    console.log(await promiseAllSettled([p0, p1, p2]));
+    const p0 = Promise.reject(2);
+
+    try {
+        await promiseAny([p0]);
+    } catch (err) {
+        console.log(err instanceof AggregateError);
+        console.log(err.errors);
+    }
 })();

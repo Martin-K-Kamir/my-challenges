@@ -50,6 +50,7 @@
     -   compact II **[++][gfe]**
     -   Promise.all **[++][gfe]**
     -   Promise.allSettled **[++][gfe]**
+    -   Promise.any **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -81,7 +82,6 @@
     -   deepMerge **[++][gfe]**
 -   **18.10:** challenge friday
 -   **16.10 [+][LOCKED]:**
-    -   Promise.any **[+][gfe]**
     -   squashObject **[+][gfe]**
     -   96 - cacheGetResult **[+][jsf]**
     -   curry **[+][gfe]**

@@ -1,57 +1,38 @@
-type PromiseFulfilledResultX<T> = {
-    status: "fulfilled";
-    value: T;
-};
-
-type PromiseRejectedResultX = {
-    status: "rejected";
-    reason: any;
-};
-
-function promiseAllSettled<T>(
-    iterable: T[]
-): Promise<(PromiseFulfilledResultX<T> | PromiseRejectedResultX)[]> {
+function promiseAny<T>(iterable: Array<T>): Promise<T> {
     return new Promise((resolve, reject) => {
-        const results = new Array(iterable.length);
-        let unresolved = iterable.length;
+        const errors: T[] = [];
+        let pending = iterable.length;
 
-        if (unresolved === 0) {
-            return resolve(results);
+        if (pending === 0) {
+            reject(new AggregateError(errors));
         }
 
         iterable.forEach(async (value, index) => {
-            let result;
             try {
-                result = {
-                    status: "fulfilled",
-                    value: await value,
-                } satisfies PromiseFulfilledResultX<T>;
+                resolve(await value);
             } catch (err) {
-                result = {
-                    status: "rejected",
-                    reason: err,
-                } satisfies PromiseRejectedResultX;
-            } finally {
-                results[index] = result;
-                unresolved--;
-                if (unresolved === 0) {
-                    resolve(results);
+                errors[index] = err as T;
+                pending--;
+
+                if (pending === 0) {
+                    reject(new AggregateError(errors));
                 }
             }
         });
     });
 }
 
-export default promiseAllSettled;
-
 (async () => {
-    const p0 = Promise.resolve(3);
-    const p1 = 42;
-    const p2 = new Promise((resolve, reject) => {
+    const p0 = new Promise(resolve => {
         setTimeout(() => {
-            reject("foo");
+            resolve(42);
         }, 100);
     });
+    const p1 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            reject("Err!");
+        }, 400);
+    });
 
-    console.log(await promiseAllSettled([p0, p1, p2]));
+    console.log(await promiseAny([p0, p1])); // 42
 })();
