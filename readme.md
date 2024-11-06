@@ -51,6 +51,7 @@
     -   Promise.all **[++][gfe]**
     -   Promise.allSettled **[++][gfe]**
     -   Promise.any **[++][gfe]**
+    -   96 - cacheGetResult **[++][jsf]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -82,8 +83,6 @@
     -   deepMerge **[++][gfe]**
 -   **18.10:** challenge friday
 -   **16.10 [+][LOCKED]:**
-    -   squashObject **[+][gfe]**
-    -   96 - cacheGetResult **[+][jsf]**
     -   curry **[+][gfe]**
     -   binarySearch **[+][gfe]**
     -   minBy **[+][gfe]**
@@ -121,6 +120,7 @@
     -   116 - SSL rotate **[ch]**
     -   86 - maxSubArray **[ch]**
     -   94 - minSubarrayLen **[ch]**
+    -   squashObject **[gfe]**
 
 ### Hardest
 
