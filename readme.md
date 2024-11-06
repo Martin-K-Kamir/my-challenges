@@ -52,6 +52,7 @@
     -   Promise.allSettled **[++][gfe]**
     -   Promise.any **[++][gfe]**
     -   96 - cacheGetResult **[++][jsf]**
+    -   curry **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -81,7 +82,6 @@
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
-    -   curry **[+][gfe]**
     -   binarySearch **[+][gfe]**
     -   minBy **[+][gfe]**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
