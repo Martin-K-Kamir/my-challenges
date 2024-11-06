@@ -66,7 +66,6 @@
     -   100 - recursion fib **[+][ch]**
     -   95 - findLongestSubstring **[+][ch]**
     -   117 - countZeros **[+][ch]**
--   **8.11:** challenge friday
 -   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
     -   97 - currySum **[++][jsf]**
@@ -81,7 +80,6 @@
     -   insertionSort **[++][gfe]**
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
--   **18.10:** challenge friday
 -   **16.10 [+][LOCKED]:**
     -   curry **[+][gfe]**
     -   binarySearch **[+][gfe]**
