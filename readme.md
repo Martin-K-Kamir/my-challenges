@@ -45,7 +45,7 @@
 ### Todo
 
 -   **29.11:** challenge friday
--   **27.11 [++]:**
+-   **18.12 [++]:**
     -   intersectionWith **[++][gfe]**
     -   compact II **[++][gfe]**
     -   Promise.all **[++][gfe]**
@@ -60,6 +60,7 @@
     -   deepOmit **[++][gfe]**
     -   memoize II **[++][gfe]**
     -   selectionSort **[++][gfe]**
+    -   mergeSort **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -91,10 +92,8 @@
 -   **16.10 [+][LOCKED]:**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
     -   77 - flow **[+][jsf]**
-    -   quickSort **[+][gfe]**
     -   deepEqual **[+][gfe]**
     -   Debounce II **[+][gfe]**
-    -   mergeSort **[+][gfe]**
     -   intersectionBy **[+][gfe]**
     -   11 - findMiddleNode **[+][ch]**
     -   14 - partitionList **[+][ch]**
@@ -114,11 +113,11 @@
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**
-    -   125 - pivot **[ch]**
     -   116 - SSL rotate **[ch]**
     -   86 - maxSubArray **[ch]**
     -   94 - minSubarrayLen **[ch]**
     -   squashObject **[gfe]**
+    -   quickSort **[gfe]**
 
 ### Hardest
 
