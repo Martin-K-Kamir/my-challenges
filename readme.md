@@ -56,6 +56,10 @@
     -   binarySearch **[++][gfe]**
     -   minBy **[++][gfe]**
     -   jsonStringify **[++][gfe]**
+    -   fill **[++][gfe]**
+    -   deepOmit **[++][gfe]**
+    -   memoize II **[++][gfe]**
+    -   selectionSort **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -86,14 +90,10 @@
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
-    -   deepOmit **[+][gfe]**
-    -   fill **[+][gfe]**
-    -   memoize II **[+][gfe]**
     -   77 - flow **[+][jsf]**
     -   quickSort **[+][gfe]**
     -   deepEqual **[+][gfe]**
     -   Debounce II **[+][gfe]**
-    -   selectionSort **[+][gfe]**
     -   mergeSort **[+][gfe]**
     -   intersectionBy **[+][gfe]**
     -   11 - findMiddleNode **[+][ch]**
