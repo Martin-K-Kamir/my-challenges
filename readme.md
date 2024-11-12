@@ -61,6 +61,9 @@
     -   memoize II **[++][gfe]**
     -   selectionSort **[++][gfe]**
     -   mergeSort **[++][gfe]**
+    -   77 - flow **[++][jsf]**
+    -   Debounce II **[++][gfe]**
+    -   intersectionBy **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -91,13 +94,9 @@
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
-    -   77 - flow **[+][jsf]**
     -   deepEqual **[+][gfe]**
-    -   Debounce II **[+][gfe]**
-    -   intersectionBy **[+][gfe]**
     -   11 - findMiddleNode **[+][ch]**
     -   14 - partitionList **[+][ch]**
-    -   range **[+][gfe]**
     -   mapAsyncLimit **[+][gfe]**
     -   15 - removeDuplicates **[+][ch]**
     -   13 - findKthNodeFromEnd **[+][ch]**
@@ -118,6 +117,7 @@
     -   94 - minSubarrayLen **[ch]**
     -   squashObject **[gfe]**
     -   quickSort **[gfe]**
+    -   range **[gfe]**
 
 ### Hardest
 
