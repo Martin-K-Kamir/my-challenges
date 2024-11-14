@@ -81,6 +81,7 @@
     -   100 - recursion fib **[+][ch]**
     -   95 - findLongestSubstring **[+][ch]**
     -   117 - countZeros **[+][ch]**
+    -   15 - removeDuplicates **[+][ch]**
 -   **30.10 [++][LOCKED]:**
     -   flaten in place **[++][gfe]**
     -   97 - currySum **[++][jsf]**
@@ -98,7 +99,6 @@
 -   **16.10 [+][LOCKED]:**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
     -   mapAsyncLimit **[+][gfe]**
-    -   15 - removeDuplicates **[+][ch]**
     -   13 - findKthNodeFromEnd **[+][ch]**
     -   27 - swapFirstAndLast **[+][ch]**
     -   deepClone II **[+][gfe]**
