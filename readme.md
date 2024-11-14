@@ -64,6 +64,9 @@
     -   77 - flow **[++][jsf]**
     -   Debounce II **[++][gfe]**
     -   intersectionBy **[++][gfe]**
+    -   deepEqual **[++][gfe]**
+    -   11 - findMiddleNode **[++][ch]**
+    -   14 - partitionList **[++][ch]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -94,9 +97,6 @@
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
     -   EventEmitter & EventEmitter 2 **[+][gfe]**
-    -   deepEqual **[+][gfe]**
-    -   11 - findMiddleNode **[+][ch]**
-    -   14 - partitionList **[+][ch]**
     -   mapAsyncLimit **[+][gfe]**
     -   15 - removeDuplicates **[+][ch]**
     -   13 - findKthNodeFromEnd **[+][ch]**
