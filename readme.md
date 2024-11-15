@@ -67,6 +67,8 @@
     -   deepEqual **[++][gfe]**
     -   11 - findMiddleNode **[++][ch]**
     -   14 - partitionList **[++][ch]**
+    -   13 - findKthNodeFromEnd **[++][ch]**
+    -   42 - queueUsingStack **[++][ch]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -97,13 +99,9 @@
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
-    -   EventEmitter & EventEmitter 2 **[+][gfe]**
     -   mapAsyncLimit **[+][gfe]**
-    -   13 - findKthNodeFromEnd **[+][ch]**
     -   27 - swapFirstAndLast **[+][ch]**
     -   deepClone II **[+][gfe]**
-    -   41 - sortStack **[+][ch]**
-    -   42 - queueUsingStack **[+][ch]**
     -   45 - insert **[+][ch]**
     -   46 - contains **[+][ch]**
     -   55 - twoSum **[+][ch]**
@@ -118,6 +116,7 @@
     -   squashObject **[gfe]**
     -   quickSort **[gfe]**
     -   range **[gfe]**
+    -   41 - sortStack **[ch]**
 
 ### Hardest
 

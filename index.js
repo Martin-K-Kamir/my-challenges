@@ -1,111 +1,81 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871620#content
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871692#content
 
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.next = null;
-    }
-}
-
-class LinkedList {
-    constructor(value) {
-        const newNode = new Node(value);
-        this.head = newNode;
-        this.length = 1;
+class Stack {
+    constructor() {
+        this.stackList = [];
     }
 
-    printList() {
-        let temp = this.head;
-        while (temp !== null) {
-            console.log(temp.value);
-            temp = temp.next;
-        }
+    isEmpty() {
+        return this.stackList.length === 0;
     }
 
-    getHead() {
-        if (this.head === null) {
-            console.log("Head: null");
+    peek() {
+        if (this.isEmpty()) {
+            return null;
         } else {
-            console.log("Head: " + this.head.value);
+            return this.stackList[this.stackList.length - 1];
         }
-    }
-
-    getLength() {
-        console.log("Length: " + this.length);
-    }
-
-    makeEmpty() {
-        this.head = null;
-        this.length = 0;
     }
 
     push(value) {
-        const newNode = new Node(value);
-        if (!this.head) {
-            this.head = newNode;
-        } else {
-            let current = this.head;
-            while (current.next !== null) {
-                current = current.next;
-            }
-            current.next = newNode;
-        }
-        this.length++;
+        this.stackList.push(value);
     }
 
-    removeDuplicates() {
-        const set = new Set();
-        let current = this.head;
-        let prev = current;
+    pop() {
+        if (this.isEmpty()) return null;
+        return this.stackList.pop();
+    }
+}
 
-        while (current != null) {
-            if (set.has(current.value)) {
-                prev.next = current.next;
-                this.length--;
-            } else {
-                set.add(current.value);
-                prev = current;
-            }
-            current = current.next;
+class MyQueue {
+    constructor() {
+        this.stack1 = new Stack();
+        this.stack2 = new Stack();
+    }
+
+    peek() {
+        return this.stack1.peek();
+    }
+
+    isEmpty() {
+        return this.stack1.isEmpty();
+    }
+
+    enqueue(value) {
+        while (!this.stack1.isEmpty()) {
+            this.stack2.push(this.stack1.pop());
+        }
+
+        this.stack1.push(value);
+
+        while (!this.stack2.isEmpty()) {
+            this.stack1.push(this.stack2.pop());
         }
     }
 }
 
-let myLinkedList = new LinkedList(1);
-myLinkedList.push(2);
-myLinkedList.push(3);
-myLinkedList.push(3);
-myLinkedList.push(3);
-myLinkedList.push(3);
-myLinkedList.push(4);
-myLinkedList.push(5);
-myLinkedList.push(5);
+const queue = new MyQueue();
 
-console.log("Original list:");
-myLinkedList.printList();
+console.log("Is the queue empty? ", queue.isEmpty());
 
-myLinkedList.removeDuplicates();
+queue.enqueue(1);
+console.log("Peek after enqueueing 1: ", queue.peek());
 
-console.log("\nList after removing duplicates:");
-myLinkedList.printList();
-console.log("lenght", myLinkedList.length);
+queue.enqueue(2);
+console.log("Peek after enqueueing 2: ", queue.peek());
+
+queue.enqueue(3);
+console.log("Peek after enqueueing 3: ", queue.peek());
+
+console.log("Is the queue empty? ", queue.isEmpty());
 
 /*
     EXPECTED OUTPUT:
     ----------------
-    Original list:
-    1
-    2
-    3
-    3
-    4
-    5
-    5
-    List after removing duplicates:
-    1
-    2
-    3
-    4
-    5
+    Is the queue empty?  true
+    Peek after enqueueing 1:  1
+    Peek after enqueueing 2:  1
+    Peek after enqueueing 3:  1
+    Is the queue empty?  false
 
 */
