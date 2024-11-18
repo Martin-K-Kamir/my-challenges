@@ -1,81 +1,89 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871692#content
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5707594#content
 
-class Stack {
-    constructor() {
-        this.stackList = [];
-    }
-
-    isEmpty() {
-        return this.stackList.length === 0;
-    }
-
-    peek() {
-        if (this.isEmpty()) {
-            return null;
-        } else {
-            return this.stackList[this.stackList.length - 1];
-        }
-    }
-
-    push(value) {
-        this.stackList.push(value);
-    }
-
-    pop() {
-        if (this.isEmpty()) return null;
-        return this.stackList.pop();
+class Node {
+    constructor(value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
     }
 }
 
-class MyQueue {
+class BST {
     constructor() {
-        this.stack1 = new Stack();
-        this.stack2 = new Stack();
+        this.root = null;
     }
 
-    peek() {
-        return this.stack1.peek();
+    insert(value) {
+        const newNode = new Node(value);
+        if (this.root === null) {
+            this.root = newNode;
+            return this;
+        }
+        let temp = this.root;
+        while (true) {
+            if (newNode.value === temp.value) return undefined;
+            if (newNode.value < temp.value) {
+                if (temp.left === null) {
+                    temp.left = newNode;
+                    return this;
+                }
+                temp = temp.left;
+            } else {
+                if (temp.right === null) {
+                    temp.right = newNode;
+                    return this;
+                }
+                temp = temp.right;
+            }
+        }
     }
 
-    isEmpty() {
-        return this.stack1.isEmpty();
-    }
-
-    enqueue(value) {
-        while (!this.stack1.isEmpty()) {
-            this.stack2.push(this.stack1.pop());
+    contains(value) {
+        if (this.root == null) {
+            return;
         }
 
-        this.stack1.push(value);
+        let current = this.root;
 
-        while (!this.stack2.isEmpty()) {
-            this.stack1.push(this.stack2.pop());
+        while (current) {
+            if (value === current.value) {
+                return true;
+            }
+
+            if (value < current.value) {
+                current = current.left;
+            } else {
+                current = current.right;
+            }
         }
+
+        return false;
     }
 }
 
-const queue = new MyQueue();
+let myBST = new BST();
 
-console.log("Is the queue empty? ", queue.isEmpty());
+myBST.insert(47);
+myBST.insert(21);
+myBST.insert(76);
+myBST.insert(18);
+myBST.insert(27);
+myBST.insert(52);
+myBST.insert(82);
 
-queue.enqueue(1);
-console.log("Peek after enqueueing 1: ", queue.peek());
+console.log("BST Contains 27:");
+console.log(myBST.contains(27));
 
-queue.enqueue(2);
-console.log("Peek after enqueueing 2: ", queue.peek());
-
-queue.enqueue(3);
-console.log("Peek after enqueueing 3: ", queue.peek());
-
-console.log("Is the queue empty? ", queue.isEmpty());
+console.log("\nBST Contains 17:");
+console.log(myBST.contains(17));
 
 /*
     EXPECTED OUTPUT:
     ----------------
-    Is the queue empty?  true
-    Peek after enqueueing 1:  1
-    Peek after enqueueing 2:  1
-    Peek after enqueueing 3:  1
-    Is the queue empty?  false
+    BST Contains 27:
+    true
+    
+    BST Contains 17:
+    false
 
 */
