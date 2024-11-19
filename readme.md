@@ -72,6 +72,10 @@
     -   27 - swapFirstAndLast **[++][ch]**
     -   45 - insert **[++][ch]**
     -   46 - contains **[++][ch]**
+    -   mapAsyncLimit **[++][gfe]**
+    -   deepClone II **[++][gfe]**
+    -   55 - twoSum **[++][ch]**
+    -   28 - reverse **[++][ch]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -102,11 +106,7 @@
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
 -   **16.10 [+][LOCKED]:**
-    -   mapAsyncLimit **[+][gfe]**
-    -   deepClone II **[+][gfe]**
-    -   55 - twoSum **[+][ch]**
     -   17 - reverseBetween **[+][ch]**
-    -   28 - reverse **[+][ch]**
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**

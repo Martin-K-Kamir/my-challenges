@@ -1,89 +1,146 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5707594#content
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871656#content
 
 class Node {
     constructor(value) {
         this.value = value;
-        this.left = null;
-        this.right = null;
+        this.next = null;
+        this.prev = null;
     }
 }
 
-class BST {
-    constructor() {
-        this.root = null;
-    }
-
-    insert(value) {
+class DoublyLinkedList {
+    constructor(value) {
         const newNode = new Node(value);
-        if (this.root === null) {
-            this.root = newNode;
-            return this;
-        }
-        let temp = this.root;
-        while (true) {
-            if (newNode.value === temp.value) return undefined;
-            if (newNode.value < temp.value) {
-                if (temp.left === null) {
-                    temp.left = newNode;
-                    return this;
-                }
-                temp = temp.left;
-            } else {
-                if (temp.right === null) {
-                    temp.right = newNode;
-                    return this;
-                }
-                temp = temp.right;
-            }
+        this.head = newNode;
+        this.tail = newNode;
+        this.length = 1;
+    }
+
+    printList() {
+        let temp = this.head;
+        while (temp !== null) {
+            console.log(temp.value);
+            temp = temp.next;
         }
     }
 
-    contains(value) {
-        if (this.root == null) {
+    getHead() {
+        if (this.head === null) {
+            console.log("Head: null");
+        } else {
+            console.log("Head: " + this.head.value);
+        }
+    }
+
+    getTail() {
+        if (this.tail === null) {
+            console.log("Tail: null");
+        } else {
+            console.log("Tail: " + this.tail.value);
+        }
+    }
+
+    getLength() {
+        console.log("Length: " + this.length);
+    }
+
+    makeEmpty() {
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+    }
+
+    push(value) {
+        const newNode = new Node(value);
+        if (this.length === 0) {
+            this.head = newNode;
+            this.tail = newNode;
+        } else {
+            this.tail.next = newNode;
+            newNode.prev = this.tail;
+            this.tail = newNode;
+        }
+        this.length++;
+        return this;
+    }
+
+    reverse() {
+        if (this.length === 0) {
             return;
         }
+        let temp = this.head;
+        this.head = this.tail;
+        this.tail = temp;
+        let next = temp.next;
+        let prev = null;
 
-        let current = this.root;
-
-        while (current) {
-            if (value === current.value) {
-                return true;
-            }
-
-            if (value < current.value) {
-                current = current.left;
-            } else {
-                current = current.right;
-            }
+        for (let i = 0; i < this.length; i++) {
+            next = temp.next;
+            temp.next = prev;
+            temp.prev = next;
+            prev = temp;
+            temp = next;
         }
 
-        return false;
+        return this;
     }
 }
 
-let myBST = new BST();
+let myDoublyLinkedList = new DoublyLinkedList(1);
+myDoublyLinkedList.push(2);
+myDoublyLinkedList.push(3);
+myDoublyLinkedList.push(4);
+myDoublyLinkedList.push(5);
 
-myBST.insert(47);
-myBST.insert(21);
-myBST.insert(76);
-myBST.insert(18);
-myBST.insert(27);
-myBST.insert(52);
-myBST.insert(82);
+console.log("Original list:");
+myDoublyLinkedList.printList();
 
-console.log("BST Contains 27:");
-console.log(myBST.contains(27));
+myDoublyLinkedList.reverse();
+console.log("\nList after reversing:");
+myDoublyLinkedList.printList();
 
-console.log("\nBST Contains 17:");
-console.log(myBST.contains(17));
+// Create a new list with an even number of elements
+let myDoublyLinkedList2 = new DoublyLinkedList(1);
+myDoublyLinkedList2.push(2);
+myDoublyLinkedList2.push(3);
+myDoublyLinkedList2.push(4);
+myDoublyLinkedList2.push(5);
+myDoublyLinkedList2.push(6);
+
+console.log("\nOriginal list 2:");
+myDoublyLinkedList2.printList();
+
+myDoublyLinkedList2.reverse();
+console.log("\nList 2 after reversing:");
+myDoublyLinkedList2.printList();
 
 /*
     EXPECTED OUTPUT:
     ----------------
-    BST Contains 27:
-    true
-    
-    BST Contains 17:
-    false
-
+    Original list:
+    1
+    2
+    3
+    4
+    5
+    List after reversing:
+    5
+    4
+    3
+    2
+    1
+    Original list 2:
+    1
+    2
+    3
+    4
+    5
+    6
+    List 2 after reversing:
+    6
+    5
+    4
+    3
+    2
+    1
 */
