@@ -76,6 +76,7 @@
     -   deepClone II **[++][gfe]**
     -   55 - twoSum **[++][ch]**
     -   28 - reverse **[++][ch]**
+    -   flaten in place **[++][gfe]**
 -   **13.11 [+]:**
     -   83 - removeDuplicates **[+][ch]**
     -   84 - maxProfit **[+][ch]**
@@ -92,21 +93,9 @@
     -   117 - countZeros **[+][ch]**
     -   15 - removeDuplicates **[+][ch]**
 -   **30.10 [++][LOCKED]:**
-    -   flaten in place **[++][gfe]**
     -   97 - currySum **[++][jsf]**
-    -   promiseResolve **[++][gfe]**
-    -   promisify **[++][gfe]**
-    -   promisify 2 **[++][gfe]**
-    -   breadthFirstSearch **[++][gfe]**
-    -   depthFirstSearch **[++][gfe]**
-    -   Function.prototype.apply **[++][gfe]**
-    -   Intersection **[++][gfe]**
-    -   Promise.race **[++][gfe]**
-    -   insertionSort **[++][gfe]**
     -   textSearch **[++][gfe]**
     -   deepMerge **[++][gfe]**
--   **16.10 [+][LOCKED]:**
-    -   17 - reverseBetween **[+][ch]**
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**
@@ -117,8 +106,18 @@
     -   quickSort **[gfe]**
     -   range **[gfe]**
     -   41 - sortStack **[ch]**
-
-### Hardest
-
-    - 30 - swapNodesInPair
-    - 72 - LinkedList bubbleSort
+    -   17 - reverseBetween **[ch]**
+-   **done:**
+    -   flaten in place **[gfe]**
+    -   breadthFirstSearch **[gfe]**
+    -   depthFirstSearch **[gfe]**
+    -   Function.prototype.apply **[gfe]**
+    -   insertionSort **[gfe]**
+    -   Intersection **[gfe]**
+    -   promiseResolve **[gfe]**
+    -   Promise.race **[gfe]**
+    -   promisify **[gfe]**
+    -   promisify 2 **[gfe]**
+-   **hardest:**
+    -   30 - swapNodesInPair **[ch]**
+    -   72 - LinkedList bubbleSort **[ch]**
