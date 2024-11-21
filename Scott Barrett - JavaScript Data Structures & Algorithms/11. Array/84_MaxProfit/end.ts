@@ -1,5 +1,5 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/6078334#content
+
 //   +===================================================+
 //   |               WRITE YOUR CODE HERE                |
 //   | Description:                                      |
@@ -17,15 +17,19 @@
 //   | - `maxProfit` stores the highest profit we can    |
 //   |   make so far.                                    |
 //   +===================================================+
-function maxProfit(array) {
+
+function maxProfit(array: number[]): number {
     let minPrice = array[0];
     let maxProfit = 0;
+
     for (let i = 1; i < array.length; i++) {
         minPrice = Math.min(minPrice, array[i]);
         maxProfit = Math.max(maxProfit, array[i] - minPrice);
     }
+
     return maxProfit;
 }
+
 // ------------------------------------
 //  Test array with increasing prices
 // ------------------------------------
@@ -35,6 +39,7 @@ console.log("Array:", increasingPrices);
 console.log("Expected Max Profit: 4");
 console.log("Actual Max Profit:", maxProfit(increasingPrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with decreasing prices
 // ------------------------------------
@@ -44,6 +49,7 @@ console.log("Array:", decreasingPrices);
 console.log("Expected Max Profit: 0");
 console.log("Actual Max Profit:", maxProfit(decreasingPrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with random prices
 // ------------------------------------
@@ -53,6 +59,7 @@ console.log("Array:", randomPrices);
 console.log("Expected Max Profit: 8");
 console.log("Actual Max Profit:", maxProfit(randomPrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with same prices
 // ------------------------------------
@@ -62,15 +69,17 @@ console.log("Array:", samePrices);
 console.log("Expected Max Profit: 0");
 console.log("Actual Max Profit:", maxProfit(samePrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test empty array
 // ------------------------------------
 console.log("Empty array:");
-let emptyPrices = [];
+let emptyPrices: number[] = [];
 console.log("Array:", emptyPrices);
 console.log("Expected Max Profit: 0");
 console.log("Actual Max Profit:", maxProfit(emptyPrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with negative prices
 // ------------------------------------
@@ -80,6 +89,7 @@ console.log("Array:", negativePrices);
 console.log("Expected Max Profit: 0");
 console.log("Actual Max Profit:", maxProfit(negativePrices));
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with mixed prices
 // ------------------------------------

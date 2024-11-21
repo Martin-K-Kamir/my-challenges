@@ -1,5 +1,5 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/6078332#content
+
 //   +====================================================+
 //   |                 WRITE YOUR CODE HERE               |
 //   | Description:                                       |
@@ -17,20 +17,24 @@
 //   | - `readPointer` scans the array for unique         |
 //   |   elements.                                        |
 //   +====================================================+
-function removeDuplicates(array) {
-    let lastValue = array[0];
-    for (let i = 1; i < array.length;) {
+
+function removeDuplicates(array: number[]): number {
+    let lastValue: number = array[0];
+
+    for (let i = 1; i < array.length; ) {
         const value = array[i];
+
         if (value === lastValue) {
             array.splice(i, 1);
-        }
-        else {
+        } else {
             lastValue = value;
             i++;
         }
     }
+
     return array.length;
 }
+
 {
     // ------------------------------------
     //  Test array with no duplicates
@@ -43,6 +47,7 @@ function removeDuplicates(array) {
     console.log("Length:", lenNoDups);
     console.log("---------------");
 }
+
 {
     // ------------------------------------
     //  Test array with duplicates
@@ -55,11 +60,12 @@ function removeDuplicates(array) {
     console.log("Length:", lenWithDups);
     console.log("---------------");
 }
+
 {
     // ------------------------------------
     //  Test empty array
     // ------------------------------------
-    let emptyArr = [];
+    let emptyArr: number[] = [];
     console.log("Test empty array:");
     console.log("Before:", emptyArr);
     let lenEmpty = removeDuplicates(emptyArr);
@@ -67,6 +73,7 @@ function removeDuplicates(array) {
     console.log("Length:", lenEmpty);
     console.log("---------------");
 }
+
 {
     // ------------------------------------
     //  Test array with all same numbers
@@ -79,6 +86,7 @@ function removeDuplicates(array) {
     console.log("Length:", lenAllSame);
     console.log("---------------");
 }
+
 {
     // ------------------------------------
     //  Test array with negative numbers
@@ -91,6 +99,7 @@ function removeDuplicates(array) {
     console.log("Length:", lenNeg);
     console.log("---------------");
 }
+
 {
     // ------------------------------------
     //  Test array with one element

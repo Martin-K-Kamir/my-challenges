@@ -77,13 +77,12 @@
     -   55 - twoSum **[++][ch]**
     -   28 - reverse **[++][ch]**
     -   flaten in place **[++][gfe]**
+    -   83 - removeDuplicates **[++][ch]**
+    -   84 - maxProfit **[++][ch]**
+    -   60 - longestConsecutiveSequence **[++][ch]**
+    -   91 - averagePair **[++][ch]**
+    -   56 - subarraySum **[++][ch]**
 -   **13.11 [+]:**
-    -   83 - removeDuplicates **[+][ch]**
-    -   84 - maxProfit **[+][ch]**
-    -   60 - longestConsecutiveSequence **[+][ch]**
-    -   91 - averagePair **[+][ch]**
-    -   56 - subarraySum **[+][ch]**
-    -   85 - rotate **[+][ch]**
     -   93 - maxSubarraySum **[+][ch]**
     -   101 - recursion reverse **[+][ch]**
     -   102 - recursion isPalindrome **[+][ch]**
@@ -92,10 +91,6 @@
     -   95 - findLongestSubstring **[+][ch]**
     -   117 - countZeros **[+][ch]**
     -   15 - removeDuplicates **[+][ch]**
--   **30.10 [++][LOCKED]:**
-    -   97 - currySum **[++][jsf]**
-    -   textSearch **[++][gfe]**
-    -   deepMerge **[++][gfe]**
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**
@@ -107,6 +102,7 @@
     -   range **[gfe]**
     -   41 - sortStack **[ch]**
     -   17 - reverseBetween **[ch]**
+    -   85 - rotate **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
@@ -118,6 +114,9 @@
     -   Promise.race **[gfe]**
     -   promisify **[gfe]**
     -   promisify 2 **[gfe]**
+    -   97 - currySum **[jsf]**
+    -   textSearch **[gfe]**
+    -   deepMerge **[gfe]**
 -   **hardest:**
     -   30 - swapNodesInPair **[ch]**
     -   72 - LinkedList bubbleSort **[ch]**

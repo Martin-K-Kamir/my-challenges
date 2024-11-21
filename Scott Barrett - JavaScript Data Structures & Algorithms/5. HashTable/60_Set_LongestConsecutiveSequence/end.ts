@@ -1,5 +1,5 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872938#content
+
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -17,22 +17,28 @@
 //   | - The function iterates through each unique number  |
 //   |   and finds streaks of consecutive numbers.         |
 //   +=====================================================+
-function longestConsecutiveSequence(nums) {
-    const set = new Set(nums);
+
+function longestConsecutiveSequence(nums: number[]): number {
+    const set = new Set<number>(nums);
     let longestStreak = 0;
+
     nums.forEach(num => {
         if (!set.has(num + 1)) {
             let currentStreak = 1;
             let currentNum = num;
+
             while (set.has(currentNum - 1)) {
                 currentNum--;
                 currentStreak++;
             }
+
             longestStreak = Math.max(longestStreak, currentStreak);
         }
     });
+
     return longestStreak;
 }
+
 // -------------------
 // No Consecutive Sequence
 // -------------------
@@ -40,6 +46,7 @@ console.log("No Consecutive Sequence:");
 console.log("Input: [1, 3, 5]");
 console.log("Output: ", longestConsecutiveSequence([1, 3, 5]));
 console.log("---------------");
+
 // -------------------
 // Single Element
 // -------------------
@@ -47,6 +54,7 @@ console.log("Single Element:");
 console.log("Input: [1]");
 console.log("Output: ", longestConsecutiveSequence([1]));
 console.log("---------------");
+
 // -------------------
 // Consecutive Sequence
 // -------------------
@@ -54,6 +62,7 @@ console.log("Consecutive Sequence:");
 console.log("Input: [1, 2, 3, 4, 5]");
 console.log("Output: ", longestConsecutiveSequence([1, 2, 3, 4, 5]));
 console.log("---------------");
+
 // -------------------
 // Unordered Input
 // -------------------
@@ -61,6 +70,7 @@ console.log("Unordered Input:");
 console.log("Input: [5, 2, 3, 1, 4]");
 console.log("Output: ", longestConsecutiveSequence([5, 2, 3, 1, 4]));
 console.log("---------------");
+
 // -------------------
 // Empty Array
 // -------------------
@@ -68,6 +78,7 @@ console.log("Empty Array:");
 console.log("Input: []");
 console.log("Output: ", longestConsecutiveSequence([]));
 console.log("---------------");
+
 // -------------------
 // Multiple Sequences
 // -------------------

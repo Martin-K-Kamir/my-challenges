@@ -7,9 +7,11 @@ function countZeroes(nums) {
         const mid = Math.floor((start + end) / 2);
         if ((mid === 0 || nums[mid - 1] === 1) && nums[mid] === 0) {
             return mid;
-        } else if (nums[mid] > 0) {
+        }
+        else if (nums[mid] > 0) {
             return binarySearchZero(nums, mid + 1, end);
-        } else {
+        }
+        else {
             return binarySearchZero(nums, start, mid - 1);
         }
     }
