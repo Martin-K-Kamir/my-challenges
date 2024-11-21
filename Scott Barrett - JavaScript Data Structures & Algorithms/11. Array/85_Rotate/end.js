@@ -1,3 +1,5 @@
+"use strict";
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/6078336#content
 //   +===================================================+
 //   |               WRITE YOUR CODE HERE                |
 //   | Description:                                      |
@@ -12,31 +14,27 @@
 //   |   the array separately.                           |
 //   | - Finally, we reverse the whole array.            |
 //   +===================================================+
-
-function rotate(nums, k) {
-    const n = nums.length;
+function rotate(array, k) {
+    const n = array.length;
     if (n === 0) {
-        return []
+        return [];
     }
-
     k = k % n;
     if (k < 0) {
         k = k + n;
     }
-
     function reverse(start, end) {
         while (start < end) {
-            [nums[start], nums[end]] = [nums[end], nums[start]];
+            [array[start], array[end]] = [array[end], array[start]];
             start++;
             end--;
         }
     }
-
     reverse(0, n - 1);
-    reverse(0, k - 1);
+    reverse(n, k - 1);
     reverse(k, n - 1);
+    return array;
 }
-
 // ------------------------------------
 //  Test array rotation by 1
 // ------------------------------------
@@ -47,7 +45,6 @@ rotate(rotate1, 1);
 console.log("Expected After:  5, 1, 2, 3, 4");
 console.log("Actual After:   ", rotate1.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test array rotation by array length
 // ------------------------------------
@@ -58,7 +55,6 @@ rotate(rotateLen, 3);
 console.log("Expected After:  1, 2, 3");
 console.log("Actual After:   ", rotateLen.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test array rotation by 0
 // ------------------------------------
@@ -69,7 +65,6 @@ rotate(rotateZero, 0);
 console.log("Expected After:  4, 3, 2, 1");
 console.log("Actual After:   ", rotateZero.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test empty array rotation
 // ------------------------------------
@@ -80,7 +75,6 @@ rotate(rotateEmpty, 1);
 console.log("Expected After:  ");
 console.log("Actual After:   ", rotateEmpty.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test array rotation with negative k
 // ------------------------------------
@@ -91,7 +85,6 @@ rotate(rotateNeg, -1);
 console.log("Expected After:  6, 7, 8, 5");
 console.log("Actual After:   ", rotateNeg.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test array with all same elements
 // ------------------------------------
@@ -102,7 +95,6 @@ rotate(rotateSame, 2);
 console.log("Expected After:  2, 2, 2, 2");
 console.log("Actual After:   ", rotateSame.join(", "));
 console.log("---------------");
-
 // ------------------------------------
 //  Test array rotation with k larger than array size
 // ------------------------------------
@@ -113,5 +105,3 @@ rotate(rotateLargeK, 3);
 console.log("Expected After:  2, 1");
 console.log("Actual After:   ", rotateLargeK.join(", "));
 console.log("---------------");
-
-

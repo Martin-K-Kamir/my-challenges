@@ -1,6 +1,9 @@
 "use strict";
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410602#content
 function averagePair(array, averageTarget) {
+    if (array.length === 0) {
+        return false;
+    }
     let left = 0;
     let right = array.length - 1;
     while (left <= right) {
