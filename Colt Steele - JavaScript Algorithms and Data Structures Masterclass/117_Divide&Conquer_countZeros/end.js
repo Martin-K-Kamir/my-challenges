@@ -1,23 +1,30 @@
 "use strict";
-function countZeroes(nums) {
-    function binarySearchZero(nums, start = 0, end = nums.length) {
-        if (start > end) {
-            return -1;
+// https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410620#overview
+{
+    function countZeroes(array) {
+        function binarySearchZeros(array, start = 0, end = array.length) {
+            if (start > end) {
+                return -1;
+            }
+            let mid = Math.floor((start + end) / 2);
+            if ((mid === 0 || array[mid - 1] !== 0) && array[mid] === 0) {
+                return mid;
+            }
+            else if (array[mid] > 0) {
+                return binarySearchZeros(array, mid + 1, end);
+            }
+            else {
+                return binarySearchZeros(array, start, mid - 1);
+            }
         }
-        const mid = Math.floor((start + end) / 2);
-        if ((mid === 0 || nums[mid - 1] === 1) && nums[mid] === 0) {
-            return mid;
+        const index = binarySearchZeros(array, 0);
+        if (index === -1) {
+            return 0;
         }
-        else if (nums[mid] > 0) {
-            return binarySearchZero(nums, mid + 1, end);
-        }
-        else {
-            return binarySearchZero(nums, start, mid - 1);
-        }
+        return array.length - index;
     }
-    const zeroIndex = binarySearchZero(nums);
-    if (zeroIndex === -1) {
-        return 0;
-    }
-    return nums.length - zeroIndex;
+    console.log(countZeroes([1, 1, 1, 1, 0, 0])); // 2
+    console.log(countZeroes([1, 0, 0, 0, 0])); // 4
+    console.log(countZeroes([0, 0, 0])); // 3
+    console.log(countZeroes([1, 1, 1, 1])); // 0
 }

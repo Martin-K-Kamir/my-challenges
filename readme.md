@@ -1,10 +1,10 @@
-### Select Challenger
+### Select Challenge
 
 -   [Wheel](https://wheelofnames.com/ufx-eyc)
 
 ---
 
-### Great Frontend
+### Great Frontend [gfe]
 
 -   [Page](https://www.greatfrontend.com/prepare)
 -   [Levels](https://wheelofnames.com/j6k-rbs)
@@ -14,7 +14,7 @@
 
 ---
 
-### 100 JS Functions
+### 100 JS Functions [jsf]
 
 -   [Page](https://www.100jsfunctions.com/exercises)
 -   [Levels](https://wheelofnames.com/j6k-rbs)
@@ -24,7 +24,7 @@
 
 ---
 
-### Challenges
+### Challenges [ch]
 
 -   [Scott Barret](https://wheelofnames.com/gqm-58f)
     -   [Linked List](https://wheelofnames.com/awm-3up)
@@ -42,9 +42,8 @@
 
 ---
 
-### Todo
+### To Finish
 
--   **29.11:** challenge friday
 -   **18.12 [++]:**
     -   intersectionWith **[++][gfe]**
     -   compact II **[++][gfe]**
@@ -82,15 +81,12 @@
     -   60 - longestConsecutiveSequence **[++][ch]**
     -   91 - averagePair **[++][ch]**
     -   56 - subarraySum **[++][ch]**
--   **13.11 [+]:**
-    -   93 - maxSubarraySum **[+][ch]**
-    -   101 - recursion reverse **[+][ch]**
-    -   102 - recursion isPalindrome **[+][ch]**
-    -   92 - isSubsequence **[+][ch]**
-    -   100 - recursion fib **[+][ch]**
-    -   95 - findLongestSubstring **[+][ch]**
-    -   117 - countZeros **[+][ch]**
-    -   15 - removeDuplicates **[+][ch]**
+    -   100 - recursion fib **[++][ch]**
+    -   101 - recursion reverse **[++][ch]**
+    -   102 - recursion isPalindrome **[++][ch]**
+    -   15 - removeDuplicates **[++][ch]**
+    -   117 - countZeros **[++][ch]**
+    -   92 - isSubsequence **[++][ch]**
 -   **sooner:**
     -   118 - sortedFrequency **[ch]**
     -   119 - findRotatedIndex **[ch]**
@@ -103,6 +99,8 @@
     -   41 - sortStack **[ch]**
     -   17 - reverseBetween **[ch]**
     -   85 - rotate **[ch]**
+    -   93 - maxSubarraySum **[ch]**
+    -   95 - findLongestSubstring **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**

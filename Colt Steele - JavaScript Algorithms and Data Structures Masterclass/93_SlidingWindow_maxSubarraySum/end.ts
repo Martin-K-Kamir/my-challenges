@@ -1,6 +1,26 @@
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410590#content
 
-function maxSubarraySum(array, num) {}
+function maxSubarraySum(array: number[], num: number): number | null {
+    if (array.length < num) {
+        return null;
+    }
+
+    let maxSum = 0;
+    let currentSum = 0;
+
+    for (let i = 0; i < num; i++) {
+        currentSum += array[i];
+    }
+
+    maxSum = currentSum;
+
+    for (let i = num; i < array.length; i++) {
+        currentSum = currentSum - array[i - num] + array[i];
+        maxSum = Math.max(currentSum, maxSum);
+    }
+
+    return maxSum;
+}
 
 // Time Complexity - O(N)
 // Space Complexity - O(1)
