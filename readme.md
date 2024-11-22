@@ -1,8 +1,4 @@
-### Select Challenge
-
--   [Wheel](https://wheelofnames.com/ufx-eyc)
-
----
+## Select Challenge
 
 ### Great Frontend [gfe]
 
@@ -12,8 +8,6 @@
     -   [Medium Challenges](https://wheelofnames.com/nwh-f7a)
     -   [Hard Challenges](https://wheelofnames.com/gfw-3jv)
 
----
-
 ### 100 JS Functions [jsf]
 
 -   [Page](https://www.100jsfunctions.com/exercises)
@@ -22,27 +16,26 @@
     -   [Medium Challenges](https://wheelofnames.com/38u-urz)
     -   [Hard Challenges](https://wheelofnames.com/wpm-kk7)
 
----
-
 ### Challenges [ch]
 
--   [Scott Barret](https://wheelofnames.com/gqm-58f)
-    -   [Linked List](https://wheelofnames.com/awm-3up)
-    -   [Doubly Linked List](https://wheelofnames.com/bak-68v)
-    -   [Stacks & Queues](https://wheelofnames.com/nrf-xwc)
-    -   [Binary Search Tree](https://wheelofnames.com/ytv-t46)
-    -   [Hast Table](https://wheelofnames.com/9mx-adf)
-    -   [Graph](https://wheelofnames.com/zvn-cqe)
-    -   [Traverse](https://wheelofnames.com/q5v-emv)
-    -   [Basic Sorts](https://wheelofnames.com/njs-g29)
-    -   [Merge Sort](https://wheelofnames.com/bty-cdz)
-    -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
-    -   [Array](https://wheelofnames.com/efx-kn2)
--   Colt Steele - pick random number 87 - 160
+-   Scott Barret
+    -   [Folder](/challenges//Scott%20Barrett%20-%20DSA/)
+    -   [Levels](https://wheelofnames.com/gqm-58f)
+        -   [Linked List](https://wheelofnames.com/awm-3up)
+        -   [Doubly Linked List](https://wheelofnames.com/bak-68v)
+        -   [Stacks & Queues](https://wheelofnames.com/nrf-xwc)
+        -   [Binary Search Tree](https://wheelofnames.com/ytv-t46)
+        -   [Hast Table](https://wheelofnames.com/9mx-adf)
+        -   [Graph](https://wheelofnames.com/zvn-cqe)
+        -   [Traverse](https://wheelofnames.com/q5v-emv)
+        -   [Basic Sorts](https://wheelofnames.com/njs-g29)
+        -   [Merge Sort](https://wheelofnames.com/bty-cdz)
+        -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
+        -   [Array](https://wheelofnames.com/efx-kn2)
+-   Colt Steele
+    -   [Folder](/challenges/Colt%20Steele%20-%20DSA/)
 
----
-
-### To Finish
+## To Finish
 
 -   **18.12 [++]:**
     -   intersectionWith **[++][gfe]**
