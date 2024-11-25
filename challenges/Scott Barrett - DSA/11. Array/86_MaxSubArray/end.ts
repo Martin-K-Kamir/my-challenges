@@ -1,4 +1,3 @@
-"use strict";
 //   +===================================================+
 //   |               WRITE YOUR CODE HERE                |
 //   | Description:                                      |
@@ -13,18 +12,22 @@
 //   | - For each number, `currentSum` is either the     |
 //   |   number itself or `currentSum + nums[i]`.        |
 //   +===================================================+
-function maxSubarray(arr) {
+function maxSubarray(arr: number[]) {
     if (arr.length === 0) {
         return 0;
     }
+
     let maxSum = arr[0];
     let currentSum = arr[0];
+
     for (let i = 1; i < arr.length; i++) {
         currentSum = Math.max(arr[i], currentSum + arr[i]);
         maxSum = Math.max(maxSum, currentSum);
     }
+
     return maxSum;
 }
+
 // ------------------------------------
 //  Test array with both negative and positive numbers
 // ------------------------------------
@@ -35,6 +38,7 @@ let maxSumMixed = maxSubarray(mixedNums);
 console.log("Expected Max Subarray Sum: 6");
 console.log("Actual Max Subarray Sum:", maxSumMixed);
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with all positive numbers
 // ------------------------------------
@@ -45,6 +49,7 @@ let maxSumPositive = maxSubarray(allPositive);
 console.log("Expected Max Subarray Sum: 15");
 console.log("Actual Max Subarray Sum:", maxSumPositive);
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with all negative numbers
 // ------------------------------------
@@ -55,6 +60,7 @@ let maxSumNegative = maxSubarray(allNegative);
 console.log("Expected Max Subarray Sum: -1");
 console.log("Actual Max Subarray Sum:", maxSumNegative);
 console.log("---------------");
+
 // ------------------------------------
 //  Test empty array
 // ------------------------------------
@@ -65,6 +71,7 @@ console.log("---------------");
 // console.log("Expected Max Subarray Sum: 0");
 // console.log("Actual Max Subarray Sum:", maxSumEmpty);
 // console.log("---------------");
+
 // ------------------------------------
 //  Test array with single element
 // ------------------------------------
@@ -75,6 +82,7 @@ let maxSumSingle = maxSubarray(singleElement);
 console.log("Expected Max Subarray Sum: 3");
 console.log("Actual Max Subarray Sum:", maxSumSingle);
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with zeros
 // ------------------------------------
@@ -85,6 +93,7 @@ let maxSumZeros = maxSubarray(withZeros);
 console.log("Expected Max Subarray Sum: 0");
 console.log("Actual Max Subarray Sum:", maxSumZeros);
 console.log("---------------");
+
 // ------------------------------------
 //  Test array with one positive and one negative number
 // ------------------------------------

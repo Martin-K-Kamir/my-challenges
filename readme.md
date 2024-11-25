@@ -18,7 +18,7 @@
 
 ### Challenges [ch]
 
--   Scott Barret
+-   Scott Barret - DSA
     -   [Folder](/challenges//Scott%20Barrett%20-%20DSA/)
     -   [Levels](https://wheelofnames.com/gqm-58f)
         -   [Linked List](https://wheelofnames.com/awm-3up)
@@ -32,12 +32,12 @@
         -   [Merge Sort](https://wheelofnames.com/bty-cdz)
         -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
         -   [Array](https://wheelofnames.com/efx-kn2)
--   Colt Steele
+-   Colt Steele - DSA
     -   [Folder](/challenges/Colt%20Steele%20-%20DSA/)
 
 ## To Finish
 
--   **18.12 [++]:**
+-   **18.12 [++][LOCKED]:**
     -   intersectionWith **[++][gfe]**
     -   compact II **[++][gfe]**
     -   Promise.all **[++][gfe]**
@@ -80,20 +80,21 @@
     -   15 - removeDuplicates **[++][ch]**
     -   117 - countZeros **[++][ch]**
     -   92 - isSubsequence **[++][ch]**
+-   **11.12 [+]:**
+    -   118 - sortedFrequency **[+][ch]**
+    -   quickSort **[+][gfe]**
 -   **sooner:**
-    -   118 - sortedFrequency **[ch]**
-    -   119 - findRotatedIndex **[ch]**
-    -   116 - SSL rotate **[ch]**
-    -   86 - maxSubArray **[ch]**
-    -   94 - minSubarrayLen **[ch]**
     -   squashObject **[gfe]**
-    -   quickSort **[gfe]**
     -   range **[gfe]**
     -   41 - sortStack **[ch]**
     -   17 - reverseBetween **[ch]**
     -   85 - rotate **[ch]**
     -   93 - maxSubarraySum **[ch]**
     -   95 - findLongestSubstring **[ch]**
+    -   119 - findRotatedIndex **[ch]**
+    -   116 - SSL rotate **[ch]**
+    -   86 - maxSubArray **[ch]**
+    -   94 - minSubarrayLen **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
