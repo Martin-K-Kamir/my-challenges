@@ -83,10 +83,9 @@
 -   **11.12 [+]:**
     -   118 - sortedFrequency **[+][ch]**
     -   quickSort **[+][gfe]**
+    -   squashObject **[+][gfe]**
+    -   range **[+][gfe]**
 -   **sooner:**
-    -   squashObject **[gfe]**
-    -   range **[gfe]**
-    -   41 - sortStack **[ch]**
     -   17 - reverseBetween **[ch]**
     -   85 - rotate **[ch]**
     -   93 - maxSubarraySum **[ch]**
@@ -95,6 +94,7 @@
     -   116 - SSL rotate **[ch]**
     -   86 - maxSubArray **[ch]**
     -   94 - minSubarrayLen **[ch]**
+    -   41 - sortStack **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
