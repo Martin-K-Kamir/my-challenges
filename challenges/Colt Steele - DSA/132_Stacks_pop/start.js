@@ -29,3 +29,16 @@ class Stack {
     }
     pop() {}
 }
+
+const stack = new Stack();
+stack.push(10);
+stack.push(100);
+stack.push(1000);
+console.log(stack.pop()); // 1000
+console.log(stack.size); // 2
+console.log(stack.pop()); // 100
+console.log(stack.size); // 1
+console.log(stack.pop()); // 10
+console.log(stack.size); // 0
+console.log(stack.pop()); // null
+console.log(stack.size); // 0

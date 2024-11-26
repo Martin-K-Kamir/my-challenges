@@ -24,22 +24,32 @@
             }
             this.size++;
         }
+        pop() {
+            if (this.size === 0) {
+                return null;
+            }
+            const nodeToRemove = this.first;
+            if (this.size === 1) {
+                this.first = null;
+                this.last = null;
+            }
+            else {
+                this.first = this.first?.next ?? null;
+            }
+            this.size--;
+            return nodeToRemove?.value;
+        }
     }
     const stack = new Stack();
-    stack.push(10); // 1
-    console.log(stack.first?.value); // 10
-    console.log(stack.last?.value); // 10
+    stack.push(10);
     stack.push(100);
-    console.log(stack.first?.value); // 100
-    console.log(stack.last?.value); // 10
     stack.push(1000);
-    console.log(stack.first?.value); // 1000
-    console.log(stack.last?.value); // 10
-    const stack2 = new Stack();
-    stack2.push(10); // 1
-    console.log(stack2.size); // 1
-    stack2.push(100); // 2
-    console.log(stack2.size); // 2
-    stack2.push(1000); // 3
-    console.log(stack2.size); // 3
+    console.log(stack.pop()); // 1000
+    console.log(stack.size); // 2
+    console.log(stack.pop()); // 100
+    console.log(stack.size); // 1
+    console.log(stack.pop()); // 10
+    console.log(stack.size); // 0
+    console.log(stack.pop()); // null
+    console.log(stack.size); // 0
 })();

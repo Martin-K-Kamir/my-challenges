@@ -111,6 +111,3 @@
     -   97 - currySum **[jsf]**
     -   textSearch **[gfe]**
     -   deepMerge **[gfe]**
--   **hardest:**
-    -   30 - swapNodesInPair **[ch]**
-    -   72 - LinkedList bubbleSort **[ch]**
