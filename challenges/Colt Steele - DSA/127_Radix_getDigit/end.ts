@@ -1,5 +1,7 @@
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4444446#overview
-function getDigit() {}
+function getDigit(num: number, place: number) {
+    return Math.floor(Math.abs(num) / Math.pow(10, place)) % 10;
+}
 
 console.log(getDigit(12345, 0)); // 5
 console.log(getDigit(12345, 1)); // 4
