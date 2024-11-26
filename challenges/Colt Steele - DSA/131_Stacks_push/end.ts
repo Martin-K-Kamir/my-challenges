@@ -2,12 +2,9 @@
     // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/424882#overview
 
     class Node<T> {
-        public value: T;
         public next: null | Node<T> = null;
 
-        constructor(value: T) {
-            this.value = value;
-        }
+        constructor(public value: T) {}
     }
 
     class Stack<T> {
