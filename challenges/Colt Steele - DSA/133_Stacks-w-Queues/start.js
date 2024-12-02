@@ -47,3 +47,14 @@ class Queue {
         return temp.value;
     }
 }
+
+const s = new Stack();
+s.push(10).push(20).push(30);
+console.log(s.pop()); // 30
+console.log(s.pop()); // 20
+console.log(s.pop()); // 10
+console.log(s.pop()); // null
+s.push(30).push(40).push(50);
+console.log(s.pop()); // 50
+s.push(60);
+console.log(s.pop()); // 60

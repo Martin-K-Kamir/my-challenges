@@ -86,12 +86,12 @@
     -   squashObject **[+][gfe]**
     -   range **[+][gfe]**
     -   93 - maxSubarraySum **[+][ch]**
+    -   41 - sortStack **[+][ch]**
 -   **sooner:**
     -   119 - findRotatedIndex **[ch]**
     -   116 - SSL rotate **[ch]**
     -   86 - maxSubArray **[ch]**
     -   94 - minSubarrayLen **[ch]**
-    -   41 - sortStack **[ch]**
     -   17 - reverseBetween **[ch]**
     -   85 - rotate **[ch]**
     -   95 - findLongestSubstring **[ch]**
