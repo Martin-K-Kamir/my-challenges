@@ -97,6 +97,7 @@
     -   94 - minSubarrayLen **[ch]**
     -   17 - reverseBetween **[ch]**
     -   130 - radixSort **[ch]**
+    -   139 - BST remove **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
