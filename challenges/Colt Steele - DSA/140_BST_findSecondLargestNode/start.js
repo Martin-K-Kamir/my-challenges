@@ -55,3 +55,14 @@ class BinarySearchTree {
     }
     findSecondLargest() {}
 }
+
+const binarySearchTree = new BinarySearchTree();
+binarySearchTree.insert(15);
+binarySearchTree.insert(20);
+binarySearchTree.insert(10);
+binarySearchTree.insert(12);
+console.log(binarySearchTree.findSecondLargest()); // returns 15
+
+const binarySearchTree2 = new BinarySearchTree();
+binarySearchTree2.insert(10);
+console.log(binarySearchTree2.findSecondLargest()); // returns undefined

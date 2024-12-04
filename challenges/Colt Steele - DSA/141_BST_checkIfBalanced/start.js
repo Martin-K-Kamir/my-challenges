@@ -55,3 +55,29 @@ class BinarySearchTree {
     }
     isBalanced() {}
 }
+
+// A balanced tree is defined as a tree where the depth of all leaf nodes or nodes with single children differ by no more than one.
+//       15
+//      /  \
+//    10    20
+//      \
+//       12
+const binarySearchTree = new BinarySearchTree();
+binarySearchTree.insert(15);
+binarySearchTree.insert(20);
+binarySearchTree.insert(10);
+binarySearchTree.insert(12);
+console.log(binarySearchTree.isBalanced()); // true
+
+const binarySearchTree2 = new BinarySearchTree();
+binarySearchTree2.insert(5);
+console.log(binarySearchTree2.isBalanced()); // true
+binarySearchTree2.insert(6);
+console.log(binarySearchTree2.isBalanced()); // true
+binarySearchTree2.insert(7);
+//       5
+//        \
+//         6
+//          \
+//           7
+console.log(binarySearchTree2.isBalanced()); // false

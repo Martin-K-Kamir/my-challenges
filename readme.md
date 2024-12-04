@@ -37,6 +37,16 @@
 
 ## To Finish
 
+-   **29.1 [++]:**
+-   **17.1 [Challenge friday]**
+-   **8.1 [+]:**
+    -   41 - sortStack **[+][ch]**
+    -   86 - maxSubArray **[+][ch]**
+    -   85 - rotate **[+][ch]**
+    -   95 - findLongestSubstring **[+][ch]**
+    -   127 - Radix getDigit **[+][ch]**
+    -   119 - findRotatedIndex **[+][ch]**
+    -   17 - reverseBetween **[+][ch]**
 -   **18.12 [++][LOCKED]:**
     -   intersectionWith **[++][gfe]**
     -   compact II **[++][gfe]**
@@ -80,24 +90,18 @@
     -   15 - removeDuplicates **[++][ch]**
     -   117 - countZeros **[++][ch]**
     -   92 - isSubsequence **[++][ch]**
--   **11.12 [+]:**
+-   **11.12 [+][LOCKED]:**
     -   118 - sortedFrequency **[+][ch]**
     -   quickSort **[+][gfe]**
     -   squashObject **[+][gfe]**
     -   range **[+][gfe]**
     -   93 - maxSubarraySum **[+][ch]**
-    -   41 - sortStack **[+][ch]**
-    -   86 - maxSubArray **[+][ch]**
-    -   85 - rotate **[+][ch]**
-    -   95 - findLongestSubstring **[+][ch]**
-    -   127 - Radix getDigit **[+][ch]**
 -   **sooner:**
-    -   119 - findRotatedIndex **[ch]**
-    -   116 - SSL rotate **[ch]**
-    -   94 - minSubarrayLen **[ch]**
-    -   17 - reverseBetween **[ch]**
     -   130 - radixSort **[ch]**
     -   139 - BST remove **[ch]**
+    -   116 - SSL rotate **[ch]**
+    -   94 - minSubarrayLen **[ch]**
+    -   142 - BinaryHeap insert **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
