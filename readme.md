@@ -47,6 +47,7 @@
     -   127 - Radix getDigit **[+][ch]**
     -   119 - findRotatedIndex **[+][ch]**
     -   17 - reverseBetween **[+][ch]**
+    -   116 - SSL rotate **[+][ch]**
 -   **18.12 [++][LOCKED]:**
     -   intersectionWith **[++][gfe]**
     -   compact II **[++][gfe]**
@@ -97,11 +98,10 @@
     -   range **[+][gfe]**
     -   93 - maxSubarraySum **[+][ch]**
 -   **sooner:**
-    -   130 - radixSort **[ch]**
-    -   139 - BST remove **[ch]**
-    -   116 - SSL rotate **[ch]**
     -   94 - minSubarrayLen **[ch]**
     -   142 - BinaryHeap insert **[ch]**
+    -   130 - radixSort **[ch]**
+    -   139 - BST remove **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
