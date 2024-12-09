@@ -98,10 +98,11 @@
     -   range **[+][gfe]**
     -   93 - maxSubarraySum **[+][ch]**
 -   **sooner:**
+    -   139 - BST remove **[ch]**
     -   94 - minSubarrayLen **[ch]**
     -   142 - BinaryHeap insert **[ch]**
     -   130 - radixSort **[ch]**
-    -   139 - BST remove **[ch]**
+    -   143 - BinaryHeap extractMax **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
