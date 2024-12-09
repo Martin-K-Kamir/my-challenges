@@ -103,6 +103,9 @@
     -   142 - BinaryHeap insert **[ch]**
     -   130 - radixSort **[ch]**
     -   143 - BinaryHeap extractMax **[ch]**
+    -   150 - Graph Dijkstra **[ch]**
+    -   151 - coinChange DynamicPrograming**[ch]**
+    -   151 - coinChange GreedyAlgorithm **[ch]**
 -   **done:**
     -   flaten in place **[gfe]**
     -   breadthFirstSearch **[gfe]**
