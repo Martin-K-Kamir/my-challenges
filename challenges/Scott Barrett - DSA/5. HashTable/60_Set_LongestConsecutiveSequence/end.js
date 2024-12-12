@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872938#content
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
@@ -75,3 +74,4 @@ console.log("Multiple Sequences:");
 console.log("Input: [1, 2, 3, 10, 11, 12]");
 console.log("Output: ", longestConsecutiveSequence([1, 2, 3, 10, 11, 12]));
 console.log("---------------");
+export {};

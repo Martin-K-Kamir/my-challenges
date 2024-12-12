@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/425976#content
 function reverse2(str) {
     if (str.length === 0) {
@@ -23,3 +22,4 @@ function reverse(str) {
 }
 console.log(reverse("awesome")); // 'emosewa'
 console.log(reverse2("rithmschool")); // 'loohcsmhtir'
+export {};

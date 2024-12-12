@@ -1,4 +1,3 @@
-"use strict";
 //   +===================================================+
 //   |               WRITE YOUR CODE HERE                |
 //   | Description:                                      |
@@ -95,3 +94,4 @@ let maxSumPosNeg = maxSubarray(posNeg);
 console.log("Expected Max Subarray Sum: 1");
 console.log("Actual Max Subarray Sum:", maxSumPosNeg);
 console.log("---------------");
+export {};

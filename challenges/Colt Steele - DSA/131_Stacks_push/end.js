@@ -1,4 +1,3 @@
-"use strict";
 (() => {
     // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/424882#overview
     class Node {
@@ -43,3 +42,4 @@
     stack2.push(1000); // 3
     console.log(stack2.size); // 3
 })();
+export {};

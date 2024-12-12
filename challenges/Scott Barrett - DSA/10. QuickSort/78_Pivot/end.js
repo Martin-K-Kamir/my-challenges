@@ -1,4 +1,3 @@
-"use strict";
 {
     function swap2(array, a, b) {
         [array[a], array[b]] = [array[b], array[a]];
@@ -24,3 +23,4 @@
     
     */
 }
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/6078334#content
 //   +===================================================+
 //   |               WRITE YOUR CODE HERE                |
@@ -89,3 +88,4 @@ console.log("Array:", mixedPrices);
 console.log("Expected Max Profit: 7");
 console.log("Actual Max Profit:", maxProfit(mixedPrices));
 console.log("---------------");
+export {};

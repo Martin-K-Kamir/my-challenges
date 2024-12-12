@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/425982#overview
 function isPalindrome(str) {
     if (str.length <= 1) {
@@ -23,3 +22,4 @@ console.log(isPalindrome("foobar")); // false
 console.log(isPalindrome("tacocat")); // true
 console.log(isPalindrome("amanaplanacanalpanama")); // true
 console.log(isPalindrome("amanaplanacanalpandemonium")); // false
+export {};

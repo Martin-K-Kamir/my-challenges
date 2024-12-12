@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/6078332#content
 //   +====================================================+
 //   |                 WRITE YOUR CODE HERE               |
@@ -103,3 +102,4 @@ function removeDuplicates(array) {
     console.log("Length:", lenSingle);
     console.log("---------------");
 }
+export {};

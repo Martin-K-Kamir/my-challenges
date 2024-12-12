@@ -38,6 +38,8 @@
 ## To Finish
 
 -   **29.1 [++]:**
+    -   118 - sortedFrequency **[++][ch]**
+    -   quickSort **[++][gfe]**
 -   **17.1 [Challenge friday]**
 -   **8.1 [+]:**
     -   41 - sortStack **[+][ch]**
@@ -92,8 +94,6 @@
     -   117 - countZeros **[++][ch]**
     -   92 - isSubsequence **[++][ch]**
 -   **11.12 [+][LOCKED]:**
-    -   118 - sortedFrequency **[+][ch]**
-    -   quickSort **[+][gfe]**
     -   squashObject **[+][gfe]**
     -   range **[+][gfe]**
     -   93 - maxSubarraySum **[+][ch]**

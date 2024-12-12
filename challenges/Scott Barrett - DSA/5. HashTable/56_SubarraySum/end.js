@@ -1,4 +1,3 @@
-"use strict";
 // https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872930#content
 //   +=====================================================+
 //   |               WRITE YOUR CODE HERE                  |
@@ -67,3 +66,4 @@ console.log("Empty Array:");
 console.log("Input: [], Target: 1");
 console.log("Output: ", JSON.stringify(subarraySum([], 1)));
 console.log("---------------");
+export {};

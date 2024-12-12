@@ -1,4 +1,3 @@
-"use strict";
 (() => {
     // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4445136#overview
     function digitCount(num) {
@@ -14,3 +13,4 @@
     console.log(mostDigits([0, 100000, 400, 12, 8])); // 6
     console.log(mostDigits([])); // 0
 })();
+export {};

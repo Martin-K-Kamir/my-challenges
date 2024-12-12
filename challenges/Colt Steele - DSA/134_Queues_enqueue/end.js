@@ -1,4 +1,3 @@
-"use strict";
 (() => {
     // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/424886#overview
     class Node {
@@ -33,3 +32,4 @@
     queue.enqueue(1000); // 3
     queue.size; // 3
 })();
+export {};
