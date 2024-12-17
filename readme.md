@@ -35,88 +35,98 @@
 -   Colt Steele - DSA
     -   [Folder](/challenges/Colt%20Steele%20-%20DSA/)
 
-## To Finish
+## Challenges to finish
 
--   **29.1 [++]:**
-    -   118 - sortedFrequency **[++][ch]**
-    -   quickSort **[++][gfe]**
--   **17.1 [Challenge friday]**
--   **8.1 [+]:**
-    -   41 - sortStack **[+][ch]**
-    -   86 - maxSubArray **[+][ch]**
-    -   85 - rotate **[+][ch]**
-    -   95 - findLongestSubstring **[+][ch]**
-    -   127 - Radix getDigit **[+][ch]**
-    -   119 - findRotatedIndex **[+][ch]**
-    -   17 - reverseBetween **[+][ch]**
-    -   116 - SSL rotate **[+][ch]**
--   **18.12 [++][LOCKED]:**
-    -   intersectionWith **[++][gfe]**
-    -   compact II **[++][gfe]**
-    -   Promise.all **[++][gfe]**
-    -   Promise.allSettled **[++][gfe]**
-    -   Promise.any **[++][gfe]**
-    -   96 - cacheGetResult **[++][jsf]**
-    -   curry **[++][gfe]**
-    -   binarySearch **[++][gfe]**
-    -   minBy **[++][gfe]**
-    -   jsonStringify **[++][gfe]**
-    -   fill **[++][gfe]**
-    -   deepOmit **[++][gfe]**
-    -   memoize II **[++][gfe]**
-    -   selectionSort **[++][gfe]**
-    -   mergeSort **[++][gfe]**
-    -   77 - flow **[++][jsf]**
-    -   Debounce II **[++][gfe]**
-    -   intersectionBy **[++][gfe]**
-    -   deepEqual **[++][gfe]**
-    -   11 - findMiddleNode **[++][ch]**
-    -   14 - partitionList **[++][ch]**
-    -   13 - findKthNodeFromEnd **[++][ch]**
-    -   42 - queueUsingStack **[++][ch]**
-    -   27 - swapFirstAndLast **[++][ch]**
-    -   45 - insert **[++][ch]**
-    -   46 - contains **[++][ch]**
-    -   mapAsyncLimit **[++][gfe]**
-    -   deepClone II **[++][gfe]**
-    -   55 - twoSum **[++][ch]**
-    -   28 - reverse **[++][ch]**
-    -   flaten in place **[++][gfe]**
-    -   83 - removeDuplicates **[++][ch]**
-    -   84 - maxProfit **[++][ch]**
-    -   60 - longestConsecutiveSequence **[++][ch]**
-    -   91 - averagePair **[++][ch]**
-    -   56 - subarraySum **[++][ch]**
-    -   100 - recursion fib **[++][ch]**
-    -   101 - recursion reverse **[++][ch]**
-    -   102 - recursion isPalindrome **[++][ch]**
-    -   15 - removeDuplicates **[++][ch]**
-    -   117 - countZeros **[++][ch]**
-    -   92 - isSubsequence **[++][ch]**
--   **11.12 [+][LOCKED]:**
-    -   squashObject **[+][gfe]**
-    -   range **[+][gfe]**
-    -   93 - maxSubarraySum **[+][ch]**
--   **sooner:**
-    -   139 - BST remove **[ch]**
-    -   94 - minSubarrayLen **[ch]**
-    -   142 - BinaryHeap insert **[ch]**
-    -   130 - radixSort **[ch]**
-    -   143 - BinaryHeap extractMax **[ch]**
-    -   150 - Graph Dijkstra **[ch]**
-    -   151 - coinChange DynamicPrograming**[ch]**
-    -   151 - coinChange GreedyAlgorithm **[ch]**
--   **done:**
-    -   flaten in place **[gfe]**
-    -   breadthFirstSearch **[gfe]**
-    -   depthFirstSearch **[gfe]**
-    -   Function.prototype.apply **[gfe]**
-    -   insertionSort **[gfe]**
-    -   Intersection **[gfe]**
-    -   promiseResolve **[gfe]**
-    -   Promise.race **[gfe]**
-    -   promisify **[gfe]**
-    -   promisify 2 **[gfe]**
-    -   97 - currySum **[jsf]**
-    -   textSearch **[gfe]**
-    -   deepMerge **[gfe]**
+-   **29.1 - Level 2️⃣:**
+    -   118 - sortedFrequency **[CH]**
+    -   quickSort **[GFE]**
+-   **17.1 - Challenge friday ⭐**
+-   **8.1 - Level 1️⃣:**
+    -   41 - sortStack **[CH]**
+    -   86 - maxSubArray **[CH]**
+    -   85 - rotate **[CH]**
+    -   95 - findLongestSubstring **[CH]**
+    -   127 - Radix getDigit **[CH]**
+    -   119 - findRotatedIndex **[CH]**
+    -   17 - reverseBetween **[CH]**
+    -   116 - SSL rotate **[CH]**
+-   **18.12 - Level 2️⃣🔒:**
+    -   intersectionWith **[GFE]**
+    -   compact II **[GFE]**
+    -   Promise.all **[GFE]**
+    -   Promise.allSettled **[GFE]**
+    -   Promise.any **[GFE]**
+    -   96 - cacheGetResult **[JSF]**
+    -   curry **[GFE]**
+    -   binarySearch **[GFE]**
+    -   minBy **[GFE]**
+    -   jsonStringify **[GFE]**
+    -   fill **[GFE]**
+    -   deepOmit **[GFE]**
+    -   memoize II **[GFE]**
+    -   selectionSort **[GFE]**
+    -   mergeSort **[GFE]**
+    -   77 - flow **[JSF]**
+    -   Debounce II **[GFE]**
+    -   intersectionBy **[GFE]**
+    -   deepEqual **[GFE]**
+    -   11 - findMiddleNode **[CH]**
+    -   14 - partitionList **[CH]**
+    -   13 - findKthNodeFromEnd **[CH]**
+    -   42 - queueUsingStack **[CH]**
+    -   27 - swapFirstAndLast **[CH]**
+    -   45 - insert **[CH]**
+    -   46 - contains **[CH]**
+    -   mapAsyncLimit **[GFE]**
+    -   deepClone II **[GFE]**
+    -   55 - twoSum **[CH]**
+    -   28 - reverse **[CH]**
+    -   flaten in place **[GFE]**
+    -   83 - removeDuplicates **[CH]**
+    -   84 - maxProfit **[CH]**
+    -   60 - longestConsecutiveSequence **[CH]**
+    -   91 - averagePair **[CH]**
+    -   56 - subarraySum **[CH]**
+    -   100 - recursion fib **[CH]**
+    -   101 - recursion reverse **[CH]**
+    -   102 - recursion isPalindrome **[CH]**
+    -   15 - removeDuplicates **[CH]**
+    -   117 - countZeros **[CH]**
+    -   92 - isSubsequence **[CH]**
+-   **11.12 - Level 1️⃣🔒:**
+    -   squashObject **[GFE]**
+    -   range **[GFE]**
+    -   93 - maxSubarraySum **[CH]**
+-   **Level 0️⃣:**
+    -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
+    -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
+    -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
+    -   4 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/construct-a-deep-partial-of-an-object) **[TT]**
+    -   1 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/make-an-infinite-scroll-function-generic-with-correct-type-inference) **[TT]**
+    -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
+    -   3 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-pick-function) **[TT]**
+    -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
+    -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
+    -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
+    -   139 - BST remove **[CH]**
+    -   94 - minSubarrayLen **[CH]**
+    -   142 - BinaryHeap insert **[CH]**
+    -   130 - radixSort **[CH]**
+    -   143 - BinaryHeap extractMax **[CH]**
+    -   150 - Graph Dijkstra **[CH]**
+    -   151 - coinChange DynamicPrograming **[CH]**
+    -   151 - coinChange GreedyAlgorithm **[CH]**
+-   **Finished 💯:**
+    -   flaten in place **[GFE]**
+    -   breadthFirstSearch **[GFE]**
+    -   depthFirstSearch **[GFE]**
+    -   Function.prototype.apply **[GFE]**
+    -   insertionSort **[GFE]**
+    -   Intersection **[GFE]**
+    -   promiseResolve **[GFE]**
+    -   Promise.race **[GFE]**
+    -   promisify **[GFE]**
+    -   promisify 2 **[GFE]**
+    -   97 - currySum **[JSF]**
+    -   textSearch **[GFE]**
+    -   deepMerge **[GFE]**
