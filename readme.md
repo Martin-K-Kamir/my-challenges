@@ -108,6 +108,15 @@
     -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
     -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
+    -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
+    -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
+    -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+    -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+    -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+    -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
