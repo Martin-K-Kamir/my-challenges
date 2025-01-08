@@ -40,6 +40,8 @@
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
+    -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
+    -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
 -   **17.1 - Challenge friday ⭐**
 -   **8.1 - Level 1️⃣:**
     -   41 - sortStack **[CH]**
@@ -94,8 +96,6 @@
     -   117 - countZeros **[CH]**
     -   92 - isSubsequence **[CH]**
 -   **11.12 - Level 1️⃣🔒:**
-    -   squashObject **[GFE]**
-    -   range **[GFE]**
     -   93 - maxSubarraySum **[CH]**
 -   **Level 0️⃣:**
     -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
@@ -117,6 +117,8 @@
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
