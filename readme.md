@@ -119,6 +119,12 @@
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
