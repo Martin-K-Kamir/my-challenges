@@ -42,6 +42,7 @@
     -   quickSort **[GFE]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
+    -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
 -   **17.1 - Challenge friday ⭐**
 -   **8.1 - Level 1️⃣:**
     -   41 - sortStack **[CH]**
@@ -95,8 +96,6 @@
     -   15 - removeDuplicates **[CH]**
     -   117 - countZeros **[CH]**
     -   92 - isSubsequence **[CH]**
--   **11.12 - Level 1️⃣🔒:**
-    -   93 - maxSubarraySum **[CH]**
 -   **Level 0️⃣:**
     -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
     -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
