@@ -124,6 +124,7 @@
     -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
