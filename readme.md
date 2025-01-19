@@ -37,14 +37,15 @@
 
 ## Challenges to finish
 
+-   **12.2 - Level 1️⃣:**
+    -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
--   **17.1 - Challenge friday ⭐**
--   **8.1 - Level 1️⃣:**
+-   **8.1 - Level 1️⃣🔒:**
     -   41 - sortStack **[CH]**
     -   86 - maxSubArray **[CH]**
     -   85 - rotate **[CH]**
@@ -54,7 +55,6 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   intersectionWith **[GFE]**
     -   compact II **[GFE]**
     -   Promise.all **[GFE]**
     -   Promise.allSettled **[GFE]**
@@ -109,8 +109,6 @@
     -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
     -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
-    -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
-    -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
@@ -125,6 +123,7 @@
     -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
+    -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
@@ -147,3 +146,4 @@
     -   97 - currySum **[JSF]**
     -   textSearch **[GFE]**
     -   deepMerge **[GFE]**
+    -   [intersectionWith](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
