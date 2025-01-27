@@ -41,6 +41,7 @@
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -57,7 +58,6 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   [compact II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
     -   Promise.all **[GFE]**
     -   Promise.allSettled **[GFE]**
     -   Promise.any **[GFE]**
@@ -113,8 +113,6 @@
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
-    -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -124,6 +122,8 @@
     -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
     -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
@@ -147,3 +147,4 @@
     -   textSearch **[GFE]**
     -   deepMerge **[GFE]**
     -   [intersectionWith](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
+    -   [compact II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
