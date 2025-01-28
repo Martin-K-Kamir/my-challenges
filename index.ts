@@ -1,40 +1,35 @@
 import { Equal, Expect } from "./type-utils.js";
 
 /**
- * Lodash's `partition` function takes an array, a *type guard*
- * function, and returns a *tuple* containg *two arrays*.
- * - The left array contains elements passing the predicate
- * - the right array contains elements that didn't pass
+ * The `flatten` function takes a heterogeneous array
+ * that can contain arrays, but also regular values.
+ * It should flatten arrays but should leave other
+ * values unchanged.
  *
- * Type `partition` so that output arrays are narrowed
- * using the return type of the guard function.
- *
- * Note: Type guards are predicate functions that TypeScript
- * can use for type narrowing. their type signatures look like this:
- * `(param) => param is SomeType`.
- * Learn more: https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards
+ * Note: This is *not* a recursive flatten!
+ * Only one level of nesting should be removed.
  */
-namespace partition {
-    declare function partition<Item, Narrowed extends Item>(
-        list: Item[],
-        predicate: (value: Item) => value is Narrowed
-    ): [Narrowed[], Exclude<Item, Narrowed>[]];
+namespace heterogeneousFlatten {
+    type Flatten<Arr extends any[]> = Arr extends (infer Item)[]
+        ? UnwrapArray<Item>[]
+        : never;
 
-    const res1 = partition(
-        [1, 2, "N/A", 7, "oops"],
-        (x): x is number => typeof x === "number"
-    );
-    type test1 = Expect<Equal<typeof res1, [number[], string[]]>>;
+    type UnwrapArray<T> = T extends (infer Item)[] ? Item : T;
 
-    const res2 = partition(
-        [true, false, 1, true, 0],
-        (x): x is boolean => typeof x === "boolean"
-    );
-    type test2 = Expect<Equal<typeof res2, [boolean[], number[]]>>;
+    declare function flatten<A extends any[]>(arr: A): Flatten<A>;
 
-    const res3 = partition(
-        ["value", "onChange", "onSubmit", "valid", "focused"],
-        (x): x is `on${string}` => x.startsWith("on")
-    );
-    type test3 = Expect<Equal<typeof res3, [`on${string}`[], string[]]>>;
+    let res1 = flatten([1, 2, [3, 4]]);
+    type test1 = Expect<Equal<typeof res1, number[]>>;
+
+    // if the array is already flat, leave it unchanged
+    let res2 = flatten(["a", "b", "c", "d"]);
+    type test2 = Expect<Equal<typeof res2, string[]>>;
+
+    // This should work when the types of values are different.
+    let res3 = flatten(["a", "b", [3, 4]]);
+    type test3 = Expect<Equal<typeof res3, (number | string)[]>>;
+
+    // This should work when the types of values are different.
+    let res4 = flatten(["a", ["b"], [3, [4, 5]]]);
+    type test4 = Expect<Equal<typeof res4, (number | string | number[])[]>>;
 }
