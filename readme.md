@@ -42,6 +42,9 @@
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
+    -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -99,9 +102,6 @@
     -   117 - countZeros **[CH]**
     -   92 - isSubsequence **[CH]**
 -   **Level 0️⃣:**
-    -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
-    -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
-    -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   4 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/construct-a-deep-partial-of-an-object) **[TT]**
     -   1 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/make-an-infinite-scroll-function-generic-with-correct-type-inference) **[TT]**
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
@@ -111,19 +111,19 @@
     -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
     -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
+    -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
     -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
     -   139 - BST remove **[CH]**
     -   94 - minSubarrayLen **[CH]**
     -   142 - BinaryHeap insert **[CH]**
