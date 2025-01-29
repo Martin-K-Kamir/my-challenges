@@ -1,36 +1,36 @@
-import { Equal, Expect } from "./type-utils.js";
+function promiseAny<T>(iterable: Array<T>): Promise<T> {
+    return new Promise((resolve, reject) => {
+        const errors: any[] = [];
+        let counter = iterable.length;
 
-type Route =
-    | {
-          route: "/";
-          search: {
-              page: string;
-              perPage: string;
-          };
-      }
-    | { route: "/about" }
-    | { route: "/admin" }
-    | { route: "/admin/users" };
+        if (counter === 0) {
+            reject(new AggregateError(errors));
+        }
 
-type RoutesObject = {
-    [R in Route as R["route"]]: R extends { search: infer Search }
-        ? Search
-        : never;
-};
+        iterable.forEach(async (item, index) => {
+            try {
+                resolve(await item);
+            } catch (error) {
+                errors[index] = error;
 
-type tests = [
-    Expect<
-        Equal<
-            RoutesObject,
-            {
-                "/": {
-                    page: string;
-                    perPage: string;
-                };
-                "/about": never;
-                "/admin": never;
-                "/admin/users": never;
+                counter--;
+                if (counter === 0) {
+                    reject(new AggregateError(errors));
+                }
             }
-        >
-    >
-];
+        });
+    });
+}
+
+const p0 = new Promise(resolve => {
+    setTimeout(() => {
+        resolve(42);
+    }, 100);
+});
+const p1 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject("Err!");
+    }, 400);
+});
+
+console.log(await promiseAny([p0, p1])); // 42

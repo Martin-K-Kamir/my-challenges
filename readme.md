@@ -61,9 +61,6 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   Promise.all **[GFE]**
-    -   Promise.allSettled **[GFE]**
-    -   Promise.any **[GFE]**
     -   96 - cacheGetResult **[JSF]**
     -   curry **[GFE]**
     -   binarySearch **[GFE]**
@@ -148,3 +145,6 @@
     -   deepMerge **[GFE]**
     -   [intersectionWith](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
     -   [compact II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
+    -   [Promise.all](https://www.greatfrontend.com/questions/javascript/promise-all) **[GFE]**
+    -   [Promise.allSettled](https://www.greatfrontend.com/questions/javascript/promise-all-settled) **[GFE]**
+    -   [Promise.any](https://www.greatfrontend.com/questions/javascript/promise-any) **[GFE]**
