@@ -45,6 +45,7 @@
     -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
     -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
+    -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -61,9 +62,7 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   96 - cacheGetResult **[JSF]**
     -   curry **[GFE]**
-    -   binarySearch **[GFE]**
     -   minBy **[GFE]**
     -   jsonStringify **[GFE]**
     -   fill **[GFE]**
@@ -113,7 +112,6 @@
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -148,3 +146,5 @@
     -   [Promise.all](https://www.greatfrontend.com/questions/javascript/promise-all) **[GFE]**
     -   [Promise.allSettled](https://www.greatfrontend.com/questions/javascript/promise-all-settled) **[GFE]**
     -   [Promise.any](https://www.greatfrontend.com/questions/javascript/promise-any) **[GFE]**
+    -   [96 - cacheGetResult](https://www.100jsfunctions.com/exercises/cacheGetResult) **[JSF]**
+    -   [binarySearch](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
