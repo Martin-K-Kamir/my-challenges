@@ -46,6 +46,11 @@
     -   1 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-path-parameters-from-strings-to-objects) **[TT]**
     -   2 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-an-object-into-a-discriminated-union) **[TT]**
     -   [toState](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   4 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/construct-a-deep-partial-of-an-object) **[TT]**
+    -   1 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/make-an-infinite-scroll-function-generic-with-correct-type-inference) **[TT]**
+    -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+    -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -63,7 +68,6 @@
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
     -   curry **[GFE]**
-    -   minBy **[GFE]**
     -   jsonStringify **[GFE]**
     -   fill **[GFE]**
     -   deepOmit **[GFE]**
@@ -98,8 +102,6 @@
     -   117 - countZeros **[CH]**
     -   92 - isSubsequence **[CH]**
 -   **Level 0️⃣:**
-    -   4 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/construct-a-deep-partial-of-an-object) **[TT]**
-    -   1 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/make-an-infinite-scroll-function-generic-with-correct-type-inference) **[TT]**
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
     -   3 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-pick-function) **[TT]**
     -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
@@ -110,9 +112,6 @@
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
-    -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -148,3 +147,4 @@
     -   [Promise.any](https://www.greatfrontend.com/questions/javascript/promise-any) **[GFE]**
     -   [96 - cacheGetResult](https://www.100jsfunctions.com/exercises/cacheGetResult) **[JSF]**
     -   [binarySearch](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
+    -   [minBy](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
