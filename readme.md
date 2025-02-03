@@ -51,6 +51,10 @@
     -   [zip](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [split](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [compact](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   3 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-pick-function) **[TT]**
+    -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
+    -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
+    -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -103,11 +107,7 @@
     -   92 - isSubsequence **[CH]**
 -   **Level 0️⃣:**
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
-    -   3 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-pick-function) **[TT]**
-    -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
-    -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
-    -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**

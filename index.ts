@@ -1,26 +1,41 @@
-function minBy<T>(
-    array: Array<T>,
-    iteratee: (value: T) => number
-): T | undefined {
-    if (array.length === 0) {
-        return undefined;
-    }
+import { expect, it } from "vitest";
+import { Equal, Expect } from "./type-utils.js";
 
-    let result: any;
-    let computed: number;
-
-    array.forEach(value => {
-        const current = iteratee(value);
-        if ((current && computed == undefined) || current < computed) {
-            result = value;
-            computed = current;
-        }
-    });
-
-    return result;
+interface Fruit {
+    name: string;
+    price: number;
 }
 
-console.log(minBy([2, 3, 1, 4], num => num)); // => 1
-console.log(minBy([{ n: 1 }, { n: 2 }], o => o.n)); // => { n: 1 }
+function wrapFruit<const TFruit extends readonly Fruit[]>(fruits: TFruit) {
+    const getFruit = <TName extends TFruit[number]["name"]>(name: TName) => {
+        return fruits.find(fruit => fruit.name === name) as Extract<
+            TFruit[number],
+            { name: TName }
+        >;
+    };
+
+    return {
+        getFruit,
+    };
+}
+
+const fruits = wrapFruit([
+    {
+        name: "apple",
+        price: 1,
+    },
+    {
+        name: "banana",
+        price: 2,
+    },
+]);
+
+const banana = fruits.getFruit("banana");
+const apple = fruits.getFruit("apple");
 // @ts-expect-error
-console.log(minBy([{ n: 1 }, { n: 2 }], o => o.m)); // => undefined
+const notAllowed = fruits.getFruit("not-allowed");
+
+type tests = [
+    Expect<Equal<typeof apple, { readonly name: "apple"; readonly price: 1 }>>,
+    Expect<Equal<typeof banana, { readonly name: "banana"; readonly price: 2 }>>
+];
