@@ -1,20 +1,28 @@
-function minBy(array, iteratee) {
-    if (array.length === 0) {
-        return undefined;
+function fill(array, value, start = 0, end = array.length) {
+    if (start < 0) {
+        start = array.length - Math.abs(start);
     }
-    let result;
-    let computed;
-    array.forEach(value => {
-        const current = iteratee(value);
-        if ((current && computed == undefined) || current < computed) {
-            result = value;
-            computed = current;
-        }
-    });
-    return result;
+    if (end < 0) {
+        end = array.length - Math.abs(end);
+    }
+
+    if (end > array.length) {
+        end = array.length;
+    }
+
+    if (start > array.length - 1) {
+        return array;
+    }
+    for (let i = start; i < end; i++) {
+        array[i] = value;
+    }
+    return array;
 }
-console.log(minBy([2, 3, 1, 4], num => num)); // => 1
-console.log(minBy([{ n: 1 }, { n: 2 }], o => o.n)); // => { n: 1 }
-// @ts-expect-error
-console.log(minBy([{ n: 1 }, { n: 2 }], o => o.m)); // => undefined
+// console.log(fill([1, 2, 3], "a")); // ['a', 'a', 'a']
+// console.log(fill([4, 6, 8, 10], "*", 1, 3)); // [4, '*', '*', 10]
+// console.log(fill([4, 6, 8, 10, 12], "*", -3, -1)); // [4, 6, '*', '*', 12]
+// console.log(fill([1], "*", 2, 3)); // [1]
+// console.log(fill([1, 2], "*", 2, 3)); // [1, 2]
+console.log(fill([1, 2, 3], "*", 1, 10)); // .toEqual([1, '*', '*']);
+
 export {};

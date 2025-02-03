@@ -1,41 +1,30 @@
-import { expect, it } from "vitest";
-import { Equal, Expect } from "./type-utils.js";
+function fill<T>(
+    array: Array<T>,
+    value: any,
+    start: number = 0,
+    end: number = array.length
+): Array<T> {
+    if (start < 0) {
+        start = array.length - Math.abs(start);
+    }
+    if (end < 0) {
+        end = array.length - Math.abs(end);
+    }
 
-interface Fruit {
-    name: string;
-    price: number;
+    console.log({ start, end });
+
+    if (start > array.length) {
+        return array;
+    }
+
+    for (let i = start; i < end; i++) {
+        array[i] = value;
+    }
+    return array;
 }
 
-function wrapFruit<const TFruit extends readonly Fruit[]>(fruits: TFruit) {
-    const getFruit = <TName extends TFruit[number]["name"]>(name: TName) => {
-        return fruits.find(fruit => fruit.name === name) as Extract<
-            TFruit[number],
-            { name: TName }
-        >;
-    };
-
-    return {
-        getFruit,
-    };
-}
-
-const fruits = wrapFruit([
-    {
-        name: "apple",
-        price: 1,
-    },
-    {
-        name: "banana",
-        price: 2,
-    },
-]);
-
-const banana = fruits.getFruit("banana");
-const apple = fruits.getFruit("apple");
-// @ts-expect-error
-const notAllowed = fruits.getFruit("not-allowed");
-
-type tests = [
-    Expect<Equal<typeof apple, { readonly name: "apple"; readonly price: 1 }>>,
-    Expect<Equal<typeof banana, { readonly name: "banana"; readonly price: 2 }>>
-];
+// console.log(fill([1, 2, 3], "a")); // ['a', 'a', 'a']
+// console.log(fill([4, 6, 8, 10], "*", 1, 3)); // [4, '*', '*', 10]
+// console.log(fill([4, 6, 8, 10, 12], "*", -3, -1)); // [4, 6, '*', '*', 12]
+console.log(fill([1], "*", 2, 3)); // [1]
+console.log(fill([1, 2], "*", 2, 3)); // [1, 2]

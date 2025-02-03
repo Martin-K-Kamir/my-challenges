@@ -73,7 +73,6 @@
 -   **18.12 - Level 2️⃣🔒:**
     -   curry **[GFE]**
     -   jsonStringify **[GFE]**
-    -   fill **[GFE]**
     -   deepOmit **[GFE]**
     -   memoize II **[GFE]**
     -   selectionSort **[GFE]**
@@ -135,11 +134,11 @@
     -   Intersection **[GFE]**
     -   promiseResolve **[GFE]**
     -   Promise.race **[GFE]**
-    -   promisify **[GFE]**
-    -   promisify 2 **[GFE]**
+    -   [promisify](https://www.greatfrontend.com/questions/javascript/promisify) **[GFE]**
+    -   [promisify 2](https://www.greatfrontend.com/questions/javascript/promisify-ii) **[GFE]**
     -   97 - currySum **[JSF]**
-    -   textSearch **[GFE]**
-    -   deepMerge **[GFE]**
+    -   [textSearch](https://www.greatfrontend.com/questions/javascript/text-search) **[GFE]**
+    -   [deepMerge](https://www.greatfrontend.com/questions/javascript/deep-merge) **[GFE]**
     -   [intersectionWith](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
     -   [compact II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
     -   [Promise.all](https://www.greatfrontend.com/questions/javascript/promise-all) **[GFE]**
@@ -148,3 +147,4 @@
     -   [96 - cacheGetResult](https://www.100jsfunctions.com/exercises/cacheGetResult) **[JSF]**
     -   [binarySearch](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
     -   [minBy](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
+    -   [fill](https://www.greatfrontend.com/questions/javascript/fill) **[GFE]**
