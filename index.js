@@ -1,28 +1,24 @@
-function fill(array, value, start = 0, end = array.length) {
-    if (start < 0) {
-        start = array.length - Math.abs(start);
-    }
-    if (end < 0) {
-        end = array.length - Math.abs(end);
-    }
-
-    if (end > array.length) {
-        end = array.length;
-    }
-
-    if (start > array.length - 1) {
-        return array;
-    }
-    for (let i = start; i < end; i++) {
-        array[i] = value;
-    }
-    return array;
+function curry(fn) {
+    return function wrapper(...args) {
+        console.log(args.length, fn.length);
+        if (args.length >= fn.length) {
+            return fn.apply(this, args);
+        }
+        return wrapper.bind(this, ...args);
+    };
 }
-// console.log(fill([1, 2, 3], "a")); // ['a', 'a', 'a']
-// console.log(fill([4, 6, 8, 10], "*", 1, 3)); // [4, '*', '*', 10]
-// console.log(fill([4, 6, 8, 10, 12], "*", -3, -1)); // [4, 6, '*', '*', 12]
-// console.log(fill([1], "*", 2, 3)); // [1]
-// console.log(fill([1, 2], "*", 2, 3)); // [1, 2]
-console.log(fill([1, 2, 3], "*", 1, 10)); // .toEqual([1, '*', '*']);
 
-export {};
+function multiply(...numbers) {
+    return numbers.reduce((a, b) => a * b, 1);
+}
+const curriedMultiply = curry(multiply);
+// const multiplyByThree = curriedMultiply(3);
+// console.log(multiplyByThree); // 3
+// console.log(multiplyByThree(4)); // 12
+
+// const multiplyByFifteen = multiplyByThree(5);
+// console.log(multiplyByFifteen); // 15
+// console.log(multiplyByFifteen(2)); // 30
+
+console.log(curriedMultiply(1)(2)(3)(4)); // 24
+console.log(curriedMultiply(1, 2, 3, 4)); // 24

@@ -55,6 +55,7 @@
     -   4 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-form-validation-library) **[TT]**
     -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
     -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
+    -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -75,7 +76,6 @@
     -   jsonStringify **[GFE]**
     -   deepOmit **[GFE]**
     -   memoize II **[GFE]**
-    -   selectionSort **[GFE]**
     -   mergeSort **[GFE]**
     -   77 - flow **[JSF]**
     -   Debounce II **[GFE]**
@@ -105,14 +105,13 @@
     -   117 - countZeros **[CH]**
     -   92 - isSubsequence **[CH]**
 -   **Level 0️⃣:**
+    -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
-    -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
-    -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -148,3 +147,4 @@
     -   [binarySearch](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
     -   [minBy](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
     -   [fill](https://www.greatfrontend.com/questions/javascript/fill) **[GFE]**
+    -   [selectionSort](https://www.greatfrontend.com/questions/algo/selection-sort) **[GFE]**

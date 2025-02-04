@@ -1,30 +1,27 @@
-function fill<T>(
-    array: Array<T>,
-    value: any,
-    start: number = 0,
-    end: number = array.length
-): Array<T> {
-    if (start < 0) {
-        start = array.length - Math.abs(start);
-    }
-    if (end < 0) {
-        end = array.length - Math.abs(end);
-    }
+function curry<TArgs extends any[], TReturn>(fn: (...args: TArgs) => TReturn) {
+    type CurriedFunction = (
+        ...args: Partial<TArgs>
+    ) => TArgs extends [...infer Rest, infer Last]
+        ? Rest extends []
+            ? TReturn
+            : CurriedFunction
+        : never;
 
-    console.log({ start, end });
+    return function wrapper(this: any, ...args: any[]): any {
+        if (args.length >= fn.length) {
+            return fn.apply(this, args as TArgs);
+        }
 
-    if (start > array.length) {
-        return array;
-    }
-
-    for (let i = start; i < end; i++) {
-        array[i] = value;
-    }
-    return array;
+        return wrapper.bind(this, ...args);
+    } as CurriedFunction;
 }
 
-// console.log(fill([1, 2, 3], "a")); // ['a', 'a', 'a']
-// console.log(fill([4, 6, 8, 10], "*", 1, 3)); // [4, '*', '*', 10]
-// console.log(fill([4, 6, 8, 10, 12], "*", -3, -1)); // [4, 6, '*', '*', 12]
-console.log(fill([1], "*", 2, 3)); // [1]
-console.log(fill([1, 2], "*", 2, 3)); // [1, 2]
+function addTwo(a: number, b: number) {
+    return a + b;
+}
+const curriedAddTwo = curry(addTwo);
+console.log(curriedAddTwo(3)(4)); // 7
+console.log(curriedAddTwo(3, 4)); // 7
+const alreadyAddedThree = curriedAddTwo(3);
+console.log(alreadyAddedThree(4)); // 7
+console.log(alreadyAddedThree(4)); // 7
