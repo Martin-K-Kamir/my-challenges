@@ -56,12 +56,16 @@
     -   7 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/dynamically-typing-arguments) **[TT]**
     -   2 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/narrowing-with-an-array) **[TT]**
     -   [deepCamelize](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
+    -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
+    -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
+    -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
 -   **8.1 - Level 1️⃣🔒:**
     -   41 - sortStack **[CH]**
     -   86 - maxSubArray **[CH]**
@@ -72,14 +76,10 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   curry **[GFE]**
     -   jsonStringify **[GFE]**
     -   deepOmit **[GFE]**
-    -   memoize II **[GFE]**
-    -   mergeSort **[GFE]**
     -   77 - flow **[JSF]**
     -   Debounce II **[GFE]**
-    -   intersectionBy **[GFE]**
     -   deepEqual **[GFE]**
     -   11 - findMiddleNode **[CH]**
     -   14 - partitionList **[CH]**
@@ -106,9 +106,6 @@
     -   92 - isSubsequence **[CH]**
 -   **Level 0️⃣:**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
-    -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
-    -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
@@ -148,3 +145,6 @@
     -   [minBy](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
     -   [fill](https://www.greatfrontend.com/questions/javascript/fill) **[GFE]**
     -   [selectionSort](https://www.greatfrontend.com/questions/algo/selection-sort) **[GFE]**
+    -   [curry II](https://www.greatfrontend.com/questions/javascript/curry-ii) **[GFE]**
+    -   [mergeSort](https://www.greatfrontend.com/questions/algo/merge-sort) **[GFE]**
+    -   [intersectionBy](https://www.greatfrontend.com/questions/javascript/intersection-by) **[GFE]**
