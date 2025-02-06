@@ -59,6 +59,7 @@
     -   [heterogeneousFlatten](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
+    -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -80,7 +81,6 @@
     -   deepOmit **[GFE]**
     -   77 - flow **[JSF]**
     -   Debounce II **[GFE]**
-    -   deepEqual **[GFE]**
     -   11 - findMiddleNode **[CH]**
     -   14 - partitionList **[CH]**
     -   13 - findKthNodeFromEnd **[CH]**
@@ -107,7 +107,6 @@
 -   **Level 0️⃣:**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
-    -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -148,3 +147,4 @@
     -   [curry II](https://www.greatfrontend.com/questions/javascript/curry-ii) **[GFE]**
     -   [mergeSort](https://www.greatfrontend.com/questions/algo/merge-sort) **[GFE]**
     -   [intersectionBy](https://www.greatfrontend.com/questions/javascript/intersection-by) **[GFE]**
+    -   [deepEqual](https://www.greatfrontend.com/questions/javascript/deep-equal?practice=practice&tab=coding) **[GFE]**
