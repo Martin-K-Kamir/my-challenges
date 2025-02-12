@@ -79,8 +79,6 @@
 -   **18.12 - Level 2️⃣🔒:**
     -   jsonStringify **[GFE]**
     -   deepOmit **[GFE]**
-    -   77 - flow **[JSF]**
-    -   Debounce II **[GFE]**
     -   11 - findMiddleNode **[CH]**
     -   14 - partitionList **[CH]**
     -   13 - findKthNodeFromEnd **[CH]**
@@ -148,3 +146,5 @@
     -   [mergeSort](https://www.greatfrontend.com/questions/algo/merge-sort) **[GFE]**
     -   [intersectionBy](https://www.greatfrontend.com/questions/javascript/intersection-by) **[GFE]**
     -   [deepEqual](https://www.greatfrontend.com/questions/javascript/deep-equal?practice=practice&tab=coding) **[GFE]**
+    -   77 - [flow](https://www.100jsfunctions.com/exercises/flow) **[JSF]**
+    -   [Debounce II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
