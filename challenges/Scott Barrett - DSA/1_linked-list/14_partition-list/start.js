@@ -83,14 +83,8 @@ class LinkedList {
     //   |   `dummy1.next`.                                  |
     //   +===================================================+
 
-    partitionList(x) {
-
-    }
+    partitionList(x) {}
 }
-
-
-
-
 
 //  +=====================================================+
 //  |                                                     |
@@ -100,7 +94,6 @@ class LinkedList {
 //  |  Use the output to test and troubleshoot your code  |
 //  |                                                     |
 //  +=====================================================+
-
 
 // Helper function to create list from array
 function createListFromArray(arr) {
@@ -122,7 +115,7 @@ function listMatchesArray(ll, arr) {
         temp = temp.next;
         i++;
     }
-    return (temp === null && i === arr.length);
+    return temp === null && i === arr.length;
 }
 
 // Function to run a single test
@@ -137,7 +130,6 @@ function runTest(testNum, description, ll, x, expectedArr) {
     ll.printList();
     console.log(listMatchesArray(ll, expectedArr) ? "PASS" : "FAIL");
 }
-
 
 // Test 1: Basic partition
 let ll1 = createListFromArray([1, 4, 3, 2, 5, 2]);
@@ -160,5 +152,3 @@ let ll5 = createListFromArray([3, 3, 3]);
 runTest(5, "All elements equal to partition", ll5, 3, [3, 3, 3]);
 
 console.log("---------------------------------------");
-
-

@@ -16,5 +16,8 @@
     "type": "module",
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "zod": "^3.24.2"
+    }
 }
