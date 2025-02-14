@@ -115,36 +115,36 @@
     -   151 - coinChange DynamicPrograming **[CH]**
     -   151 - coinChange GreedyAlgorithm **[CH]**
 -   **Finished 💯:**
-    -   flaten in place **[GFE]**
-    -   breadthFirstSearch **[GFE]**
-    -   depthFirstSearch **[GFE]**
-    -   Function.prototype.apply **[GFE]**
-    -   insertionSort **[GFE]**
+    -   flaten-in-place **[GFE]**
+    -   breadth-First-Search **[GFE]**
+    -   depth-First-Search **[GFE]**
+    -   Function-prototype-apply **[GFE]**
+    -   insertion-Sort **[GFE]**
     -   Intersection **[GFE]**
-    -   promiseResolve **[GFE]**
-    -   Promise.race **[GFE]**
+    -   promise-resolve **[GFE]**
+    -   Promise-race **[GFE]**
     -   [promisify](https://www.greatfrontend.com/questions/javascript/promisify) **[GFE]**
-    -   [promisify 2](https://www.greatfrontend.com/questions/javascript/promisify-ii) **[GFE]**
-    -   97 - currySum **[JSF]**
+    -   [promisify-II](https://www.greatfrontend.com/questions/javascript/promisify-ii) **[GFE]**
+    -   97 - curry-sum **[JSF]**
     -   [textSearch](https://www.greatfrontend.com/questions/javascript/text-search) **[GFE]**
-    -   [deepMerge](https://www.greatfrontend.com/questions/javascript/deep-merge) **[GFE]**
-    -   [intersectionWith](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
-    -   [compact II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
-    -   [Promise.all](https://www.greatfrontend.com/questions/javascript/promise-all) **[GFE]**
-    -   [Promise.allSettled](https://www.greatfrontend.com/questions/javascript/promise-all-settled) **[GFE]**
-    -   [Promise.any](https://www.greatfrontend.com/questions/javascript/promise-any) **[GFE]**
-    -   [96 - cacheGetResult](https://www.100jsfunctions.com/exercises/cacheGetResult) **[JSF]**
-    -   [binarySearch](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
-    -   [minBy](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
+    -   [deep-merge](https://www.greatfrontend.com/questions/javascript/deep-merge) **[GFE]**
+    -   [intersection-with](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
+    -   [compact-II](https://www.greatfrontend.com/questions/javascript/compact-ii) **[GFE]**
+    -   [promise-all](https://www.greatfrontend.com/questions/javascript/promise-all) **[GFE]**
+    -   [promise-all-settled](https://www.greatfrontend.com/questions/javascript/promise-all-settled) **[GFE]**
+    -   [promise-any](https://www.greatfrontend.com/questions/javascript/promise-any) **[GFE]**
+    -   96 - [cache-get-result](https://www.100jsfunctions.com/exercises/cacheGetResult) **[JSF]**
+    -   [binary-search](https://www.greatfrontend.com/questions/algo/binary-search) **[GFE]**
+    -   [min-by](https://www.greatfrontend.com/questions/javascript/min-by) **[GFE]**
     -   [fill](https://www.greatfrontend.com/questions/javascript/fill) **[GFE]**
-    -   [selectionSort](https://www.greatfrontend.com/questions/algo/selection-sort) **[GFE]**
-    -   [curry II](https://www.greatfrontend.com/questions/javascript/curry-ii) **[GFE]**
-    -   [mergeSort](https://www.greatfrontend.com/questions/algo/merge-sort) **[GFE]**
-    -   [intersectionBy](https://www.greatfrontend.com/questions/javascript/intersection-by) **[GFE]**
-    -   [deepEqual](https://www.greatfrontend.com/questions/javascript/deep-equal?practice=practice&tab=coding) **[GFE]**
+    -   [selection-sort](https://www.greatfrontend.com/questions/algo/selection-sort) **[GFE]**
+    -   [curry-II](https://www.greatfrontend.com/questions/javascript/curry-ii) **[GFE]**
+    -   [merge-sort](https://www.greatfrontend.com/questions/algo/merge-sort) **[GFE]**
+    -   [intersection-by](https://www.greatfrontend.com/questions/javascript/intersection-by) **[GFE]**
+    -   [deep-equal](https://www.greatfrontend.com/questions/javascript/deep-equal?practice=practice&tab=coding) **[GFE]**
     -   77 - [flow](https://www.100jsfunctions.com/exercises/flow) **[JSF]**
-    -   [Debounce II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
-    -   [jsonStringify II](https://www.greatfrontend.com/questions/javascript/json-stringify-ii) **[GFE]**
-    -   11 - [findMiddleNode](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/11_find-middle-node/problem.js) **[CH]**
-    -   14 - [partitionList](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/14_partition-list/problem.js) **[CH]**
-    -   13 - [findKthNodeFromEnd](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/13_find-kth-node-from-end/problem.js) **[CH]**
+    -   [debounce-II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
+    -   [json-stringify-II](https://www.greatfrontend.com/questions/javascript/json-stringify-ii) **[GFE]**
+    -   10 - [find-middle-node](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/10-find-middle-node/problem.js) **[CH]**
+    -   13 - [partition-list](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/13-partition-list/problem.js) **[CH]**
+    -   12 - [find-kth-node-from-end](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
