@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871614#content
+
 class Node {
     constructor(value) {
         this.value = value;
@@ -54,38 +56,10 @@ class LinkedList {
     }
 
     findKthFromEnd(index) {
-        if (index < 0) {
-            return null;
-        }
-
-        let length = 0;
-        let currentNode = this.head;
-
-        while (currentNode) {
-            length++
-            currentNode = currentNode.next;
-        }
-
-        if (index > length) {
-            return null;
-        }
-
-        currentNode = this.head;
-        for (let i = 0; i < length - index; i++) {
-            currentNode = currentNode.next
-        }
-
-        return currentNode
-    }
-
-    findKthFromEnd2(k) {
-        let slow = this.head;
         let fast = this.head;
+        let slow = this.head;
 
-        for (let i = 0; i < k; i++) {
-            if (fast === null) {
-                return null;
-            }
+        for (let i = 0; i < index; i++) {
             fast = fast.next;
         }
 
@@ -96,21 +70,19 @@ class LinkedList {
 
         return slow;
     }
-
 }
-
-
 
 let myLinkedList = new LinkedList(1);
 myLinkedList.push(2);
 myLinkedList.push(3);
 myLinkedList.push(4);
 myLinkedList.push(5);
+myLinkedList.push(6);
 
 console.log("Original list:");
 myLinkedList.printList();
 
-const k = 2;
+const k = 1;
 const kthNodeFromEnd = myLinkedList.findKthFromEnd(k);
 
 console.log(`\n${k}th node from the end:`);
@@ -119,7 +91,6 @@ if (kthNodeFromEnd) {
 } else {
     console.log("Not found");
 }
-
 
 /*
     EXPECTED OUTPUT:

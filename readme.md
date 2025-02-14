@@ -78,7 +78,6 @@
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
     -   deepOmit **[GFE]**
-    -   13 - findKthNodeFromEnd **[CH]**
     -   42 - queueUsingStack **[CH]**
     -   27 - swapFirstAndLast **[CH]**
     -   45 - insert **[CH]**
@@ -146,5 +145,6 @@
     -   77 - [flow](https://www.100jsfunctions.com/exercises/flow) **[JSF]**
     -   [Debounce II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
     -   [jsonStringify II](https://www.greatfrontend.com/questions/javascript/json-stringify-ii) **[GFE]**
-    -   11 - [findMiddleNode](/challenges/Scott%20Barrett%20-%20DSA/1_linked-list/11_find-middle-node/start.js) **[CH]**
-    -   14 - [partitionList](/challenges/Scott%20Barrett%20-%20DSA/1_linked-list/14_partition-list/start.js) **[CH]**
+    -   11 - [findMiddleNode](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/11_find-middle-node/problem.js) **[CH]**
+    -   14 - [partitionList](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/14_partition-list/problem.js) **[CH]**
+    -   13 - [findKthNodeFromEnd](./challenges/Scott%20Barrett%20-%20DSA/1_linked-list/13_find-kth-node-from-end/problem.js) **[CH]**
