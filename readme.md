@@ -78,26 +78,24 @@
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
     -   deepOmit **[GFE]**
-    -   42 - queueUsingStack **[CH]**
-    -   27 - swapFirstAndLast **[CH]**
-    -   45 - insert **[CH]**
+    -   27 - swap-first-and-last **[CH]**
     -   46 - contains **[CH]**
-    -   mapAsyncLimit **[GFE]**
-    -   deepClone II **[GFE]**
-    -   55 - twoSum **[CH]**
+    -   map-async-limit **[GFE]**
+    -   deep-clone-II **[GFE]**
+    -   55 - two-sum **[CH]**
     -   28 - reverse **[CH]**
-    -   flaten in place **[GFE]**
-    -   83 - removeDuplicates **[CH]**
-    -   84 - maxProfit **[CH]**
-    -   60 - longestConsecutiveSequence **[CH]**
-    -   91 - averagePair **[CH]**
-    -   56 - subarraySum **[CH]**
-    -   100 - recursion fib **[CH]**
-    -   101 - recursion reverse **[CH]**
-    -   102 - recursion isPalindrome **[CH]**
-    -   15 - removeDuplicates **[CH]**
-    -   117 - countZeros **[CH]**
-    -   92 - isSubsequence **[CH]**
+    -   flaten-in-place **[GFE]**
+    -   83 - remove-duplicates **[CH]**
+    -   84 - max-profit **[CH]**
+    -   60 - longest-consecutive-sequence **[CH]**
+    -   91 - average-pair **[CH]**
+    -   56 - subarray-sum **[CH]**
+    -   100 - recursion-fib **[CH]**
+    -   101 - recursion-reverse **[CH]**
+    -   102 - recursion-is-palindrome **[CH]**
+    -   15 - remove-duplicates **[CH]**
+    -   117 - count-zeros **[CH]**
+    -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
     -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
@@ -148,3 +146,5 @@
     -   10 - [find-middle-node](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/10-find-middle-node/problem.js) **[CH]**
     -   13 - [partition-list](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/13-partition-list/problem.js) **[CH]**
     -   12 - [find-kth-node-from-end](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
+    -   42 - [queue-using-stack-enqueue](./challenges/Scott%20Barrett%20-%20DSA/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[CH]**
+    -   45 - [insert](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/45-insert/problem.js) **[CH]**

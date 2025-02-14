@@ -1,4 +1,4 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871614#content
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5871616#content
 
 class Node {
     constructor(value) {
@@ -11,15 +11,24 @@ class LinkedList {
     constructor(value) {
         const newNode = new Node(value);
         this.head = newNode;
-        this.tail = this.head;
+        this.length = 1;
     }
 
     printList() {
         let temp = this.head;
-        while (temp !== null) {
-            console.log(temp.value);
-            temp = temp.next;
+        let output = "";
+        if (temp === null) {
+            console.log("empty");
+            return;
         }
+        while (temp !== null) {
+            output += String(temp.value);
+            temp = temp.next;
+            if (temp !== null) {
+                output += " -> ";
+            }
+        }
+        console.log(output);
     }
 
     getHead() {
@@ -30,17 +39,12 @@ class LinkedList {
         }
     }
 
-    getTail() {
-        if (this.tail === null) {
-            console.log("Tail: null");
-        } else {
-            console.log("Tail: " + this.tail.value);
-        }
+    getLength() {
+        console.log("Length: " + this.length);
     }
 
     makeEmpty() {
         this.head = null;
-        this.tail = null;
         this.length = 0;
     }
 
@@ -48,15 +52,23 @@ class LinkedList {
         const newNode = new Node(value);
         if (!this.head) {
             this.head = newNode;
-            this.tail = newNode;
         } else {
-            this.tail.next = newNode;
-            this.tail = newNode;
+            let current = this.head;
+            while (current.next !== null) {
+                current = current.next;
+            }
+            current.next = newNode;
         }
+        this.length++;
     }
 
-    findKthFromEnd() {}
+    reverseBetween(m, n) {
+
+    }
+
 }
+
+
 
 let myLinkedList = new LinkedList(1);
 myLinkedList.push(2);
@@ -66,26 +78,20 @@ myLinkedList.push(5);
 
 console.log("Original list:");
 myLinkedList.printList();
+console.log("----------------");
 
-const k = 2;
-const kthNodeFromEnd = myLinkedList.findKthFromEnd(k);
+const m = 2;
+const n = 4;
+myLinkedList.reverseBetween(m, n);
 
-console.log(`\n${k}th node from the end:`);
-if (kthNodeFromEnd) {
-    console.log(kthNodeFromEnd.value);
-} else {
-    console.log("Not found");
-}
+console.log(`\nList after reversing between indexes of ${m} and ${n}:`);
+myLinkedList.printList();
 
 /*
     EXPECTED OUTPUT:
     ----------------
     Original list:
-    1
-    2
-    3
-    4
-    5
-    2th node from the end:
-    4
+    1 -> 2 -> 3 -> 4 -> 5
+    List after reversing between indexes of 2 and 4:
+    1 -> 2 -> 5 -> 4 -> 3
 */
