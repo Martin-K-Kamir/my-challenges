@@ -19,13 +19,8 @@ class HashTable {
         }
     }
 
-    set(key, value) {
-
-    }
-
+    set(key, value) {}
 }
-
-
 
 let myHashTable = new HashTable();
 
@@ -36,7 +31,6 @@ myHashTable.set("bolts", 200);
 myHashTable.set("screws", 140);
 
 myHashTable.printTable();
-
 
 /*
     EXPECTED OUTPUT:

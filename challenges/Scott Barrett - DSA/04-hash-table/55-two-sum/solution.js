@@ -1,5 +1,3 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872928#content
-
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -20,10 +18,20 @@
 //   |   numObject[num] = i;                               |
 //   +=====================================================+
 
-
-
 function twoSum(nums, target) {
+    const numMap = new Map();
 
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        const complement = target - num;
+
+        if (numMap.has(complement)) {
+            return [numMap.get(complement), i];
+        }
+        numMap.set(num, i);
+    }
+
+    return [];
 }
 
 // ---------------
@@ -65,5 +73,3 @@ console.log("Empty Array:");
 console.log("Input: [], Target: 0");
 console.log("Output: ", JSON.stringify(twoSum([], 0)));
 console.log("---------------");
-
-

@@ -60,6 +60,7 @@
     -   2 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/create-a-function-with-a-dynamic-number-of-arguments) **[TT]**
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
+    -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -77,14 +78,12 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   deepOmit **[GFE]**
+    -   deep-omit **[GFE]**
     -   27 - swap-first-and-last **[CH]**
-    -   46 - contains **[CH]**
     -   map-async-limit **[GFE]**
     -   deep-clone-II **[GFE]**
-    -   55 - two-sum **[CH]**
     -   28 - reverse **[CH]**
-    -   flaten-in-place **[GFE]**
+    -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   83 - remove-duplicates **[CH]**
     -   84 - max-profit **[CH]**
     -   60 - longest-consecutive-sequence **[CH]**
@@ -97,33 +96,32 @@
     -   117 - count-zeros **[CH]**
     -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
-    -   [querySelector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   4 - [Advanced TypeScript Patterns](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
-    -   [smartGet](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   [omitBy](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [jsonResponse](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [deepUpdate](https://type-level-typescript.com/members/mapped-types) **[TLT]**
-    -   [router - builder pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
-    -   139 - BST remove **[CH]**
-    -   94 - minSubarrayLen **[CH]**
-    -   142 - BinaryHeap insert **[CH]**
-    -   130 - radixSort **[CH]**
-    -   143 - BinaryHeap extractMax **[CH]**
-    -   150 - Graph Dijkstra **[CH]**
-    -   151 - coinChange DynamicPrograming **[CH]**
-    -   151 - coinChange GreedyAlgorithm **[CH]**
+    -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
+    -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [deep-update](https://type-level-typescript.com/members/mapped-types) **[TLT]**
+    -   [router-builder-pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
+    -   139 - binary-search-tree-remove **[CH]**
+    -   94 - min-subarray-len **[CH]**
+    -   142 - binary-heap-insert **[CH]**
+    -   130 - radix-sort **[CH]**
+    -   143 - binary-heap-extract-max **[CH]**
+    -   150 - graph-dijkstra **[CH]**
+    -   151 - coin-change-dynamic-programing **[CH]**
+    -   151 - coin-change-greedy-algorithm **[CH]**
 -   **Finished 💯:**
-    -   flaten-in-place **[GFE]**
-    -   breadth-First-Search **[GFE]**
-    -   depth-First-Search **[GFE]**
-    -   Function-prototype-apply **[GFE]**
-    -   insertion-Sort **[GFE]**
-    -   Intersection **[GFE]**
-    -   promise-resolve **[GFE]**
-    -   Promise-race **[GFE]**
+    -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
+    -   [breadth-first-search](https://www.greatfrontend.com/questions/algo/breadth-first-search) **[GFE]**
+    -   [depth-first-search](https://www.greatfrontend.com/questions/algo/depth-first-search) **[GFE]**
+    -   [function-apply](https://www.greatfrontend.com/questions/javascript/function-apply) **[GFE]**
+    -   [insertion-sort](https://www.greatfrontend.com/questions/algo/insertion-sort) **[GFE]**
+    -   [intersection](https://www.greatfrontend.com/questions/javascript/intersection) **[GFE]**
+    -   [promise-resolve](https://www.greatfrontend.com/questions/javascript/promise-resolve) **[GFE]**
+    -   [promise-race](https://www.greatfrontend.com/questions/javascript/promise-race) **[GFE]**
     -   [promisify](https://www.greatfrontend.com/questions/javascript/promisify) **[GFE]**
     -   [promisify-II](https://www.greatfrontend.com/questions/javascript/promisify-ii) **[GFE]**
-    -   97 - curry-sum **[JSF]**
+    -   97 - [curry-sum](https://www.100jsfunctions.com/exercises/currySum) **[JSF]**
     -   [textSearch](https://www.greatfrontend.com/questions/javascript/text-search) **[GFE]**
     -   [deep-merge](https://www.greatfrontend.com/questions/javascript/deep-merge) **[GFE]**
     -   [intersection-with](https://www.greatfrontend.com/questions/javascript/intersection-with) **[GFE]**
@@ -148,3 +146,5 @@
     -   12 - [find-kth-node-from-end](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
     -   42 - [queue-using-stack-enqueue](./challenges/Scott%20Barrett%20-%20DSA/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[CH]**
     -   45 - [insert](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/45-insert/problem.js) **[CH]**
+    -   46 - [contains](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/46-contains/problem.js) **[CH]**
+    -   55 - [two-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/55-two-sum/problem.js) **[CH]**

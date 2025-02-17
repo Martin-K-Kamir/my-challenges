@@ -38,13 +38,8 @@ class BST {
         }
     }
 
-    contains(value) {
-
-    }
-
+    contains(value) {}
 }
-
-
 
 let myBST = new BST();
 
@@ -56,13 +51,11 @@ myBST.insert(27);
 myBST.insert(52);
 myBST.insert(82);
 
-
 console.log("BST Contains 27:");
 console.log(myBST.contains(27));
 
 console.log("\nBST Contains 17:");
 console.log(myBST.contains(17));
-
 
 /*
     EXPECTED OUTPUT:
