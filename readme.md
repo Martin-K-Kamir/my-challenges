@@ -61,6 +61,7 @@
     -   6 - [TypeScript Generics](https://www.totaltypescript.com/workshops/typescript-generics/generics-challenges/typing-a-function-composition-with-overloads-and-generics) **[TT]**
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
 -   **29.1 - Level 2️⃣:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
@@ -78,11 +79,9 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   deep-omit **[GFE]**
     -   27 - swap-first-and-last **[CH]**
     -   map-async-limit **[GFE]**
     -   deep-clone-II **[GFE]**
-    -   28 - reverse **[CH]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   83 - remove-duplicates **[CH]**
     -   84 - max-profit **[CH]**
@@ -96,7 +95,6 @@
     -   117 - count-zeros **[CH]**
     -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
-    -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -148,3 +146,5 @@
     -   45 - [insert](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/45-insert/problem.js) **[CH]**
     -   46 - [contains](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/46-contains/problem.js) **[CH]**
     -   55 - [two-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/55-two-sum/problem.js) **[CH]**
+    -   [deep-omit](https://www.greatfrontend.com/questions/javascript/deep-omit) **[GFE]**
+    -   28 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
