@@ -82,7 +82,6 @@
     -   map-async-limit **[GFE]**
     -   deep-clone-II **[GFE]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
-    -   83 - remove-duplicates **[CH]**
     -   84 - max-profit **[CH]**
     -   60 - longest-consecutive-sequence **[CH]**
     -   91 - average-pair **[CH]**
@@ -90,7 +89,7 @@
     -   100 - recursion-fib **[CH]**
     -   101 - recursion-reverse **[CH]**
     -   102 - recursion-is-palindrome **[CH]**
-    -   15 - remove-duplicates **[CH]**
+    -   14 - remove-duplicates **[CH]**
     -   117 - count-zeros **[CH]**
     -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
@@ -148,3 +147,4 @@
     -   [deep-omit](https://www.greatfrontend.com/questions/javascript/deep-omit) **[GFE]**
     -   28 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
     -   27 - [swap-first-and-last](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**
+    -   83 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/10-array/83-remove-duplicates/problem.js) **[CH]**
