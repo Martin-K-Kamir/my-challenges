@@ -79,7 +79,6 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   27 - swap-first-and-last **[CH]**
     -   map-async-limit **[GFE]**
     -   deep-clone-II **[GFE]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
@@ -148,3 +147,4 @@
     -   55 - [two-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/55-two-sum/problem.js) **[CH]**
     -   [deep-omit](https://www.greatfrontend.com/questions/javascript/deep-omit) **[GFE]**
     -   28 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
+    -   27 - [swap-first-and-last](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**

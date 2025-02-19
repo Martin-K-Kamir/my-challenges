@@ -88,8 +88,6 @@ class BST {
     }
 }
 
-
-
 let myTree = new BST();
 
 myTree.insert(47);
@@ -101,7 +99,6 @@ myTree.insert(52);
 myTree.insert(82);
 
 console.log(myTree.BFS());
-
 
 /*
     EXPECTED OUTPUT:
