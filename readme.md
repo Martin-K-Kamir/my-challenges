@@ -80,7 +80,6 @@
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
     -   deep-clone-II **[GFE]**
-    -   84 - max-profit **[CH]**
     -   60 - longest-consecutive-sequence **[CH]**
     -   91 - average-pair **[CH]**
     -   56 - subarray-sum **[CH]**
@@ -149,3 +148,4 @@
     -   83 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/10-array/83-remove-duplicates/problem.js) **[CH]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [map-async-limit](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
+    -   84 - [max-profit](./challenges/Scott%20Barrett%20-%20DSA/10-array/84-max-profit/problem.js) **[CH]**
