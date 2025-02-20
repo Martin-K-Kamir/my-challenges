@@ -79,9 +79,7 @@
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
-    -   map-async-limit **[GFE]**
     -   deep-clone-II **[GFE]**
-    -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   84 - max-profit **[CH]**
     -   60 - longest-consecutive-sequence **[CH]**
     -   91 - average-pair **[CH]**
@@ -106,6 +104,7 @@
     -   150 - graph-dijkstra **[CH]**
     -   151 - coin-change-dynamic-programing **[CH]**
     -   151 - coin-change-greedy-algorithm **[CH]**
+    -   [map-async-limit-chunkless](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
 -   **Finished 💯:**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [breadth-first-search](https://www.greatfrontend.com/questions/algo/breadth-first-search) **[GFE]**
@@ -148,3 +147,5 @@
     -   28 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
     -   27 - [swap-first-and-last](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**
     -   83 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/10-array/83-remove-duplicates/problem.js) **[CH]**
+    -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
+    -   [map-async-limit](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
