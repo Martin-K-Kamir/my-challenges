@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872924#content
+
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -18,25 +20,7 @@
 //   +=====================================================+
 
 function firstNonRepeatingChar(str) {
-    const map = new Map();
 
-    Array.from(str).forEach(char => {
-        if (map.has(char)) {
-            const counter = map.get(char);
-            map.set(char, counter + 1);
-        } else {
-            map.set(char, 1);
-        }
-    })
-
-
-    for (const [char, counter] of map) {
-        if (counter <= 1) {
-            return char
-        }
-    }
-
-    return null;
 }
 
 

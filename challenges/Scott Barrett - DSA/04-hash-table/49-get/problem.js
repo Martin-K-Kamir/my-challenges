@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5708372#content
+
 class HashTable {
     constructor(size = 7) {
         this.dataMap = new Array(size);
@@ -26,17 +28,7 @@ class HashTable {
     }
 
     get(key) {
-        const index = this._hash(key);
 
-        if (this.dataMap[index]) {
-            for (let i = 0; i < this.dataMap[index].length; i++) {
-                if (this.dataMap[index][i][0] === key) {
-                    return this.dataMap[index][i][1]
-                }
-            }
-        }
-
-        return undefined
     }
 
 }

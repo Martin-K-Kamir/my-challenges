@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872932#content
+
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -14,7 +16,6 @@
 
 
 function removeDuplicates(arr) {
-    return Array.from(new Set(arr))
 }
 
 

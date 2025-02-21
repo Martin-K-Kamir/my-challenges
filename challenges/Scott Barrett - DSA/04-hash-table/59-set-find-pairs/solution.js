@@ -1,5 +1,3 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872936#content
-
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -20,7 +18,21 @@
 //   |   numbers.                                          |
 //   +=====================================================+
 
-function findPairs(arr1, arr2, target) {}
+function findPairs(arr1, arr2, target) {
+    const set = new Set(arr1);
+    const results = [];
+
+    arr2.forEach(num => {
+        const complement = target - num;
+        if (set.has(complement)) {
+            results.push([complement, num])
+        }
+    })
+
+    return results;
+}
+
+
 
 // -------------------
 // Single Pair Matching
@@ -61,3 +73,5 @@ console.log("One Empty Array:");
 console.log("Input: [1, 2, 3], [], 4");
 console.log("Output: ", findPairs([1, 2, 3], [], 4));
 console.log("---------------");
+
+

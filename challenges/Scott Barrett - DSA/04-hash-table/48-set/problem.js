@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5708368#content
+
 class HashTable {
     constructor(size = 7) {
         this.dataMap = new Array(size);
@@ -17,21 +19,8 @@ class HashTable {
         }
     }
 
-    set(key, value) {
-        const index = this._hash(key);
-
-        if (!this.dataMap[index]) {
-            this.dataMap[index] = []
-        }
-
-        this.dataMap[index].push([key, value]);
-
-        return this;
-    }
-
+    set(key, value) {}
 }
-
-
 
 let myHashTable = new HashTable();
 
@@ -42,7 +31,6 @@ myHashTable.set("bolts", 200);
 myHashTable.set("screws", 140);
 
 myHashTable.printTable();
-
 
 /*
     EXPECTED OUTPUT:

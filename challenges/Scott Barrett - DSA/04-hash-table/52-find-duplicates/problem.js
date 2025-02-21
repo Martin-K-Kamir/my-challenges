@@ -1,3 +1,6 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872922#content
+
+
 //   +======================================================+
 //   |                WRITE YOUR CODE HERE                  |
 //   | Description:                                         |
@@ -15,20 +18,13 @@
 //   |   numCounts[num] = (numCounts[num] || 0) + 1;        |
 //   +======================================================+
 
+
 function findDuplicates(arr) {
-    const duplicates = [];
-    const map = new Map();
 
-    arr.forEach(item => {
-        if (map.has(item)) {
-            duplicates.push(item);
-        } else {
-            map.set(item, true);
-        }
-    });
-
-    return duplicates;
 }
+
+
+
 
 // ---------------
 // No Duplicates
@@ -77,3 +73,5 @@ console.log("Single Element:");
 console.log("Input: [1]");
 console.log("Output: ", JSON.stringify(findDuplicates([1])));
 console.log("---------------");
+
+

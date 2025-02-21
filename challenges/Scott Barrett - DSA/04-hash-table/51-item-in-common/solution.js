@@ -1,5 +1,3 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872920#content
-
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -19,7 +17,15 @@
 
 
 function itemInCommon(arr1, arr2) {
+    const map = new Map(arr1.map(item => [item, true]))
 
+    for (const item of arr2) {
+        if (map.has(item)) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 

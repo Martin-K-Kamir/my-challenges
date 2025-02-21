@@ -1,5 +1,3 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872926#content
-
 //   +=====================================================+
 //   |                 WRITE YOUR CODE HERE                |
 //   | Description:                                        |
@@ -20,7 +18,20 @@
 //   +=====================================================+
 
 function groupAnagrams(arr) {
+    const map = new Map();
 
+    arr.forEach(str => {
+        const key = Array.from(str).sort().join("")
+
+        if (map.has(key)) {
+            const items = map.get(key);
+            map.set(key, [...items, str])
+        } else {
+            map.set(key, [str])
+        }
+    })
+
+    return Array.from(map.values())
 }
 
 

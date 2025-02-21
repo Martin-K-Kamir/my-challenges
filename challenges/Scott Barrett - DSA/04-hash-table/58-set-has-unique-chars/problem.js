@@ -1,3 +1,5 @@
+// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5872934#content
+
 //   +=====================================================+
 //   |                WRITE YOUR CODE HERE                 |
 //   | Description:                                        |
@@ -18,9 +20,7 @@
 
 
 function hasUniqueChars(str) {
-    if (str.length === 0) return true;
 
-    return new Set(str).size === str.length
 }
 
 

@@ -1,7 +1,6 @@
-// https://www.udemy.com/course/data-structures-algorithms-javascript/learn/quiz/5708366#content
-
 class HashTable {
-    constructor(size) {
+    constructor(size = 7) {
+        this.dataMap = new Array(size);
     }
 
     _hash(key) {
