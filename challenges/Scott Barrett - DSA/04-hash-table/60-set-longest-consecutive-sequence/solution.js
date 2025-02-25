@@ -19,17 +19,21 @@
 function longestConsecutiveSequence(nums) {
     const set = new Set(nums);
     let longestStreak = 0;
+
     nums.forEach(num => {
-        if (!set.has(num + 1)) {
-            let currentStreak = 1;
+        if (set.has(num - 1)) {
+            let currentStreak = 0;
             let currentNum = num;
-            while (set.has(currentNum - 1)) {
+
+            while (set.has(currentNum)) {
                 currentNum--;
                 currentStreak++;
             }
-            longestStreak = Math.max(longestStreak, currentStreak);
+
+            longestStreak = Math.max(currentStreak, longestStreak);
         }
     });
+
     return longestStreak;
 }
 // -------------------
