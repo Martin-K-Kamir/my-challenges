@@ -80,9 +80,6 @@
     -   116 - SSL rotate **[CH]**
 -   **18.12 - Level 2️⃣🔒:**
     -   deep-clone-II **[GFE]**
-    -   106 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/106-reverse/problem.js) **[CH]**
-    -   108 - [is-palindrome](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/108-is-palindrome/problem.js) **[CH]**
-    -   14 - remove-duplicates **[CH]**
     -   117 - count-zeros **[CH]**
     -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
@@ -149,3 +146,6 @@
     -   95 - [average-pair](./challenges/Scott%20Barrett%20-%20DSA/12-multiple-pointers/95-average-pair/problem.js) **[CH]**
     -   56 - [subarray-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/56-subarray-sum/problem.js) **[CH]**
     -   105 - [fibonacci](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/105-fibonacci/problem.js) **[CH]**
+    -   106 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/106-reverse/problem.js) **[CH]**
+    -   108 - [is-palindrome](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/108-is-palindrome/problem.js) **[CH]**
+    -   14 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/14-remove-duplicates/problem.js) **[CH]**
