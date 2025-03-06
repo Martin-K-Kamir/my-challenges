@@ -78,10 +78,6 @@
     -   119 - findRotatedIndex **[CH]**
     -   17 - reverseBetween **[CH]**
     -   116 - SSL rotate **[CH]**
--   **18.12 - Level 2️⃣🔒:**
-    -   deep-clone-II **[GFE]**
-    -   117 - count-zeros **[CH]**
-    -   92 - is-subsequence **[CH]**
 -   **Level 0️⃣:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -149,3 +145,6 @@
     -   106 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/106-reverse/problem.js) **[CH]**
     -   108 - [is-palindrome](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/108-is-palindrome/problem.js) **[CH]**
     -   14 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/14-remove-duplicates/problem.js) **[CH]**
+    -   115 - [count-zeros](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/115-count-zeros/problem.js) **[CH]**
+    -   96 - [is-subsequence](./challenges/Scott%20Barrett%20-%20DSA/12-multiple-pointers/96-is-subsequence/problem.js) **[CH]**
+    -   [deep-clone-II](https://www.greatfrontend.com/questions/javascript/deep-clone-ii) **[GFE]**
