@@ -37,6 +37,11 @@
 
 ## Challenges to finish
 
+-   **9.4 - Level 2️⃣:**
+    -   41 - [sort-stack](./challenges/Scott%20Barrett%20-%20DSA/02-stack-and-queues/41-stack-sort/problem.js) **[CH]**
+-   **2.4 - Level 1️⃣:**
+    -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
+    -   123 - [binary-search-tree-remove](./challenges/Scott%20Barrett%20-%20DSA/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
 -   **12.2 - Level 1️⃣:**
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
@@ -70,21 +75,18 @@
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
     -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
 -   **8.1 - Level 1️⃣🔒:**
-    -   41 - sortStack **[CH]**
-    -   86 - maxSubArray **[CH]**
+    -   86 - max-sub-Array **[CH]**
     -   85 - rotate **[CH]**
-    -   95 - findLongestSubstring **[CH]**
-    -   127 - Radix getDigit **[CH]**
-    -   119 - findRotatedIndex **[CH]**
-    -   17 - reverseBetween **[CH]**
-    -   116 - SSL rotate **[CH]**
+    -   95 - find-longest-substring **[CH]**
+    -   127 - get-digit **[CH]**
+    -   119 - find-rotated-index **[CH]**
+    -   16 - reverse-between **[CH]**
+    -   17 - rotate **[CH]**
 -   **Level 0️⃣:**
-    -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deep-update](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [router-builder-pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
-    -   139 - binary-search-tree-remove **[CH]**
     -   94 - min-subarray-len **[CH]**
     -   142 - binary-heap-insert **[CH]**
     -   130 - radix-sort **[CH]**

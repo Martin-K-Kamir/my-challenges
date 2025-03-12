@@ -70,24 +70,21 @@ class LinkedList {
 
         while (currentNode.next) {
             previousNode = currentNode;
-            currentNode = currentNode.next
+            currentNode = currentNode.next;
         }
 
         this.tail = previousNode;
-        this.tail.next = null
-        this.length--
+        this.tail.next = null;
+        this.length--;
 
         if (this.length === 0) {
             this.head = null;
             this.tail = null;
         }
 
-        return currentNode
+        return currentNode;
     }
-
 }
-
-
 
 let myLinkedList = new LinkedList(1);
 myLinkedList.push(2);
@@ -113,7 +110,6 @@ if (myLinkedList.length !== 0) {
     console.log("null");
 }
 
-
 /*
     EXPECTED OUTPUT:
     ----------------
@@ -122,4 +118,3 @@ if (myLinkedList.length !== 0) {
     null
 
 */
-

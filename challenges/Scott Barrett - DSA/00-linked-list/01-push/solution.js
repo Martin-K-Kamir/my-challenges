@@ -48,7 +48,7 @@ class LinkedList {
     }
 
     push(value) {
-        const newNode = new Node(value)
+        const newNode = new Node(value);
 
         if (!this.head) {
             this.head = newNode;
@@ -61,23 +61,18 @@ class LinkedList {
         this.length++;
         return this;
     }
-
 }
-
-
 
 let myLinkedList = new LinkedList(1);
 myLinkedList.makeEmpty();
 myLinkedList.push(1);
 myLinkedList.push(2);
 
-
 myLinkedList.getHead();
 myLinkedList.getTail();
 myLinkedList.getLength();
 console.log("\nLinked List:");
 myLinkedList.printList();
-
 
 /*
     EXPECTED OUTPUT:

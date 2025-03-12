@@ -37,9 +37,7 @@ class Stack {
         if (this.isEmpty()) return null;
         return this.stackList.pop();
     }
-
 }
-
 
 function sortStack(stack) {
     const additionalStack = new Stack();
@@ -58,7 +56,6 @@ function sortStack(stack) {
         stack.push(additionalStack.pop());
     }
 }
-
 
 function stackToString(stack) {
     return JSON.stringify(stack.getStackList());

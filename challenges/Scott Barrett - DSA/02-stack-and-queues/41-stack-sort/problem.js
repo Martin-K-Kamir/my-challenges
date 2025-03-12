@@ -39,14 +39,9 @@ class Stack {
         if (this.isEmpty()) return null;
         return this.stackList.pop();
     }
-
 }
 
-
-function sortStack(stack) {
-
-}
-
+function sortStack(stack) {}
 
 function stackToString(stack) {
     return JSON.stringify(stack.getStackList());
@@ -85,7 +80,6 @@ const expected3 = JSON.stringify([10, 6, 5, 3, 1]);
 sortStack(stack3);
 const result3 = stackToString(stack3);
 console.log(`Test case 3 | Expected: ${expected3} | Result: ${result3}`);
-
 
 /*
     EXPECTED OUTPUT:
