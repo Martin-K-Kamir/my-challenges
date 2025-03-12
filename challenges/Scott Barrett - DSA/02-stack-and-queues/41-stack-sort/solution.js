@@ -98,7 +98,6 @@ sortStack(stack3);
 const result3 = stackToString(stack3);
 console.log(`Test case 3 | Expected: ${expected3} | Result: ${result3}`);
 
-
 /*
     EXPECTED OUTPUT:
     ----------------
