@@ -33,6 +33,8 @@ class SinglyLinkedList {
 
         console.log(arr.join(" -> "));
     }
+
+    // this solution rotates from the end
     rotate(n) {
         if (!this.head || this.length === 0) return;
 
@@ -68,5 +70,73 @@ class SinglyLinkedList {
         this.tail.next = rightHead.next;
         this.tail = rightTail;
         this.tail.next = null;
+    }
+
+    // this solution rotates from the end
+    rotate2(k) {
+        const n = this.length;
+        k = ((k % n) + n) % n;
+
+        if (k === 0) {
+            return;
+        }
+
+        const left = new Node(null);
+        let leftCurrent = left;
+        const right = new Node(null);
+        let rightCurrent = right;
+
+        let current = this.head;
+
+        for (let i = 0; i < this.length; i++) {
+            if (i >= k) {
+                leftCurrent.next = current;
+                leftCurrent = leftCurrent.next;
+            } else {
+                rightCurrent.next = current;
+                rightCurrent = rightCurrent.next;
+            }
+
+            current = current.next;
+        }
+
+        this.head = left.next;
+        leftCurrent.next = right.next;
+        rightCurrent.next = null;
+        this.tail = rightCurrent;
+    }
+
+    // this solution rotates from the start
+    rotate3(k) {
+        const n = this.length;
+        k = ((k % n) + n) % n;
+
+        if (k === 0) {
+            return;
+        }
+
+        const left = new Node(null);
+        let leftCurrent = left;
+        const right = new Node(null);
+        let rightCurrent = right;
+
+        let current = this.head;
+
+        for (let i = 1; i <= this.length; i++) {
+            if (n - k < i) {
+                leftCurrent.next = current;
+                leftCurrent = leftCurrent.next;
+            } else {
+                rightCurrent.next = current;
+                rightCurrent = rightCurrent.next;
+            }
+
+            current = current.next;
+        }
+
+        this.head = left.next;
+        leftCurrent.next = right.next;
+        rightCurrent.next = null;
+        this.tail = rightCurrent;
     }
 }

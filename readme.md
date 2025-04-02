@@ -42,7 +42,10 @@
 -   **2.4 - Level 1️⃣:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   123 - [binary-search-tree-remove](./challenges/Scott%20Barrett%20-%20DSA/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
--   **12.2 - Level 1️⃣:**
+    -   86 - [max-sub-Array](./challenges/Scott%20Barrett%20-%20DSA/10-array/86-max-sub-array/problem.js) **[CH]**
+    -   85 - [rotate](./challenges/Scott%20Barrett%20-%20DSA/10-array/85-rotate/problem.js) **[CH]**
+    -   17 - [rotate](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/17-rotate/problem.js) **[CH]**
+-   **12.2 - Level 1️⃣🔒:**
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
@@ -67,7 +70,7 @@
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
--   **29.1 - Level 2️⃣:**
+-   **29.1 - Level 2️⃣🔒:**
     -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
@@ -75,13 +78,7 @@
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
     -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
 -   **8.1 - Level 1️⃣🔒:**
-    -   86 - max-sub-Array **[CH]**
-    -   85 - rotate **[CH]**
-    -   95 - find-longest-substring **[CH]**
-    -   127 - get-digit **[CH]**
-    -   119 - find-rotated-index **[CH]**
-    -   16 - reverse-between **[CH]**
-    -   17 - rotate **[CH]**
+    -   117 - [find-rotated-index](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
 -   **Level 0️⃣:**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -95,7 +92,10 @@
     -   151 - coin-change-dynamic-programing **[CH]**
     -   151 - coin-change-greedy-algorithm **[CH]**
     -   [map-async-limit-chunkless](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
+    -   100 - [find-longest-substring](./challenges/Scott%20Barrett%20-%20DSA/13-sliding-window/100-find-longest-substring/problem.js) **[CH]**
+    -   16 - [reverse-between](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/16-reverse-between/problem.js) **[CH]**
 -   **Finished 💯:**
+    -   118 - [get-digit](./challenges/Scott%20Barrett%20-%20DSA/16-radix-sort/118-get-digit/problem.js) **[CH]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [breadth-first-search](https://www.greatfrontend.com/questions/algo/breadth-first-search) **[GFE]**
     -   [depth-first-search](https://www.greatfrontend.com/questions/algo/depth-first-search) **[GFE]**
