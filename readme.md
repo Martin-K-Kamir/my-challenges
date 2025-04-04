@@ -71,14 +71,9 @@
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
 -   **29.1 - Level 2️⃣🔒:**
-    -   118 - sortedFrequency **[CH]**
     -   quickSort **[GFE]**
-    -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
-    -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
--   **8.1 - Level 1️⃣🔒:**
-    -   117 - [find-rotated-index](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
 -   **Level 0️⃣:**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -94,6 +89,7 @@
     -   [map-async-limit-chunkless](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
     -   100 - [find-longest-substring](./challenges/Scott%20Barrett%20-%20DSA/13-sliding-window/100-find-longest-substring/problem.js) **[CH]**
     -   16 - [reverse-between](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/16-reverse-between/problem.js) **[CH]**
+    -   117 - [find-rotated-index](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
 -   **Finished 💯:**
     -   118 - [get-digit](./challenges/Scott%20Barrett%20-%20DSA/16-radix-sort/118-get-digit/problem.js) **[CH]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
@@ -150,3 +146,6 @@
     -   115 - [count-zeros](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/115-count-zeros/problem.js) **[CH]**
     -   96 - [is-subsequence](./challenges/Scott%20Barrett%20-%20DSA/12-multiple-pointers/96-is-subsequence/problem.js) **[CH]**
     -   [deep-clone-II](https://www.greatfrontend.com/questions/javascript/deep-clone-ii) **[GFE]**
+    -   116 - [sortedFrequency](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/116-sorted-frequency/problem.js) **[CH]**
+    -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
+    -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
