@@ -1,43 +1,31 @@
-function expensiveMul(a, b) {
-    console.log("Computing...");
-    return a * b;
+function swap(arr, a, b) {
+    [arr[a], arr[b]] = [arr[b], arr[a]];
 }
 
-export default function memoize(func) {
-    const cache = new Map();
+function pivot(arr, start = 0, end = arr.length - 1) {
+    let swapIndex = start;
 
-    return function (...args) {
-        let currentCache = cache;
-
-        args.forEach(arg => {
-            if (!currentCache.has(arg)) {
-                currentCache.set(arg, new Map());
-            }
-
-            currentCache = currentCache.get(arg);
-        });
-
-        if (currentCache.has("result")) {
-            return currentCache.get("result");
+    for (let i = start + 1; i <= end; i++) {
+        if (arr[i] < arr[start]) {
+            swapIndex++;
+            swap(arr, swapIndex, i);
         }
+    }
 
-        const result = func.apply(this, args);
-        currentCache.set("result", result);
-        return result;
-    };
+    swap(arr, swapIndex, start);
+    return swapIndex;
 }
 
-// Create a memoized version of the function.
-const memoizedExpensiveMul = memoize(expensiveMul);
+export default function quickSort(arr, start = 0, end = arr.length - 1) {
+    if (start < end) {
+        const pivotIndex = pivot(arr, start, end);
 
-// First call (computes and caches the result).
-console.log(memoizedExpensiveMul(3, 7)); // Output: Computing... 21
+        quickSort(arr, start, pivotIndex - 1);
+        quickSort(arr, pivotIndex + 1, end);
+    }
 
-// Second call with the same argument (returns the cached result).
-console.log(memoizedExpensiveMul(3, 7)); // Output: 21
+    return arr;
+}
 
-// Third call with a different argument (computes and caches the new result).
-console.log(memoizedExpensiveMul(5, 8)); // Output: Computing... 40
-
-// Fourth call with the same argument as the third call (returns the cached result).
-console.log(memoizedExpensiveMul(5, 8)); // Output: 40
+console.log(quickSort([9, 3, 6, 2, 1, 11])); // [1, 2, 3, 6, 9, 11]
+console.log(quickSort([12, 16, 14, 1, 2, 3])); // [1, 2, 3, 12, 14, 16]

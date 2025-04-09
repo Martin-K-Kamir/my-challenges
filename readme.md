@@ -1,50 +1,13 @@
-## Select Challenge
-
-### Great Frontend [gfe]
-
--   [Page](https://www.greatfrontend.com/prepare)
--   [Levels](https://wheelofnames.com/j6k-rbs)
-    -   [Easy Challenges](https://wheelofnames.com/5vr-crv)
-    -   [Medium Challenges](https://wheelofnames.com/nwh-f7a)
-    -   [Hard Challenges](https://wheelofnames.com/gfw-3jv)
-
-### 100 JS Functions [jsf]
-
--   [Page](https://www.100jsfunctions.com/exercises)
--   [Levels](https://wheelofnames.com/j6k-rbs)
-    -   [Easy Challenges](https://wheelofnames.com/3ba-d6s)
-    -   [Medium Challenges](https://wheelofnames.com/38u-urz)
-    -   [Hard Challenges](https://wheelofnames.com/wpm-kk7)
-
-### Challenges [ch]
-
--   Scott Barret - DSA
-    -   [Folder](/challenges//Scott%20Barrett%20-%20DSA/)
-    -   [Levels](https://wheelofnames.com/gqm-58f)
-        -   [Linked List](https://wheelofnames.com/awm-3up)
-        -   [Doubly Linked List](https://wheelofnames.com/bak-68v)
-        -   [Stacks & Queues](https://wheelofnames.com/nrf-xwc)
-        -   [Binary Search Tree](https://wheelofnames.com/ytv-t46)
-        -   [Hast Table](https://wheelofnames.com/9mx-adf)
-        -   [Graph](https://wheelofnames.com/zvn-cqe)
-        -   [Traverse](https://wheelofnames.com/q5v-emv)
-        -   [Basic Sorts](https://wheelofnames.com/njs-g29)
-        -   [Merge Sort](https://wheelofnames.com/bty-cdz)
-        -   [Quick Sort](https://wheelofnames.com/aa6-ffe)
-        -   [Array](https://wheelofnames.com/efx-kn2)
--   Colt Steele - DSA
-    -   [Folder](/challenges/Colt%20Steele%20-%20DSA/)
-
 ## Challenges to finish
 
 -   **9.4 - Level 2️⃣:**
-    -   41 - [sort-stack](./challenges/Scott%20Barrett%20-%20DSA/02-stack-and-queues/41-stack-sort/problem.js) **[CH]**
+    -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[CH]**
 -   **2.4 - Level 1️⃣:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   123 - [binary-search-tree-remove](./challenges/Scott%20Barrett%20-%20DSA/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
-    -   86 - [max-sub-Array](./challenges/Scott%20Barrett%20-%20DSA/10-array/86-max-sub-array/problem.js) **[CH]**
-    -   85 - [rotate](./challenges/Scott%20Barrett%20-%20DSA/10-array/85-rotate/problem.js) **[CH]**
-    -   17 - [rotate](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/17-rotate/problem.js) **[CH]**
+    -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
+    -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[CH]**
+    -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[CH]**
+    -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[CH]**
 -   **12.2 - Level 1️⃣🔒:**
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
@@ -71,7 +34,6 @@
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
 -   **29.1 - Level 2️⃣🔒:**
-    -   quickSort **[GFE]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
     -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
 -   **Level 0️⃣:**
@@ -87,11 +49,12 @@
     -   151 - coin-change-dynamic-programing **[CH]**
     -   151 - coin-change-greedy-algorithm **[CH]**
     -   [map-async-limit-chunkless](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
-    -   100 - [find-longest-substring](./challenges/Scott%20Barrett%20-%20DSA/13-sliding-window/100-find-longest-substring/problem.js) **[CH]**
-    -   16 - [reverse-between](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/16-reverse-between/problem.js) **[CH]**
-    -   117 - [find-rotated-index](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
+    -   100 - [find-longest-substring](./challenges/data-structures-and-algorithms/13-sliding-window/100-find-longest-substring/problem.js) **[CH]**
+    -   16 - [reverse-between](./challenges/data-structures-and-algorithms/00-linked-list/16-reverse-between/problem.js) **[CH]**
+    -   117 - [find-rotated-index](./challenges/data-structures-and-algorithms/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
+    -   132 - [quickSort](./challenges/data-structures-and-algorithms/20-quick-sort-II/132-quick-sort/problem.js) **[GFE]**
 -   **Finished 💯:**
-    -   118 - [get-digit](./challenges/Scott%20Barrett%20-%20DSA/16-radix-sort/118-get-digit/problem.js) **[CH]**
+    -   118 - [get-digit](./challenges/data-structures-and-algorithms/16-radix-sort/118-get-digit/problem.js) **[CH]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [breadth-first-search](https://www.greatfrontend.com/questions/algo/breadth-first-search) **[GFE]**
     -   [depth-first-search](https://www.greatfrontend.com/questions/algo/depth-first-search) **[GFE]**
@@ -122,30 +85,30 @@
     -   77 - [flow](https://www.100jsfunctions.com/exercises/flow) **[JSF]**
     -   [debounce-II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
     -   [json-stringify-II](https://www.greatfrontend.com/questions/javascript/json-stringify-ii) **[GFE]**
-    -   10 - [find-middle-node](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/10-find-middle-node/problem.js) **[CH]**
-    -   13 - [partition-list](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/13-partition-list/problem.js) **[CH]**
-    -   12 - [find-kth-node-from-end](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
-    -   42 - [queue-using-stack-enqueue](./challenges/Scott%20Barrett%20-%20DSA/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[CH]**
-    -   45 - [insert](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/45-insert/problem.js) **[CH]**
-    -   46 - [contains](./challenges/Scott%20Barrett%20-%20DSA/03-binary-search-tree/46-contains/problem.js) **[CH]**
-    -   55 - [two-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/55-two-sum/problem.js) **[CH]**
+    -   10 - [find-middle-node](./challenges/data-structures-and-algorithms/00-linked-list/10-find-middle-node/problem.js) **[CH]**
+    -   13 - [partition-list](./challenges/data-structures-and-algorithms/00-linked-list/13-partition-list/problem.js) **[CH]**
+    -   12 - [find-kth-node-from-end](./challenges/data-structures-and-algorithms/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
+    -   42 - [queue-using-stack-enqueue](./challenges/data-structures-and-algorithms/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[CH]**
+    -   45 - [insert](./challenges/data-structures-and-algorithms/03-binary-search-tree/45-insert/problem.js) **[CH]**
+    -   46 - [contains](./challenges/data-structures-and-algorithms/03-binary-search-tree/46-contains/problem.js) **[CH]**
+    -   55 - [two-sum](./challenges/data-structures-and-algorithms/04-hash-table/55-two-sum/problem.js) **[CH]**
     -   [deep-omit](https://www.greatfrontend.com/questions/javascript/deep-omit) **[GFE]**
-    -   28 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
-    -   27 - [swap-first-and-last](./challenges/Scott%20Barrett%20-%20DSA/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**
-    -   83 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/10-array/83-remove-duplicates/problem.js) **[CH]**
+    -   28 - [reverse](./challenges/data-structures-and-algorithms/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
+    -   27 - [swap-first-and-last](./challenges/data-structures-and-algorithms/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**
+    -   83 - [remove-duplicates](./challenges/data-structures-and-algorithms/10-array/83-remove-duplicates/problem.js) **[CH]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [map-async-limit](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
-    -   84 - [max-profit](./challenges/Scott%20Barrett%20-%20DSA/10-array/84-max-profit/problem.js) **[CH]**
-    -   60 - [longest-consecutive-sequence](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/60-set-longest-consecutive-sequence/problem.js) **[CH]**
-    -   95 - [average-pair](./challenges/Scott%20Barrett%20-%20DSA/12-multiple-pointers/95-average-pair/problem.js) **[CH]**
-    -   56 - [subarray-sum](./challenges/Scott%20Barrett%20-%20DSA/04-hash-table/56-subarray-sum/problem.js) **[CH]**
-    -   105 - [fibonacci](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/105-fibonacci/problem.js) **[CH]**
-    -   106 - [reverse](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/106-reverse/problem.js) **[CH]**
-    -   108 - [is-palindrome](./challenges/Scott%20Barrett%20-%20DSA/14-recursion/108-is-palindrome/problem.js) **[CH]**
-    -   14 - [remove-duplicates](./challenges/Scott%20Barrett%20-%20DSA/00-linked-list/14-remove-duplicates/problem.js) **[CH]**
-    -   115 - [count-zeros](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/115-count-zeros/problem.js) **[CH]**
-    -   96 - [is-subsequence](./challenges/Scott%20Barrett%20-%20DSA/12-multiple-pointers/96-is-subsequence/problem.js) **[CH]**
+    -   84 - [max-profit](./challenges/data-structures-and-algorithms/10-array/84-max-profit/problem.js) **[CH]**
+    -   60 - [longest-consecutive-sequence](./challenges/data-structures-and-algorithms/04-hash-table/60-set-longest-consecutive-sequence/problem.js) **[CH]**
+    -   95 - [average-pair](./challenges/data-structures-and-algorithms/12-multiple-pointers/95-average-pair/problem.js) **[CH]**
+    -   56 - [subarray-sum](./challenges/data-structures-and-algorithms/04-hash-table/56-subarray-sum/problem.js) **[CH]**
+    -   105 - [fibonacci](./challenges/data-structures-and-algorithms/14-recursion/105-fibonacci/problem.js) **[CH]**
+    -   106 - [reverse](./challenges/data-structures-and-algorithms/14-recursion/106-reverse/problem.js) **[CH]**
+    -   108 - [is-palindrome](./challenges/data-structures-and-algorithms/14-recursion/108-is-palindrome/problem.js) **[CH]**
+    -   14 - [remove-duplicates](./challenges/data-structures-and-algorithms/00-linked-list/14-remove-duplicates/problem.js) **[CH]**
+    -   115 - [count-zeros](./challenges/data-structures-and-algorithms/15-divide-and-conquer/115-count-zeros/problem.js) **[CH]**
+    -   96 - [is-subsequence](./challenges/data-structures-and-algorithms/12-multiple-pointers/96-is-subsequence/problem.js) **[CH]**
     -   [deep-clone-II](https://www.greatfrontend.com/questions/javascript/deep-clone-ii) **[GFE]**
-    -   116 - [sortedFrequency](./challenges/Scott%20Barrett%20-%20DSA/15-divide-and-conquer/116-sorted-frequency/problem.js) **[CH]**
+    -   116 - [sortedFrequency](./challenges/data-structures-and-algorithms/15-divide-and-conquer/116-sorted-frequency/problem.js) **[CH]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
