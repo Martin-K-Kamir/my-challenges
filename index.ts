@@ -1,65 +1,27 @@
-type As<A, B> = A extends B ? A : never;
+import { Equal, Expect } from "./type-utils.js";
 
-type Join<List, Separator extends string> = List extends [string]
-    ? List[0]
-    : List extends [infer First, ...infer Rest]
-    ? `${As<First, string>}${Separator}${Join<Rest, Separator>}`
-    : "";
+/**
+ * Write a `WithIndex` type level function
+ * that takes a tuple, and maps it to a tuple
+ * of [value, index] pairs.
+ *
+ * Hint: you will need to use T["length"]
+ * to generate indices
+ */
+namespace withIndex {
+    type WithIndex<
+        Tuple extends any[],
+        Output extends any[] = [],
+    > = Tuple extends [infer First, ...infer Rest]
+        ? WithIndex<Rest, [...Output, [First, Output["length"]]]>
+        : Output;
 
-type TupleToKey<Tuple> = Tuple extends [infer First, ...infer Rest]
-    ? Join<[First, ...Rest], ".">
-    : "";
+    type res1 = WithIndex<["a"]>;
+    type test1 = Expect<Equal<res1, [["a", 0]]>>;
 
-type SquashKeys<Obj, Keys extends PropertyKey[] = []> = Obj extends object
-    ? {
-          [Key in keyof Obj]: Obj[Key] extends object
-              ? SquashKeys<Obj[Key], [...Keys, Key]>
-              : TupleToKey<[...Keys, Key]>;
-      }[keyof Obj]
-    : never;
+    type res2 = WithIndex<["a", "b"]>;
+    type test2 = Expect<Equal<res2, [["a", 0], ["b", 1]]>>;
 
-type ValueAtPath<
-    Obj,
-    Path extends string,
-> = Path extends `${infer Key}.${infer Rest}`
-    ? Key extends keyof Obj
-        ? Rest extends string
-            ? ValueAtPath<Obj[Key], Rest>
-            : never
-        : never
-    : Path extends keyof Obj
-    ? Obj[Path]
-    : never;
-
-type SquashObject<Obj> = {
-    [Key in SquashKeys<Obj>]: ValueAtPath<Obj, Key>;
-};
-
-export default function squashObject<
-    const Obj extends Record<PropertyKey, unknown>,
->(obj: Obj): SquashObject<Obj> {
-    const result: Record<PropertyKey, unknown> = {};
-
-    function traverse(obj: object, keys: string[]) {
-        Object.entries(obj).forEach(([key, value]) => {
-            if (typeof value === "object" && value != null) {
-                traverse(value, [...keys, key]);
-            } else {
-                const newKey = [...keys, key].filter(Boolean).join(".");
-                result[newKey] = value;
-            }
-        });
-    }
-
-    traverse(obj, []);
-
-    return result as any;
+    type res3 = WithIndex<["a", "b", "c"]>;
+    type test3 = Expect<Equal<res3, [["a", 0], ["b", 1], ["c", 2]]>>;
 }
-
-const object = {
-    a: { b: null, c: 1 },
-    d: { e: true },
-};
-
-const x = squashObject(object);
-type X = typeof x;

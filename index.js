@@ -1,31 +1,27 @@
-function swap(arr, a, b) {
-    [arr[a], arr[b]] = [arr[b], arr[a]];
-}
+// https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410590#content
 
-function pivot(arr, start = 0, end = arr.length - 1) {
-    let swapIndex = start;
+function maxSubarraySum(arr, num) {
+    let currentSum = 0;
+    let maxSum = 0;
 
-    for (let i = start + 1; i <= end; i++) {
-        if (arr[i] < arr[start]) {
-            swapIndex++;
-            swap(arr, swapIndex, i);
-        }
+    for (let i = 0; i < num; i++) {
+        currentSum += arr[i];
     }
 
-    swap(arr, swapIndex, start);
-    return swapIndex;
-}
+    maxSum = currentSum;
 
-export default function quickSort(arr, start = 0, end = arr.length - 1) {
-    if (start < end) {
-        const pivotIndex = pivot(arr, start, end);
-
-        quickSort(arr, start, pivotIndex - 1);
-        quickSort(arr, pivotIndex + 1, end);
+    for (let i = num; i < arr.length; i++) {
+        currentSum = currentSum - arr[i - num] + arr[i];
+        maxSum = Math.max(maxSum, currentSum);
     }
 
-    return arr;
+    return maxSum;
 }
 
-console.log(quickSort([9, 3, 6, 2, 1, 11])); // [1, 2, 3, 6, 9, 11]
-console.log(quickSort([12, 16, 14, 1, 2, 3])); // [1, 2, 3, 12, 14, 16]
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+console.log(maxSubarraySum([100, 200, 300, 400], 2)); // 700
+// console.log(maxSubarraySum([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)); // 39
+// console.log(maxSubarraySum([-3, 4, 0, -2, 6, -1], 2)); // 5
+// console.log(maxSubarraySum([3, -2, 7, -4, 1, -1, 4, -2, 1], 2)); // 5
+// console.log(maxSubarraySum([2, 3], 3)); // null

@@ -1,15 +1,17 @@
 ## Challenges to finish
 
--   **9.4 - Level 2️⃣:**
+-   **14.5 - Level 2️⃣:**
+    -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+-   **9.4 - Level 2️⃣🔒:**
     -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[CH]**
--   **2.4 - Level 1️⃣:**
+    -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
+-   **2.4 - Level 1️⃣🔒:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
     -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[CH]**
     -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[CH]**
     -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[CH]**
 -   **12.2 - Level 1️⃣🔒:**
-    -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
@@ -33,9 +35,6 @@
     -   3 - [Type Transformations](https://www.totaltypescript.com/workshops/type-transformations/challenges/transform-a-discriminated-union-with-unique-values-to-an-object) **[TT]**
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
--   **29.1 - Level 2️⃣🔒:**
-    -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
-    -   93 - [maxSubarraySum](./challenges/Colt%20Steele%20-%20DSA/93_SlidingWindow_maxSubarraySum/start.js) **[CH]**
 -   **Level 0️⃣:**
     -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -53,6 +52,7 @@
     -   16 - [reverse-between](./challenges/data-structures-and-algorithms/00-linked-list/16-reverse-between/problem.js) **[CH]**
     -   117 - [find-rotated-index](./challenges/data-structures-and-algorithms/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
     -   132 - [quickSort](./challenges/data-structures-and-algorithms/20-quick-sort-II/132-quick-sort/problem.js) **[GFE]**
+    -   98 - [maxSubarraySum](./challenges/data-structures-and-algorithms/13-sliding-window/98-max-subarray-sum/problem.js) **[CH]**
 -   **Finished 💯:**
     -   118 - [get-digit](./challenges/data-structures-and-algorithms/16-radix-sort/118-get-digit/problem.js) **[CH]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
