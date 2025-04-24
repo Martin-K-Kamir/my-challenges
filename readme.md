@@ -1,18 +1,28 @@
+## Challenge Sources
+
+-   **[GFE]**: [Great Frontend](https://www.greatfrontend.com)
+-   **[TLT]**: [Type Level TypeScript](https://type-level-typescript.com)
+-   **[TT]**: [Total TypeScript](https://www.totaltypescript.com)
+-   **[JSF]**: [100 JS Functions](https://www.100jsfunctions.com)
+-   **[DSA]**: [DSA Code Challenges](./challenges/data-structures-and-algorithms)
+
 ## Challenges to finish
 
+-   **4.6 - Level 1️⃣:**
+    -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
 -   **14.5 - Level 2️⃣:**
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
+    -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
 -   **9.4 - Level 2️⃣🔒:**
-    -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[CH]**
+    -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[DSA]**
     -   [range](https://www.greatfrontend.com/questions/javascript/range) **[GFE]**
 -   **2.4 - Level 1️⃣🔒:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
-    -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[CH]**
-    -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[CH]**
-    -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[CH]**
-    -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[CH]**
+    -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[DSA]**
+    -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[DSA]**
+    -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[DSA]**
+    -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[DSA]**
 -   **12.2 - Level 1️⃣🔒:**
-    -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
     -   [settersAndGetters](https://type-level-typescript.com/members/mapped-types) **[TLT]**
@@ -36,25 +46,24 @@
     -   [query-selector](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [dynamic-reducer](https://www.totaltypescript.com/workshops/advanced-typescript-patterns/advanced-challenges/building-a-dynamic-reducer) **[TT]**
 -   **Level 0️⃣:**
-    -   [omit-by](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [json-response](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [deep-update](https://type-level-typescript.com/members/mapped-types) **[TLT]**
     -   [router-builder-pattern](https://type-level-typescript.com/members/designing-types) **[TLT]**
-    -   94 - min-subarray-len **[CH]**
-    -   142 - binary-heap-insert **[CH]**
-    -   130 - radix-sort **[CH]**
-    -   143 - binary-heap-extract-max **[CH]**
-    -   150 - graph-dijkstra **[CH]**
-    -   151 - coin-change-dynamic-programing **[CH]**
-    -   151 - coin-change-greedy-algorithm **[CH]**
+    -   94 - min-subarray-len **[DSA]**
+    -   142 - binary-heap-insert **[DSA]**
+    -   130 - radix-sort **[DSA]**
+    -   143 - binary-heap-extract-max **[DSA]**
+    -   150 - graph-dijkstra **[DSA]**
+    -   151 - coin-change-dynamic-programing **[DSA]**
+    -   151 - coin-change-greedy-algorithm **[DSA]**
     -   [map-async-limit-chunkless](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
-    -   100 - [find-longest-substring](./challenges/data-structures-and-algorithms/13-sliding-window/100-find-longest-substring/problem.js) **[CH]**
-    -   16 - [reverse-between](./challenges/data-structures-and-algorithms/00-linked-list/16-reverse-between/problem.js) **[CH]**
-    -   117 - [find-rotated-index](./challenges/data-structures-and-algorithms/15-divide-and-conquer/117-find-rotated-index/problem.js) **[CH]**
+    -   100 - [find-longest-substring](./challenges/data-structures-and-algorithms/13-sliding-window/100-find-longest-substring/problem.js) **[DSA]**
+    -   16 - [reverse-between](./challenges/data-structures-and-algorithms/00-linked-list/16-reverse-between/problem.js) **[DSA]**
+    -   117 - [find-rotated-index](./challenges/data-structures-and-algorithms/15-divide-and-conquer/117-find-rotated-index/problem.js) **[DSA]**
     -   132 - [quickSort](./challenges/data-structures-and-algorithms/20-quick-sort-II/132-quick-sort/problem.js) **[GFE]**
-    -   98 - [maxSubarraySum](./challenges/data-structures-and-algorithms/13-sliding-window/98-max-subarray-sum/problem.js) **[CH]**
+    -   98 - [maxSubarraySum](./challenges/data-structures-and-algorithms/13-sliding-window/98-max-subarray-sum/problem.js) **[DSA]**
 -   **Finished 💯:**
-    -   118 - [get-digit](./challenges/data-structures-and-algorithms/16-radix-sort/118-get-digit/problem.js) **[CH]**
+    -   118 - [get-digit](./challenges/data-structures-and-algorithms/16-radix-sort/118-get-digit/problem.js) **[DSA]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [breadth-first-search](https://www.greatfrontend.com/questions/algo/breadth-first-search) **[GFE]**
     -   [depth-first-search](https://www.greatfrontend.com/questions/algo/depth-first-search) **[GFE]**
@@ -85,30 +94,30 @@
     -   77 - [flow](https://www.100jsfunctions.com/exercises/flow) **[JSF]**
     -   [debounce-II](https://www.greatfrontend.com/questions/javascript/debounce-ii) **[GFE]**
     -   [json-stringify-II](https://www.greatfrontend.com/questions/javascript/json-stringify-ii) **[GFE]**
-    -   10 - [find-middle-node](./challenges/data-structures-and-algorithms/00-linked-list/10-find-middle-node/problem.js) **[CH]**
-    -   13 - [partition-list](./challenges/data-structures-and-algorithms/00-linked-list/13-partition-list/problem.js) **[CH]**
-    -   12 - [find-kth-node-from-end](./challenges/data-structures-and-algorithms/00-linked-list/12-find-kth-node-from-end/problem.js) **[CH]**
-    -   42 - [queue-using-stack-enqueue](./challenges/data-structures-and-algorithms/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[CH]**
-    -   45 - [insert](./challenges/data-structures-and-algorithms/03-binary-search-tree/45-insert/problem.js) **[CH]**
-    -   46 - [contains](./challenges/data-structures-and-algorithms/03-binary-search-tree/46-contains/problem.js) **[CH]**
-    -   55 - [two-sum](./challenges/data-structures-and-algorithms/04-hash-table/55-two-sum/problem.js) **[CH]**
+    -   10 - [find-middle-node](./challenges/data-structures-and-algorithms/00-linked-list/10-find-middle-node/problem.js) **[DSA]**
+    -   13 - [partition-list](./challenges/data-structures-and-algorithms/00-linked-list/13-partition-list/problem.js) **[DSA]**
+    -   12 - [find-kth-node-from-end](./challenges/data-structures-and-algorithms/00-linked-list/12-find-kth-node-from-end/problem.js) **[DSA]**
+    -   42 - [queue-using-stack-enqueue](./challenges/data-structures-and-algorithms/02-stack-and-queues/42-queue-using-stack-enqueue/problem.js) **[DSA]**
+    -   45 - [insert](./challenges/data-structures-and-algorithms/03-binary-search-tree/45-insert/problem.js) **[DSA]**
+    -   46 - [contains](./challenges/data-structures-and-algorithms/03-binary-search-tree/46-contains/problem.js) **[DSA]**
+    -   55 - [two-sum](./challenges/data-structures-and-algorithms/04-hash-table/55-two-sum/problem.js) **[DSA]**
     -   [deep-omit](https://www.greatfrontend.com/questions/javascript/deep-omit) **[GFE]**
-    -   28 - [reverse](./challenges/data-structures-and-algorithms/01-doubly-linked-list/28-reverse/problem.js) **[CH]**
-    -   27 - [swap-first-and-last](./challenges/data-structures-and-algorithms/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[CH]**
-    -   83 - [remove-duplicates](./challenges/data-structures-and-algorithms/10-array/83-remove-duplicates/problem.js) **[CH]**
+    -   28 - [reverse](./challenges/data-structures-and-algorithms/01-doubly-linked-list/28-reverse/problem.js) **[DSA]**
+    -   27 - [swap-first-and-last](./challenges/data-structures-and-algorithms/01-doubly-linked-list/27-swap-first-and-last/problem.js) **[DSA]**
+    -   83 - [remove-duplicates](./challenges/data-structures-and-algorithms/10-array/83-remove-duplicates/problem.js) **[DSA]**
     -   [flaten-in-place](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
     -   [map-async-limit](https://www.greatfrontend.com/questions/javascript/map-async-limit) **[GFE]**
-    -   84 - [max-profit](./challenges/data-structures-and-algorithms/10-array/84-max-profit/problem.js) **[CH]**
-    -   60 - [longest-consecutive-sequence](./challenges/data-structures-and-algorithms/04-hash-table/60-set-longest-consecutive-sequence/problem.js) **[CH]**
-    -   95 - [average-pair](./challenges/data-structures-and-algorithms/12-multiple-pointers/95-average-pair/problem.js) **[CH]**
-    -   56 - [subarray-sum](./challenges/data-structures-and-algorithms/04-hash-table/56-subarray-sum/problem.js) **[CH]**
-    -   105 - [fibonacci](./challenges/data-structures-and-algorithms/14-recursion/105-fibonacci/problem.js) **[CH]**
-    -   106 - [reverse](./challenges/data-structures-and-algorithms/14-recursion/106-reverse/problem.js) **[CH]**
-    -   108 - [is-palindrome](./challenges/data-structures-and-algorithms/14-recursion/108-is-palindrome/problem.js) **[CH]**
-    -   14 - [remove-duplicates](./challenges/data-structures-and-algorithms/00-linked-list/14-remove-duplicates/problem.js) **[CH]**
-    -   115 - [count-zeros](./challenges/data-structures-and-algorithms/15-divide-and-conquer/115-count-zeros/problem.js) **[CH]**
-    -   96 - [is-subsequence](./challenges/data-structures-and-algorithms/12-multiple-pointers/96-is-subsequence/problem.js) **[CH]**
+    -   84 - [max-profit](./challenges/data-structures-and-algorithms/10-array/84-max-profit/problem.js) **[DSA]**
+    -   60 - [longest-consecutive-sequence](./challenges/data-structures-and-algorithms/04-hash-table/60-set-longest-consecutive-sequence/problem.js) **[DSA]**
+    -   95 - [average-pair](./challenges/data-structures-and-algorithms/12-multiple-pointers/95-average-pair/problem.js) **[DSA]**
+    -   56 - [subarray-sum](./challenges/data-structures-and-algorithms/04-hash-table/56-subarray-sum/problem.js) **[DSA]**
+    -   105 - [fibonacci](./challenges/data-structures-and-algorithms/14-recursion/105-fibonacci/problem.js) **[DSA]**
+    -   106 - [reverse](./challenges/data-structures-and-algorithms/14-recursion/106-reverse/problem.js) **[DSA]**
+    -   108 - [is-palindrome](./challenges/data-structures-and-algorithms/14-recursion/108-is-palindrome/problem.js) **[DSA]**
+    -   14 - [remove-duplicates](./challenges/data-structures-and-algorithms/00-linked-list/14-remove-duplicates/problem.js) **[DSA]**
+    -   115 - [count-zeros](./challenges/data-structures-and-algorithms/15-divide-and-conquer/115-count-zeros/problem.js) **[DSA]**
+    -   96 - [is-subsequence](./challenges/data-structures-and-algorithms/12-multiple-pointers/96-is-subsequence/problem.js) **[DSA]**
     -   [deep-clone-II](https://www.greatfrontend.com/questions/javascript/deep-clone-ii) **[GFE]**
-    -   116 - [sortedFrequency](./challenges/data-structures-and-algorithms/15-divide-and-conquer/116-sorted-frequency/problem.js) **[CH]**
+    -   116 - [sortedFrequency](./challenges/data-structures-and-algorithms/15-divide-and-conquer/116-sorted-frequency/problem.js) **[DSA]**
     -   [squashObject](https://www.greatfrontend.com/questions/javascript/squash-object) **[GFE]**
     -   [memoize II](https://www.greatfrontend.com/questions/javascript/memoize-ii) **[GFE]**
