@@ -1,3 +1,5 @@
+## 🧠 My Challenges
+
 This repository contains a collection of JavaScript and TypeScript challenges that I’ve worked on. I created it to track the problems I struggled with the most and to store interesting challenges I found online or encountered through courses.
 
 I organize my progress using the following labels:
@@ -10,7 +12,7 @@ If I successfully complete a challenge, I move it to the next level. If I fail o
 
 Each challenge is also marked with a date, so I know when to revisit it. I usually schedule them for a future week and month, giving myself time to forget the solution and come back with a fresh perspective. This helps me see if I’ve actually learned and retained the concept.
 
-## Challenge Sources
+## Challenge sources
 
 -   **[GFE]**: [Great Frontend](https://www.greatfrontend.com)
 -   **[TLT]**: [Type Level TypeScript](https://type-level-typescript.com)
