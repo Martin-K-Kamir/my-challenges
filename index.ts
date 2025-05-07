@@ -1,34 +1,15 @@
-import { Equal, Expect } from "./type-utils.js";
+export default function findMissingNumberInSequence(numbers: number[]): number {
+    let expectedSum = 0;
+    const n = numbers.length;
 
-/**
- * Write a `Take` type level function
- * that takes a tuple, a `N` number and
- * returns the first `N` elements of this
- * tuple.
- *
- * Hint: you will need to use T["length"]
- * to read the length of a tuple `T`.
- */
-namespace take {
-    type Take<
-        Tuple extends any[],
-        N,
-        Output extends any[] = [],
-    > = Output["length"] extends N
-        ? Output
-        : Tuple extends [infer First, ...infer Rest]
-        ? Take<Rest, N, [...Output, First]>
-        : Output;
+    for (let i = 0; i <= n; i++) {
+        expectedSum += i;
+    }
 
-    type res1 = Take<[1, 2, 3], 2>;
-    type test1 = Expect<Equal<res1, [1, 2]>>;
+    let actualSum = 0;
+    for (const num of numbers) {
+        actualSum += num;
+    }
 
-    type res2 = Take<[1, 2, 3], 1>;
-    type test2 = Expect<Equal<res2, [1]>>;
-
-    type res3 = Take<[1, 2, 3], 0>;
-    type test3 = Expect<Equal<res3, []>>;
-
-    type res4 = Take<[1, 2], 5>;
-    type test4 = Expect<Equal<res4, [1, 2]>>;
+    return expectedSum - actualSum;
 }
