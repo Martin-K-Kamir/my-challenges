@@ -26,11 +26,11 @@ Each challenge is also marked with a date, so I know when to revisit it. I usual
     -   [withIndex](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[DSA]**
+    -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[DSA]**
 -   **2.4 - Level 1️⃣🔒:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[DSA]**
     -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[DSA]**
-    -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[DSA]**
     -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[DSA]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
@@ -71,7 +71,8 @@ Each challenge is also marked with a date, so I know when to revisit it. I usual
     -   16 - [reverse-between](./challenges/data-structures-and-algorithms/00-linked-list/16-reverse-between/problem.js) **[DSA]**
     -   117 - [find-rotated-index](./challenges/data-structures-and-algorithms/15-divide-and-conquer/117-find-rotated-index/problem.js) **[DSA]**
     -   132 - [quickSort](./challenges/data-structures-and-algorithms/20-quick-sort-II/132-quick-sort/problem.js) **[GFE]**
-    -   98 - [maxSubarraySum](./challenges/data-structures-and-algorithms/13-sliding-window/98-max-subarray-sum/problem.js) **[DSA]**
+    -   98 - [max-subarray-sum](./challenges/data-structures-and-algorithms/13-sliding-window/98-max-subarray-sum/problem.js) **[DSA]**
+    -   [pair-sum](https://www.greatfrontend.com/questions/algo/pair-sum) **[GFE]**
 -   **Finished 💯:**
     -   118 - [get-digit](./challenges/data-structures-and-algorithms/16-radix-sort/118-get-digit/problem.js) **[DSA]**
     -   [flaten](https://www.greatfrontend.com/questions/javascript/flatten) **[GFE]**
