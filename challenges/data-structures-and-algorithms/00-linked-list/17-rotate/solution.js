@@ -139,4 +139,28 @@ class SinglyLinkedList {
         rightCurrent.next = null;
         this.tail = rightCurrent;
     }
+
+    // the most simplest logic and fastest
+    rotate4(k) {
+        const n = this.length;
+
+        k = ((k % n) + n) % n;
+
+        if (k === 0) {
+            return;
+        }
+
+        const dummy = new Node(null);
+        dummy.next = this.head;
+        let current = dummy;
+
+        for (let i = 0; i < k; i++) {
+            current = current.next;
+        }
+
+        this.head = current.next;
+        current.next = null;
+        this.tail.next = dummy.next;
+        this.tail = current;
+    }
 }
