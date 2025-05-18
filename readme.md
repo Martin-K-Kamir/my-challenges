@@ -27,10 +27,10 @@ Each challenge is also marked with a date, so I know when to revisit it. I usual
     -   [take](https://type-level-typescript.com/members/recursive-types) **[TLT]**
     -   41 - [sort-stack](./challenges/data-structures-and-algorithms/02-stack-and-queues/41-stack-sort/problem.js) **[DSA]**
     -   85 - [rotate](./challenges/data-structures-and-algorithms/10-array/85-rotate/problem.js) **[DSA]**
+    -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[DSA]**
 -   **2.4 - Level 1️⃣🔒:**
     -   [smart-get](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   123 - [binary-search-tree-remove](./challenges/data-structures-and-algorithms/17-binary-search-tree-II/123-remove/problem.js) **[DSA]**
-    -   86 - [max-sub-Array](./challenges/data-structures-and-algorithms/10-array/86-max-sub-array/problem.js) **[DSA]**
     -   17 - [rotate](./challenges/data-structures-and-algorithms/00-linked-list/17-rotate/problem.js) **[DSA]**
     -   [parseUrlParams](https://type-level-typescript.com/members/template-literal-types) **[TLT]**
     -   [partition](https://type-level-typescript.com/members/the-union-type-multiverse) **[TLT]**
